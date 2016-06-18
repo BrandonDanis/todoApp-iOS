@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					CA3317311D1599640064F80B = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G3KGQDJHJS;
 					};
 					CA3317451D1599650064F80B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,7 +400,8 @@
 		CA33175B1D1599650064F80B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RBSoftware.TodoApp;
@@ -412,7 +412,8 @@
 		CA33175C1D1599650064F80B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RBSoftware.TodoApp;
@@ -485,6 +486,7 @@
 				CA33175C1D1599650064F80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA33175D1D1599650064F80B /* Build configuration list for PBXNativeTarget "TodoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +495,7 @@
 				CA33175F1D1599650064F80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA3317601D1599650064F80B /* Build configuration list for PBXNativeTarget "TodoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +504,7 @@
 				CA3317621D1599650064F80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
