@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625D37CAADD3519CB191473B3388734 /* M13CheckboxGestureRecognizer.swift */; };
+		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84706A6D0E7D5BEF9A6A28E21290C18E /* M13CheckboxFillManager.swift */; };
+		0F872CA467A3B27C12BDC2300C384649 /* Pods-TodoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */; };
+		11B507E2A8EF84D25E1455B277091E6B /* Pods-TodoAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */; };
+		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8331364EA28D014644E6D0C98F48218 /* M13Checkbox+IB.swift */; };
+		17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84600FC8A0CF82B551CBDB0C15D7A2 /* M13Checkbox-dummy.m */; };
+		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C5B5A415D158204EC5607EFC4D7981 /* M13CheckboxSpiralManager.swift */; };
+		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA062E5276B97750592DEB745C9108F /* M13CheckboxDotPathPresets.swift */; };
+		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E1BC804CEFED115229D0EC1A923188 /* M13CheckboxManager.swift */; };
+		4070F30FEF69618E7C8E1C57838351DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C814807D18BF6D684CE9E4CCE8505A /* M13CheckboxPathPresets.swift */; };
+		5BFCB4082DD7F88162745D5BEDDAB63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		5D8FF90988EEE6012E4E94E69AADC000 /* Pods-TodoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911946DCE34C3BDB0639C7F8CE10339 /* M13CheckboxAnimationPresets.swift */; };
+		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768863AF9783FBE5EAFD374E64DA5B1B /* M13Checkbox.swift */; };
+		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373EA97B9160199C516314A2410DE2F /* M13CheckboxExpandManager.swift */; };
+		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88402D565BC1BAD612249DADCE1E732 /* M13CheckboxBounceManager.swift */; };
+		8F895BC700B0AC862177BF01FC678829 /* Pods-TodoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */; };
+		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A3CC8CD424B12CE1FAE7CC21219E6 /* M13CheckboxSpiralPathPresets.swift */; };
+		AA9AC10759794E2B0998D579E73A11A3 /* Pods-TodoAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15717D8859C08311606713FD09A77E2 /* M13CheckboxFadeManager.swift */; };
+		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3277EF8EA0E326A9F0FA2D664DB47B03 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2CC455F0BAB8A2D492EFCCBA4B12 /* M13CheckboxStrokeManager.swift */; };
+		DEF641D0EAF0519409DCB37D812AC5D7 /* Pods-TodoAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BB41769703A0FD5A1AD540BCE47A93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A607AE08F424BACC04DC9D067F9CEB /* M13CheckboxFlatManager.swift */; };
+		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F29BE03E05C056892EB24E35D9C3E /* M13CheckboxDotManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B0FDB1528C84F49B5BDC7AC42F9C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3AFC0E9905CA362D94DA496A23E2DD;
+			remoteInfo = M13Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		14D0987EB3AE2D003BF34C3CAAF1BAC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163B0D541C541CA5F25A439C62816FD1 /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D2FC57573E11487E5E19BD3084448D /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		1C740824B0B9075307C9DF68C1E57912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA709BC957E41EB87E027E202A8A221 /* Pods-TodoAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppTests-umbrella.h"; sourceTree = "<group>"; };
+		263DBCA6F9957A96FF1FC9A271539FB6 /* Pods-TodoAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		272A9028B0ED9D7CA339DA761B77C286 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		3277EF8EA0E326A9F0FA2D664DB47B03 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		3373EA97B9160199C516314A2410DE2F /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
+		337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppTests-dummy.m"; sourceTree = "<group>"; };
+		370F86F27AD751EFE1601CA0BF351B48 /* Pods-TodoAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E085BCDEB70BDC1A9E1ACE205E81DEE /* Pods-TodoAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		51053F2E0D59764CCB5D1D91480A8A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5625D37CAADD3519CB191473B3388734 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		63EA7CD1F9BB5FA71164DB4F064C25D4 /* Pods-TodoAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppTests.modulemap"; sourceTree = "<group>"; };
+		666C25041F7BAD0F552208675E9A6D73 /* Pods-TodoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-resources.sh"; sourceTree = "<group>"; };
+		68C814807D18BF6D684CE9E4CCE8505A /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
+		768863AF9783FBE5EAFD374E64DA5B1B /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		786F0E97EE0EEA44357819315A1A43ED /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B54DCC961CDD24FD3443EBEA257EEDE /* Pods-TodoAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		7D4F8B393AABD7256F84F7447912D3CC /* Pods-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F0C063001767668767AE9E11FEA49FB /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE1DC6BDB7CDE4E4129ED269251F101 /* Pods-TodoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		843A3CC8CD424B12CE1FAE7CC21219E6 /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		84706A6D0E7D5BEF9A6A28E21290C18E /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		89824B362142947420D830BF55559DF5 /* Pods-TodoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-frameworks.sh"; sourceTree = "<group>"; };
+		89E1BC804CEFED115229D0EC1A923188 /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
+		924334F5051C24E833B74E53203A20DD /* Pods-TodoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoApp.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppUITests-dummy.m"; sourceTree = "<group>"; };
+		A13DFA3C1732F442F1110855CF1A88C4 /* Pods-TodoAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8331364EA28D014644E6D0C98F48218 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoApp-umbrella.h"; sourceTree = "<group>"; };
+		AC0F2CC455F0BAB8A2D492EFCCBA4B12 /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
+		AC7F29BE03E05C056892EB24E35D9C3E /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
+		AE1B1C9C95DD50FD47BCBDD169A7E4B0 /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C5B5A415D158204EC5607EFC4D7981 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		B2A135D44D861E91A72E788AB4B71FE7 /* Pods-TodoAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-resources.sh"; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B5321D976D67A4AD69D1B9735C82ED8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoApp-dummy.m"; sourceTree = "<group>"; };
+		C36D62A52136AEB1F94F8B0A8ABD4C60 /* Pods-TodoAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-resources.sh"; sourceTree = "<group>"; };
+		D356CF32796093931DBF2E4C20749A00 /* Pods-TodoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7C82DEF686CC1A0F53913AB75338BE7 /* Pods-TodoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF84600FC8A0CF82B551CBDB0C15D7A2 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		E2A607AE08F424BACC04DC9D067F9CEB /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C38B13F09BD46F0A9D6BFADB09FC48 /* Pods-TodoAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppUITests.modulemap"; sourceTree = "<group>"; };
+		F15717D8859C08311606713FD09A77E2 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F88402D565BC1BAD612249DADCE1E732 /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		F911946DCE34C3BDB0639C7F8CE10339 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
+		FA650A369946D9F78B2F2AECC83512A0 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		FCA062E5276B97750592DEB745C9108F /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1903F7FFB48E17673F02567A33F5AC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BB41769703A0FD5A1AD540BCE47A93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58399B1798FDC7D17507985A02D94969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */,
+				AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */,
+				17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E0FCF6514529D9ECE6FA43AEC4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFCB4082DD7F88162745D5BEDDAB63E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D3E1E1CFCDE487AB7392FFC348AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070F30FEF69618E7C8E1C57838351DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DBC6D7CAF03427C768BBC33FF386AE /* Pods-TodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1C740824B0B9075307C9DF68C1E57912 /* Info.plist */,
+				924334F5051C24E833B74E53203A20DD /* Pods-TodoApp.modulemap */,
+				7FE1DC6BDB7CDE4E4129ED269251F101 /* Pods-TodoApp-acknowledgements.markdown */,
+				D356CF32796093931DBF2E4C20749A00 /* Pods-TodoApp-acknowledgements.plist */,
+				C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */,
+				89824B362142947420D830BF55559DF5 /* Pods-TodoApp-frameworks.sh */,
+				666C25041F7BAD0F552208675E9A6D73 /* Pods-TodoApp-resources.sh */,
+				A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */,
+				4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */,
+				8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */,
+			);
+			name = "Pods-TodoApp";
+			path = "Target Support Files/Pods-TodoApp";
+			sourceTree = "<group>";
+		};
+		1AE883244BAAD4C8BB878370325792A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5321D976D67A4AD69D1B9735C82ED8A /* Info.plist */,
+				17D2FC57573E11487E5E19BD3084448D /* M13Checkbox.modulemap */,
+				272A9028B0ED9D7CA339DA761B77C286 /* M13Checkbox.xcconfig */,
+				DF84600FC8A0CF82B551CBDB0C15D7A2 /* M13Checkbox-dummy.m */,
+				FA650A369946D9F78B2F2AECC83512A0 /* M13Checkbox-prefix.pch */,
+				3277EF8EA0E326A9F0FA2D664DB47B03 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		69049980A3C5198EC4F854DAA5E2C09D /* Pods-TodoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				51053F2E0D59764CCB5D1D91480A8A5E /* Info.plist */,
+				63EA7CD1F9BB5FA71164DB4F064C25D4 /* Pods-TodoAppTests.modulemap */,
+				A13DFA3C1732F442F1110855CF1A88C4 /* Pods-TodoAppTests-acknowledgements.markdown */,
+				7B54DCC961CDD24FD3443EBEA257EEDE /* Pods-TodoAppTests-acknowledgements.plist */,
+				337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */,
+				263DBCA6F9957A96FF1FC9A271539FB6 /* Pods-TodoAppTests-frameworks.sh */,
+				C36D62A52136AEB1F94F8B0A8ABD4C60 /* Pods-TodoAppTests-resources.sh */,
+				21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */,
+				F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */,
+				7D4F8B393AABD7256F84F7447912D3CC /* Pods-TodoAppTests.release.xcconfig */,
+			);
+			name = "Pods-TodoAppTests";
+			path = "Target Support Files/Pods-TodoAppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				95751537918796C6EEC3E52B756ABDFE /* Pods */,
+				DBD971AFA7D8431E031E5D5C81E091BC /* Products */,
+				9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95751537918796C6EEC3E52B756ABDFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9FAED53B4A26B3921522AB9A827BA6D /* M13Checkbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DBC6D7CAF03427C768BBC33FF386AE /* Pods-TodoApp */,
+				69049980A3C5198EC4F854DAA5E2C09D /* Pods-TodoAppTests */,
+				CDFB9715EC892F580449003EAC9A4D26 /* Pods-TodoAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDFB9715EC892F580449003EAC9A4D26 /* Pods-TodoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14D0987EB3AE2D003BF34C3CAAF1BAC7 /* Info.plist */,
+				E5C38B13F09BD46F0A9D6BFADB09FC48 /* Pods-TodoAppUITests.modulemap */,
+				4E085BCDEB70BDC1A9E1ACE205E81DEE /* Pods-TodoAppUITests-acknowledgements.markdown */,
+				370F86F27AD751EFE1601CA0BF351B48 /* Pods-TodoAppUITests-acknowledgements.plist */,
+				9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */,
+				1EA709BC957E41EB87E027E202A8A221 /* Pods-TodoAppUITests-frameworks.sh */,
+				B2A135D44D861E91A72E788AB4B71FE7 /* Pods-TodoAppUITests-resources.sh */,
+				7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */,
+				E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */,
+				D7C82DEF686CC1A0F53913AB75338BE7 /* Pods-TodoAppUITests.release.xcconfig */,
+			);
+			name = "Pods-TodoAppUITests";
+			path = "Target Support Files/Pods-TodoAppUITests";
+			sourceTree = "<group>";
+		};
+		D9FAED53B4A26B3921522AB9A827BA6D /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				768863AF9783FBE5EAFD374E64DA5B1B /* M13Checkbox.swift */,
+				A8331364EA28D014644E6D0C98F48218 /* M13Checkbox+IB.swift */,
+				F911946DCE34C3BDB0639C7F8CE10339 /* M13CheckboxAnimationPresets.swift */,
+				F88402D565BC1BAD612249DADCE1E732 /* M13CheckboxBounceManager.swift */,
+				AC7F29BE03E05C056892EB24E35D9C3E /* M13CheckboxDotManager.swift */,
+				FCA062E5276B97750592DEB745C9108F /* M13CheckboxDotPathPresets.swift */,
+				3373EA97B9160199C516314A2410DE2F /* M13CheckboxExpandManager.swift */,
+				F15717D8859C08311606713FD09A77E2 /* M13CheckboxFadeManager.swift */,
+				84706A6D0E7D5BEF9A6A28E21290C18E /* M13CheckboxFillManager.swift */,
+				E2A607AE08F424BACC04DC9D067F9CEB /* M13CheckboxFlatManager.swift */,
+				5625D37CAADD3519CB191473B3388734 /* M13CheckboxGestureRecognizer.swift */,
+				89E1BC804CEFED115229D0EC1A923188 /* M13CheckboxManager.swift */,
+				68C814807D18BF6D684CE9E4CCE8505A /* M13CheckboxPathPresets.swift */,
+				B0C5B5A415D158204EC5607EFC4D7981 /* M13CheckboxSpiralManager.swift */,
+				843A3CC8CD424B12CE1FAE7CC21219E6 /* M13CheckboxSpiralPathPresets.swift */,
+				AC0F2CC455F0BAB8A2D492EFCCBA4B12 /* M13CheckboxStrokeManager.swift */,
+				1AE883244BAAD4C8BB878370325792A7 /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		DBD971AFA7D8431E031E5D5C81E091BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786F0E97EE0EEA44357819315A1A43ED /* M13Checkbox.framework */,
+				163B0D541C541CA5F25A439C62816FD1 /* Pods_TodoApp.framework */,
+				AE1B1C9C95DD50FD47BCBDD169A7E4B0 /* Pods_TodoAppTests.framework */,
+				7F0C063001767668767AE9E11FEA49FB /* Pods_TodoAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		227E3CBCC55A04FCCD8C019832A11234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA054FF476182DFF60C8713F949498D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF641D0EAF0519409DCB37D812AC5D7 /* Pods-TodoAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53BE0FFB5646CB7946F6A0A019A2CFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9AC10759794E2B0998D579E73A11A3 /* Pods-TodoAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820CA4D76C5CED864BD78E438DD0CB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8FF90988EEE6012E4E94E69AADC000 /* Pods-TodoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02BAEE0F72C64013C17D4D2C2FF48041 /* Pods-TodoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3ABF49602E683BF9BB6C98FA599B8E /* Build configuration list for PBXNativeTarget "Pods-TodoAppTests" */;
+			buildPhases = (
+				0D9524C1AB1C0D0912DE778B319639B6 /* Sources */,
+				A30E0FCF6514529D9ECE6FA43AEC4A4F /* Frameworks */,
+				A53BE0FFB5646CB7946F6A0A019A2CFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TodoAppTests";
+			productName = "Pods-TodoAppTests";
+			productReference = AE1B1C9C95DD50FD47BCBDD169A7E4B0 /* Pods_TodoAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		205E49E6D0AE3D41FE2436BACDF9D5CA /* Pods-TodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48193EC87CC765ACA64F9C49FDF3D937 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */;
+			buildPhases = (
+				F349BA64EF1C792160E1F146B6E3B58E /* Sources */,
+				D9D3E1E1CFCDE487AB7392FFC348AA6E /* Frameworks */,
+				E820CA4D76C5CED864BD78E438DD0CB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF6FA4ACE6793C343A1DD48AB684592 /* PBXTargetDependency */,
+			);
+			name = "Pods-TodoApp";
+			productName = "Pods-TodoApp";
+			productReference = 163B0D541C541CA5F25A439C62816FD1 /* Pods_TodoApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				543C4BC81F4224D82B158B6D814B8FA1 /* Sources */,
+				58399B1798FDC7D17507985A02D94969 /* Frameworks */,
+				227E3CBCC55A04FCCD8C019832A11234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 786F0E97EE0EEA44357819315A1A43ED /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC5CE28237CDC87B92001C42AFADEF /* Build configuration list for PBXNativeTarget "Pods-TodoAppUITests" */;
+			buildPhases = (
+				8AF4BD05CD4C1B437D9A42754D1E2DC6 /* Sources */,
+				1903F7FFB48E17673F02567A33F5AC8F /* Frameworks */,
+				6AA054FF476182DFF60C8713F949498D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TodoAppUITests";
+			productName = "Pods-TodoAppUITests";
+			productReference = 7F0C063001767668767AE9E11FEA49FB /* Pods_TodoAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DBD971AFA7D8431E031E5D5C81E091BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */,
+				205E49E6D0AE3D41FE2436BACDF9D5CA /* Pods-TodoApp */,
+				02BAEE0F72C64013C17D4D2C2FF48041 /* Pods-TodoAppTests */,
+				F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9524C1AB1C0D0912DE778B319639B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F895BC700B0AC862177BF01FC678829 /* Pods-TodoAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C4BC81F4224D82B158B6D814B8FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */,
+				2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */,
+				8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */,
+				7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */,
+				89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */,
+				F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */,
+				305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */,
+				84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */,
+				BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */,
+				096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */,
+				F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */,
+				036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */,
+				4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */,
+				2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */,
+				928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */,
+				CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF4BD05CD4C1B437D9A42754D1E2DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B507E2A8EF84D25E1455B277091E6B /* Pods-TodoAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F349BA64EF1C792160E1F146B6E3B58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F872CA467A3B27C12BDC2300C384649 /* Pods-TodoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF6FA4ACE6793C343A1DD48AB684592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */;
+			targetProxy = C8B0FDB1528C84F49B5BDC7AC42F9C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		182267C168E4AF90515985BAF9F0EE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19CE7AFC597C6477B2EA4B2A16762A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoAppUITests/Pods-TodoAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2524914FF16E8170EFC4CDB5EEFC6819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42270CB2870FEB0F213C065A90D294DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272A9028B0ED9D7CA339DA761B77C286 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DFAB005B5AC0EB277D88C2059A31654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272A9028B0ED9D7CA339DA761B77C286 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E8149F5049A8EAC8CE7A0C8F829C658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C82DEF686CC1A0F53913AB75338BE7 /* Pods-TodoAppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoAppUITests/Pods-TodoAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1D06BD0DED5BF2ED937D2290369B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoAppTests/Pods-TodoAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F17402B0BDB194EF506F5817B80596C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4F8B393AABD7256F84F7447912D3CC /* Pods-TodoAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoAppTests/Pods-TodoAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48193EC87CC765ACA64F9C49FDF3D937 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2524914FF16E8170EFC4CDB5EEFC6819 /* Debug */,
+				182267C168E4AF90515985BAF9F0EE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC5CE28237CDC87B92001C42AFADEF /* Build configuration list for PBXNativeTarget "Pods-TodoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CE7AFC597C6477B2EA4B2A16762A10 /* Debug */,
+				5E8149F5049A8EAC8CE7A0C8F829C658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42270CB2870FEB0F213C065A90D294DC /* Debug */,
+				4DFAB005B5AC0EB277D88C2059A31654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3ABF49602E683BF9BB6C98FA599B8E /* Build configuration list for PBXNativeTarget "Pods-TodoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1D06BD0DED5BF2ED937D2290369B39 /* Debug */,
+				F17402B0BDB194EF506F5817B80596C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
