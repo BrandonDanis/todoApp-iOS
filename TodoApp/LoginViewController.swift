@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 class LoginViewController : UIViewController
 {
     
@@ -37,6 +36,10 @@ class LoginViewController : UIViewController
         
         usernameTextBox.text = ""
         passwordTextBox.text = ""
+        //add logic where if login is correct, load TodoTableNavigation
+        let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
+        presentViewController(vc, animated: true, completion: nil)
         
     }
     
