@@ -17,12 +17,15 @@ class LoginViewController : UIViewController
     
     @IBOutlet var passwordTextBox: UITextField!
     
+    @IBOutlet weak var errorMessage: UILabel!
+    
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Login screen loaded.")
+        
         
         
     }
@@ -43,6 +46,8 @@ class LoginViewController : UIViewController
             (response: JSON)
             in
                 print(response)
+            
+                self.displayError()
         })
         
         
@@ -51,6 +56,16 @@ class LoginViewController : UIViewController
 //        let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
 //        presentViewController(vc, animated: true, completion: nil)
         
+    }
+    
+    func displayError(){
+        UIView.animateWithDuration(1.0, animations: {
+            self.errorMessage.alpha = 1.0
+            
+            UIView.animateWithDuration(1.0, delay: 2.0, options: .CurveEaseIn, animations: {
+                self.errorMessage.alpha = 0.0
+                }, completion: nil)
+        })
     }
     
 }
