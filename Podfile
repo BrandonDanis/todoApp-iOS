@@ -7,6 +7,8 @@ target 'TodoApp' do
 
   # Pods for TodoApp
   pod 'M13Checkbox', '2.1.2'
+  pod 'SwiftyJSON', '2.3.0'
+  pod 'Alamofire', '~> 3.4'
 
   target 'TodoAppTests' do
     inherit! :search_paths
