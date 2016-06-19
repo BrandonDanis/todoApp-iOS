@@ -25,4 +25,4 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
-TodoApp.xcworkspace
+/TodoApp.xcworkspace
