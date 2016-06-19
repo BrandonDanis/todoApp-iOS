@@ -42,12 +42,16 @@ class LoginViewController : UIViewController
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
         
-        self.api.attemptLogin(user, password: pssd, completion: {
-            (response: JSON)
-            in
-                print(response)
+        self.api.attemptLogin(user, password: pssd, completion: { (response: JSON) in
             
-                self.displayError()
+            print(response)
+            
+            if(response["status"] == 200) {
+                self.displayError("Login successful!")
+            }else{
+                self.displayError(String(response["reason"]))
+            }
+            
         })
         
         
@@ -58,7 +62,8 @@ class LoginViewController : UIViewController
         
     }
     
-    func displayError(){
+    func displayError(msg: String){
+        self.errorMessage.text = msg
         UIView.animateWithDuration(1.0, animations: {
             self.errorMessage.alpha = 1.0
             
