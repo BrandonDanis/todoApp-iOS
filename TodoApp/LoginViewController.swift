@@ -48,17 +48,14 @@ class LoginViewController : UIViewController
             
             if(response["status"] == 200) {
                 self.displayError("Login successful!")
+                let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
+                let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
+                self.presentViewController(vc, animated: true, completion: nil)
             }else{
                 self.displayError(String(response["reason"]))
             }
             
         })
-        
-        
-//        add logic where if login is correct, load TodoTableNavigation
-//        let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
-//        let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
-//        presentViewController(vc, animated: true, completion: nil)
         
     }
     
