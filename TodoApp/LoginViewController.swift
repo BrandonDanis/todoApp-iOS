@@ -17,12 +17,15 @@ class LoginViewController : UIViewController
     
     @IBOutlet var passwordTextBox: UITextField!
     
+    @IBOutlet weak var errorMessage: UILabel!
+    
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Login screen loaded.")
+        
         
         
     }
@@ -39,18 +42,32 @@ class LoginViewController : UIViewController
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
         
-        self.api.attemptLogin(user, password: pssd, completion: {
-            (response: JSON)
-            in
-                print(response)
+        self.api.attemptLogin(user, password: pssd, completion: { (response: JSON) in
+            
+            print(response)
+            
+            if(response["status"] == 200) {
+                self.displayError("Login successful!")
+                let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
+                let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
+                self.presentViewController(vc, animated: true, completion: nil)
+            }else{
+                self.displayError(String(response["reason"]))
+            }
+            
         })
         
-        
-//        add logic where if login is correct, load TodoTableNavigation
-//        let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
-//        let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
-//        presentViewController(vc, animated: true, completion: nil)
-        
+    }
+    
+    func displayError(msg: String){
+        self.errorMessage.text = msg
+        UIView.animateWithDuration(1.0, animations: {
+            self.errorMessage.alpha = 1.0
+            
+            UIView.animateWithDuration(1.0, delay: 2.0, options: .CurveEaseIn, animations: {
+                self.errorMessage.alpha = 0.0
+                }, completion: nil)
+        })
     }
     
 }
