@@ -57,6 +57,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHh-9P-v2O">
+                                <rect key="frame" x="112" y="589" width="191" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerAttempt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="saA-dy-7mb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -67,11 +77,40 @@
                         <outlet property="passwordTextBox" destination="Oj9-Ap-2Eg" id="U5g-lh-xn1"/>
                         <outlet property="usernameTextBox" destination="tuv-jR-X1e" id="vZW-N1-VIz"/>
                         <segue destination="9LN-1q-rAh" kind="show" identifier="LoggedIn" id="RNz-uv-8qa"/>
+                        <segue destination="N0f-It-5wG" kind="presentation" identifier="registerSegue" id="FCs-gB-5ue"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="334" y="579"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="Y9P-VQ-mVT">
+            <objects>
+                <viewController id="N0f-It-5wG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zyy-r1-bcP"/>
+                        <viewControllerLayoutGuide type="bottom" id="ocj-s0-QSL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nLM-pz-rhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nZ-lR-Z22">
+                                <rect key="frame" x="20" y="84" width="374" height="50"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="gr7-ha-nBr"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1S-8F-YIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="981" y="297"/>
         </scene>
         <!--TodoTableViewController-->
         <scene sceneID="yGi-ih-Rvq">
@@ -79,7 +118,7 @@
                 <viewControllerPlaceholder storyboardName="TodoList" referencedIdentifier="TodoTableViewController" id="9LN-1q-rAh" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJ1-RP-rf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="789.5" y="579"/>
+            <point key="canvasLocation" x="933.5" y="951"/>
         </scene>
     </scenes>
 </document>

@@ -59,6 +59,14 @@ class LoginViewController : UIViewController
         
     }
     
+    @IBAction func registerAttempt(sender: AnyObject) {
+        
+        print("Register button pressed.")
+        
+        performSegueWithIdentifier("registerSegue", sender: self)
+        
+    }
+    
     func displayError(msg: String){
         self.errorMessage.text = msg
         UIView.animateWithDuration(1.0, animations: {
