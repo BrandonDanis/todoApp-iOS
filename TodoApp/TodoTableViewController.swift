@@ -8,10 +8,13 @@
 
 import UIKit
 import SWTableViewCell
+import SwiftyJSON
 
 class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
     
     @IBOutlet var tableview: UITableView!
+    var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
+    var data: [Todo] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +29,22 @@ class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        tableview.reloadData()
+        api.getTodoList({ (response: JSON) in
+            if (response["status"] == 200) {
+                let todoList = response["items"]
+                for todoObject in todoList {
+                    let todoItem = todoObject.1
+                    let title : String = todoItem["description"].stringValue
+                    let date : String = todoItem["datecreated"].stringValue
+                    var todo = Todo(title: title, date: date)
+                    self.data.append(todo)
+                }
+                self.tableview.reloadData()
+            } else {
+                print("TODO: Add error message in UI")
+                print("TodoTableViewController: Error retrieving todo items")
+            }
+        })
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,35 +55,45 @@ class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
     // MARK: - Table view data source
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        //return the number of sections
         return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return data.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        print("Cell loaded")
+        print("Cell \(indexPath.row) loaded")
         let cell = tableView.dequeueReusableCellWithIdentifier("TodoTableViewCell") as! TodoTableViewCell
         cell.delegate = self
         
         // Configure the cell...
-        cell.todo = Todo(title: "Testing", date: "January 28, 2016")
+        cell.todo = data[indexPath.row]
         cell.leftUtilityButtons = self.getLeftUtilityButtons() as [AnyObject]
         cell.rightUtilityButtons = self.getRightUtilityButtons() as [AnyObject]
         
         return cell
     }
     
+    func swipeableTableViewCell(cell: SWTableViewCell!, didTriggerLeftUtilityButtonWithIndex index: Int) {
+        if index == 0 {
+            print("done button")
+        }
+        cell.hideUtilityButtonsAnimated(true);
+    }
+    
+    
     func swipeableTableViewCell(cell: SWTableViewCell!, didTriggerRightUtilityButtonWithIndex index: Int) {
         if index == 0 {
+            print("view button")
+        } else if index == 1 {
+            print("edit button")
+        } else if index == 2 {
             print("delete button")
-        } else {
-            print("print button")
         }
-        //        cell.hideUtilityButtonsAnimated(true);
+        cell.hideUtilityButtonsAnimated(true);
     }
     
     func getLeftUtilityButtons() -> NSMutableArray {
