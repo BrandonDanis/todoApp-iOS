@@ -49,6 +49,14 @@ class TodoAPI
         
     }
     
+    //////////////////////////
+    //      TODO API        //
+    //////////////////////////
+    
+    func getTodoList(completion: (response : JSON) -> Void) {
+        get("/all-items", qs: [:], completion: completion)
+    }
+    
     
     
     /////////////////////////////
@@ -71,6 +79,20 @@ class TodoAPI
         }
     }
     
+    func get(endpoint: String, qs: [String: AnyObject], completion: (response: JSON) -> Void) {
+        let url = self.apiURL + endpoint
+        Alamofire.request(.GET, url, parameters: qs)
+            .responseJSON { response in
+//                print(response.request)  // original URL request
+//                print(response.response) // URL response
+//                print(response.data)     // server data
+//                print(response.result)   // result of response serialization
+                
+                let res: JSON = JSON(rawValue: response.result.value!)!
+                
+                completion(response: res)
+        }
+    }
 }
 
 

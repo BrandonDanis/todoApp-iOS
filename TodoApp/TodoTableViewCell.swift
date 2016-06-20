@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import SWTableViewCell
 
-class TodoTableViewCell: UITableViewCell {
+class TodoTableViewCell: SWTableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
