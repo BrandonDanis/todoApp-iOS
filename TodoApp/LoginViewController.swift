@@ -42,9 +42,13 @@ class LoginViewController : UIViewController
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
         
+        
+        
         self.api.attemptLogin(user, password: pssd, completion: { (response: JSON) in
             
             print(response)
+            
+            self.errorMessage.text = "Attempting to log in..."
             
             if(response["status"] == 200) {
                 self.displayError("Login successful!")
@@ -59,6 +63,14 @@ class LoginViewController : UIViewController
         
     }
     
+    @IBAction func registerAttempt(sender: AnyObject) {
+        
+        print("Register button pressed.")
+        
+        performSegueWithIdentifier("registerSegue", sender: self)
+        
+    }
+    
     func displayError(msg: String){
         self.errorMessage.text = msg
         UIView.animateWithDuration(1.0, animations: {
@@ -70,4 +82,18 @@ class LoginViewController : UIViewController
         })
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "registerSegue"){
+            print("Preparing to segue to register view...")
+        }
+    }
+    
+    @IBAction func cancelToLoginView(segue: UIStoryboardSegue) {
+        
+    }
+    
 }
+
+
+
+

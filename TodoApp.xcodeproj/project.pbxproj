@@ -16,6 +16,7 @@
 		B8683BAB1D16F0FC00001269 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8683BAA1D16F0FC00001269 /* TodoTableViewCell.swift */; };
 		CA2E438C1D15FA0F00799770 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E438B1D15FA0F00799770 /* LoginViewController.swift */; };
 		CA32B2E01D171EBC00FCD9DA /* TodoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32B2DF1D171EBC00FCD9DA /* TodoAPI.swift */; };
+		CA32B2E21D173D1A00FCD9DA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32B2E11D173D1A00FCD9DA /* RegisterViewController.swift */; };
 		CA3317361D1599640064F80B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3317351D1599640064F80B /* AppDelegate.swift */; };
 		CA33173B1D1599650064F80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3317391D1599650064F80B /* Main.storyboard */; };
 		CA33173D1D1599650064F80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA33173C1D1599650064F80B /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		C7F47873E443C4B8031C24AB /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2E438B1D15FA0F00799770 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CA32B2DF1D171EBC00FCD9DA /* TodoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoAPI.swift; sourceTree = "<group>"; };
+		CA32B2E11D173D1A00FCD9DA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CA3317321D1599640064F80B /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3317351D1599640064F80B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA33173A1D1599650064F80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				CA3317351D1599640064F80B /* AppDelegate.swift */,
 				CA3317391D1599650064F80B /* Main.storyboard */,
+				CA32B2E11D173D1A00FCD9DA /* RegisterViewController.swift */,
 				CA2E438B1D15FA0F00799770 /* LoginViewController.swift */,
 				CA33173C1D1599650064F80B /* Assets.xcassets */,
 				CA33173E1D1599650064F80B /* LaunchScreen.storyboard */,
@@ -447,6 +450,7 @@
 			files = (
 				CA32B2E01D171EBC00FCD9DA /* TodoAPI.swift in Sources */,
 				CA2E438C1D15FA0F00799770 /* LoginViewController.swift in Sources */,
+				CA32B2E21D173D1A00FCD9DA /* RegisterViewController.swift in Sources */,
 				B8683BA71D162BF300001269 /* TodoTableViewController.swift in Sources */,
 				CA3317361D1599640064F80B /* AppDelegate.swift in Sources */,
 				B8683BAB1D16F0FC00001269 /* TodoTableViewCell.swift in Sources */,
