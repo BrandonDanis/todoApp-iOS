@@ -49,6 +49,17 @@ class TodoAPI
         
     }
     
+    func addUser(username: String, password: String, completion: (responce: JSON) -> Void) {
+        
+        let parameters = [
+            "username": username,
+            "password": password
+        ]
+        
+        post("/users", params: parameters, completion: completion)
+        
+    }
+    
     //////////////////////////
     //      TODO API        //
     //////////////////////////
