@@ -36,7 +36,7 @@ class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
                     let todoItem = todoObject.1
                     let title : String = todoItem["description"].stringValue
                     let date : String = todoItem["datecreated"].stringValue
-                    var todo = Todo(title: title, date: date)
+                    let todo = Todo(title: title, date: date)
                     self.data.append(todo)
                 }
                 self.tableview.reloadData()
@@ -110,6 +110,14 @@ class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
         utilityButtons.sw_addUtilityButtonWithColor(UIColor.blueColor(), title: NSLocalizedString("Edit", comment: ""))
         utilityButtons.sw_addUtilityButtonWithColor(UIColor.redColor(), title: NSLocalizedString("Delete", comment: ""))
         return utilityButtons
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
     }
     
     /*
