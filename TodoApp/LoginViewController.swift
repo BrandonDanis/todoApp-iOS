@@ -88,8 +88,8 @@ class LoginViewController : UIViewController
         }
     }
     
-    @IBAction func cancelToLoginView(segue: UIStoryboardSegue) {
-        
+    func cancelToLoginView(segue: UIStoryboardSegue) {
+        print("Cancelled to login view from register view")
     }
     
 }

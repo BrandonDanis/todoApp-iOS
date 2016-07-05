@@ -148,7 +148,7 @@
                                     <color key="titleColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3BU-mh-as7" kind="unwind" unwindAction="cancelToLoginView:" id="OYj-c2-ccT"/>
+                                    <segue destination="3BU-mh-as7" kind="unwind" unwindAction="cancelToLoginView:" id="Dfr-4Y-y46"/>
                                 </connections>
                             </button>
                         </subviews>
