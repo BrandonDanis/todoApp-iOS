@@ -10,32 +10,44 @@ import Foundation
 import UIKit
 import SwiftyJSON
 import CoreGraphics
+import SkyFloatingLabelTextField
 
 
 class LoginViewController : UIViewController
 {
     
-    @IBOutlet var usernameTextBox: UITextField!
+    @IBOutlet var usernameTextBox: SkyFloatingLabelTextField!
     
-    @IBOutlet var passwordTextBox: UITextField!
+    @IBOutlet var passwordTextBox: SkyFloatingLabelTextField!
     
     @IBOutlet weak var errorMessage: UILabel!
     
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
+    
+    
+    
+    let overcastBlueColor = UIColor(red: 0, green: 187/255, blue: 204/255, alpha: 1.0)
+    let lightGreyColor = UIColor(red: 197/255, green: 205/255, blue: 205/255, alpha: 1.0)
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Login screen loaded.")
         
-        let bg = UIImageView(image: UIImage(named: "login_bg"))
+        let bg = UIImageView(image: UIImage(named: "login-bg"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         
-        usernameTextBox.textAlignment = NSTextAlignment.Left
+        
+        usernameTextBox.placeholder = "Username"
+        usernameTextBox.title = "Your Username"
         usernameTextBox.backgroundColor = UIColor.clearColor()
-        usernameTextBox.borderStyle = UITextBorderStyle.None
-        usernameTextBox.attributedPlaceholder = NSAttributedString(string: "Username", attributes:[NSForegroundColorAttributeName : UIColor.redColor()])
+        usernameTextBox.selectedLineColor = overcastBlueColor
+        usernameTextBox.selectedTitleColor = overcastBlueColor
+        usernameTextBox.tintColor = overcastBlueColor
+        
         
     }
     
