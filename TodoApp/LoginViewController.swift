@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SwiftyJSON
+import CoreGraphics
 
 class LoginViewController : UIViewController
 {
@@ -26,7 +27,10 @@ class LoginViewController : UIViewController
         
         print("Login screen loaded.")
         
-        
+        usernameTextBox.textAlignment = NSTextAlignment.Left
+        usernameTextBox.backgroundColor = UIColor.clearColor()
+        usernameTextBox.borderStyle = UITextBorderStyle.None
+        usernameTextBox.attributedPlaceholder = NSAttributedString(string: "Username", attributes:[NSForegroundColorAttributeName : UIColor.redColor()])
         
     }
     
