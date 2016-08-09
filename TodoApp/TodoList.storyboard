@@ -56,7 +56,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="89j-4K-PeP">
-                        <barButtonItem key="rightBarButtonItem" image="plus" id="5xg-D7-xBK"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5xg-D7-xBK">
+                            <connections>
+                                <segue destination="hiW-y0-s80" kind="presentation" id="v3p-zu-LI7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableview" destination="cck-9s-RnT" id="tZr-7l-N89"/>
@@ -65,6 +69,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AfB-M1-j4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1213" y="369"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="hcd-fa-fDz">
+            <objects>
+                <viewController id="WnM-0P-wJT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8hH-b5-4v7"/>
+                        <viewControllerLayoutGuide type="bottom" id="L58-6f-3Oq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ugu-o2-lvq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4w1-Gf-4kP">
+                                <rect key="frame" x="20" y="72" width="560" height="508"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="z8k-d4-uve">
+                        <barButtonItem key="leftBarButtonItem" image="down-arrow" id="zXK-eo-9Ms">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L1h-b4-RwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2692" y="369"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PJe-dV-tvn">
@@ -84,8 +119,26 @@
             </objects>
             <point key="canvasLocation" x="401" y="369.99999999999994"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gAI-8c-ZgZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hiW-y0-s80" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hW3-f3-2vw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WnM-0P-wJT" kind="relationship" relationship="rootViewController" id="B4h-DN-FQ9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NmY-Nm-1kK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="369"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="plus" width="20" height="20"/>
+        <image name="down-arrow" width="25" height="25"/>
     </resources>
 </document>
