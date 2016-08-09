@@ -1,21 +1,24 @@
 PODS:
   - Alamofire (3.4.1)
   - M13Checkbox (2.1.2)
+  - SkyFloatingLabelTextField (1.2.1)
   - SwiftyJSON (2.3.0)
   - SWTableViewCell (0.3.7)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
   - M13Checkbox (= 2.1.2)
+  - SkyFloatingLabelTextField
   - SwiftyJSON (= 2.3.0)
   - SWTableViewCell (~> 0.3.7)
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   M13Checkbox: fbc53145e3ca8ecd1c444a76439bdc0ddb17b008
+  SkyFloatingLabelTextField: 3f6610aded18e778df5cfab3b9e12a11b3e014e9
   SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
 
-PODFILE CHECKSUM: f0536f2bb6632df847464b089ce206a5a2d324c7
+PODFILE CHECKSUM: 9aaf0ce5fe475282bdb9d20ce239816a5af75841
 
 COCOAPODS: 1.0.1

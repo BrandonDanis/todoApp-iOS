@@ -10,6 +10,7 @@ target 'TodoApp' do
   pod 'SWTableViewCell', '~> 0.3.7'
   pod 'SwiftyJSON', '2.3.0'
   pod 'Alamofire', '~> 3.4'
+  pod 'SkyFloatingLabelTextField'
 
   target 'TodoAppTests' do
     inherit! :search_paths
