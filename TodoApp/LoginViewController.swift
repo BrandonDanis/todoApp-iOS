@@ -52,11 +52,19 @@ class LoginViewController : UIViewController
         passwordTextBox.selectedTitleColor = accentColor
         passwordTextBox.tintColor = accentColor
         
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func dismissKeyboard() {
+        self.view.endEditing(true)
     }
     
     
