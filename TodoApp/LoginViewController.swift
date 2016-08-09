@@ -12,7 +12,6 @@ import SwiftyJSON
 import CoreGraphics
 import SkyFloatingLabelTextField
 
-
 class LoginViewController : UIViewController
 {
     
@@ -25,10 +24,7 @@ class LoginViewController : UIViewController
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
     
     
-    
-    let overcastBlueColor = UIColor(red: 0, green: 187/255, blue: 204/255, alpha: 1.0)
-    let lightGreyColor = UIColor(red: 197/255, green: 205/255, blue: 205/255, alpha: 1.0)
-    
+    let accentColor = UIColor(red:0.01, green:0.10, blue:0.16, alpha:1.0)
     
     
     override func viewDidLoad() {
@@ -42,12 +38,19 @@ class LoginViewController : UIViewController
         
         
         usernameTextBox.placeholder = "Username"
-        usernameTextBox.title = "Your Username"
+        usernameTextBox.title = "Username"
         usernameTextBox.backgroundColor = UIColor.clearColor()
-        usernameTextBox.selectedLineColor = overcastBlueColor
-        usernameTextBox.selectedTitleColor = overcastBlueColor
-        usernameTextBox.tintColor = overcastBlueColor
+        usernameTextBox.selectedLineColor = accentColor
+        usernameTextBox.selectedTitleColor = accentColor
+        usernameTextBox.tintColor = accentColor
         
+        
+        passwordTextBox.placeholder = "Password"
+        passwordTextBox.title = "Password"
+        passwordTextBox.backgroundColor = UIColor.clearColor()
+        passwordTextBox.selectedLineColor = accentColor
+        passwordTextBox.selectedTitleColor = accentColor
+        passwordTextBox.tintColor = accentColor
         
     }
     
