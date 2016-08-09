@@ -11,6 +11,7 @@ import UIKit
 import SwiftyJSON
 import CoreGraphics
 
+
 class LoginViewController : UIViewController
 {
     
@@ -26,6 +27,10 @@ class LoginViewController : UIViewController
         super.viewDidLoad()
         
         print("Login screen loaded.")
+        
+        let bg = UIImageView(image: UIImage(named: "login_bg"))
+        bg.frame = self.view.frame
+        self.view.insertSubview(bg, atIndex: 0)
         
         usernameTextBox.textAlignment = NSTextAlignment.Left
         usernameTextBox.backgroundColor = UIColor.clearColor()

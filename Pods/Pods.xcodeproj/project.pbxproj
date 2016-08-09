@@ -7,220 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D8F36B53E7013287387124150929F /* M13CheckboxGestureRecognizer.swift */; };
-		08DDEDA80357F305491B92128AD82EC1 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D956FA17568D02001B68C31A5012A /* NSMutableArray+SWUtilityButtons.m */; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F99D372BDB4D1F9149A5D776B19B71 /* Error.swift */; };
-		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC427EA14DBFA5EA705103493EAEB7 /* M13CheckboxFillManager.swift */; };
+		027FD7C0AEEF35C82E0DE8584F46BA66 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */; };
+		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E630DB1F829E3EF0957D1838B6917D /* Error.swift */; };
+		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */; };
 		11B507E2A8EF84D25E1455B277091E6B /* Pods-TodoAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FA307EE25705EEBF0910F6A353A1CC /* Timeline.swift */; };
-		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325AE779AF7BF50B932DAB136EC15673 /* M13Checkbox+IB.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */; };
+		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */; };
 		17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
-		1BA5D5EADF1BA3DB1FD2BFBCB55D0E8F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99934493664AC9474B4A20CDBF7458A6 /* SwiftyJSON-dummy.m */; };
-		1F678445C402C3F251ED59DEF428182F /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D866861580C4A1C207EADB939CADFE /* SWLongPressGestureRecognizer.m */; };
-		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C25BBD82AB19F0E34FD49A0719EE1 /* M13Checkbox-dummy.m */; };
-		283D7656D9AE88651C8B64C5C8526E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7D3AFF91592D211E67EDA2E151C567 /* Validation.swift */; };
-		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274076A175B5E54109945A5CF669801 /* M13CheckboxSpiralManager.swift */; };
-		2D784C84AEE6D18C4F5F5D59CCEE36D4 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 009AC4B823B6B34ADA8CB99A7A10F8B5 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF6DA0B08AA888985CF52F565525C1 /* M13CheckboxDotPathPresets.swift */; };
-		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C312E611BFCE658A4A9DAD7CF823F /* M13CheckboxManager.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D49EF4971F0808A5D3DAEE95FDA75 /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D3B09C3CA8CB5AD0594628FB2C201 /* ResponseSerialization.swift */; };
-		3F65F5198A73D7FBDC53E7A12AAB7511 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 119025D5C45E1B4752838905EB380231 /* SWCellScrollView.m */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A8775CC802C0138E5A173AD08AF0D5 /* Manager.swift */; };
-		413E8CB57F3553EAC2EF4EF71356FCE4 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E4373B0D70E3ECD1E9CBA26C58D1A1 /* SWTableViewCell.m */; };
+		1C31C782879603F79A73CDBF8A98A6C6 /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20EBAF02BA86134705F3DCEEC3A24A83 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */; };
+		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */; };
+		25791C2A3CB8F703766AE29251CD07AB /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */; };
+		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */; };
+		2EA0DCC95A8294FB36FA2CF9B6D60DE6 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */; };
+		32D2F53EA98D14D049222BA5432AE0B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA801130DE6D8800718C9D97802496 /* Manager.swift */; };
 		425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
-		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4AFD6B173D66CAF3107E7454C6D9B /* M13CheckboxPathPresets.swift */; };
-		4FA656E06EAB5500944FF951C9F184C9 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A39F9A913C8192870FAF95BBE1042C /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5510200037C832193E759E16088DFD11 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55929E0C374D0BCF299738BF8DC72D1D /* SWTableViewCell-dummy.m */; };
-		5AF2BE93609C35643FD1C94892578F9B /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0409424A58B31EC04D978012A773A9B8 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCD8FD03BEA5EA17020AA47351177C /* Upload.swift */; };
+		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */; };
 		5BFCB4082DD7F88162745D5BEDDAB63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C794E55FDC2D5E8EFA082C717D262 /* Download.swift */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4913428E45BC022180F1537F57499AA /* Response.swift */; };
-		65F58AD5F53F489549D2CD0A326381F7 /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDFBA059E1EF16DFCB2D3E0E89876BB /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467502482BF0CEE6A77D339DEE6B509 /* M13CheckboxAnimationPresets.swift */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FF6D2E93964A1AF7774710FD2FED5 /* ServerTrustPolicy.swift */; };
-		7F17A38FF443136ABD4D30B5A86960F0 /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE160C559D6F8CACC919E92149BB91E1 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89EDB1D3BBAC0CF2ECF07DA0A0A90DF /* M13Checkbox.swift */; };
-		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92C0B01823DCD47E91D2A74A55D388 /* M13CheckboxExpandManager.swift */; };
-		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DD3DE86318CA3C2FDECFADE6154103 /* M13CheckboxBounceManager.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB008B7A02D388A3E318ACCE19A128 /* Alamofire.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */; };
+		5DCAC3918F96CB6DAC23315F8E1A5F2F /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE74960A486C9748E128AD20AD433 /* Response.swift */; };
+		683C42EC5C9F4AE0CA7ED0E7E01B90AF /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */; };
+		6843B2D871B319078886511335DA3222 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */; };
+		686F799FEDC260E03C7EE9412A174334 /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E51ED136A662BAA2FAA131DEE1FF3D3 /* Pods-TodoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */; };
+		70F1230EC475EDA2318558090274905F /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */; };
+		720F87FBF6AF1FEED62DDD8094EA9924 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */; };
+		739E6FF20FE93BA864E4C501CCD641A8 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */; };
+		73FC9379E48C803F717BAA3158E3FD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */; };
+		7E1E738884BEB0E3D33041B96E236DDD /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */; };
+		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */; };
+		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */; };
 		8F895BC700B0AC862177BF01FC678829 /* Pods-TodoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326374F6689049591880F1EF8C2B1C39 /* M13CheckboxSpiralPathPresets.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FE727B067BE54049051ED9F0F8450F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96113A07943D44A1792467BB5A96A029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		A27BFF7F864CC827914F86C5A93DF915 /* Pods-TodoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA183116AF3DED4289DE9162C14894 /* Result.swift */; };
+		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0726E6FC9E61FE9F06C0A8372ADBAF /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B4A2D07D19BCA2FCD231250DED5B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE017B262CC58EE314F71E085A629 /* Result.swift */; };
 		AA9AC10759794E2B0998D579E73A11A3 /* Pods-TodoAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC05E75C59E005FB82E1B1E8E08C30 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F01A52F4B99127A79036D12417026 /* Stream.swift */; };
-		BADAAD69A8B29329733B7837C01C1BA8 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = C972843B0A4541765CF40E37076133F7 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9FAEC93BCFE0B235A9AA6035F81A0 /* M13CheckboxFadeManager.swift */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9DB9A81FC2B49E452042E98B9934B /* Notifications.swift */; };
-		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104AAD60C051E350F249B58FEA77AAD8 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B808B123AFAA56F5B5B27282C1EFAAF /* ParameterEncoding.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1708D4B4080D4495175C0DA93EF663 /* MultipartFormData.swift */; };
-		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C6DD97479966F75314D50CA56430F /* M13CheckboxStrokeManager.swift */; };
-		DC17B4AFAE3FE47C432C6A05B3A1E2F8 /* Pods-TodoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD33C99924ED3AB8429B1C763F5013F6 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D741BC9B52D66810FA483D5383B1DFE /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */; };
+		AEA128FE76034CFB24171D64C0D3F2B7 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */; };
+		B86760BE576C0CE035634A4C6457E4C0 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAAFDB41B42921ECE9958236BEF0E5F7 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */; };
+		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */; };
+		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0186059ABD58DB139E204DE84B0AC9F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */; };
+		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */; };
 		DEF641D0EAF0519409DCB37D812AC5D7 /* Pods-TodoAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2BB41769703A0FD5A1AD540BCE47A93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		E9E82AF91591DAD2E9C8FBC67ED17B57 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBFAC5BA074711D068FCA204B9E50CD /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA4C51618054D3A9553C53F160668EDE /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 863ED4B31F26049E18F225D1D74A0307 /* SWUtilityButtonTapGestureRecognizer.m */; };
-		EB574EBC1A751F5683CC4D4426D16516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9B05D11F620C523D6E7F81EBACE63 /* Request.swift */; };
-		F1CE5876A01F156EACD2AB7B342E1058 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86EC4F3CDF1828C67BCB7180F0B008 /* SwiftyJSON.swift */; };
-		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9427B84829ADFC3B1DB93DE2249B4C /* M13CheckboxFlatManager.swift */; };
-		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFB7B599D09D328A4104DC8290F8FC /* M13CheckboxDotManager.swift */; };
-		FCBCCCB256ADF14AD7756B6A066FAB75 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 402DD7ADF78C0770C46343142695884F /* SWUtilityButtonView.m */; };
+		EE225AC747F1180CA8642C9728C62AEB /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */; };
+		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */; };
+		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */; };
+		F55A91084BEAFF288FBDC3D66924C826 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7DE66D9A84652F2DFE2B263A0BDD63E /* Pods-TodoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84B5086072C499BE4E6AE40A6A967E4 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */; };
+		FF05489D168D7054D7CC9B38086DAEBC /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */; };
+		FF2D085F1407DC19DA8EB881D2A869BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04ACDBD6E2BC1CADAD6F760487DA6CC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
-			remoteInfo = Alamofire;
-		};
-		122FCB944D2A754374A0A585D88745DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3966B71117555C09F22C83B73B730812;
-			remoteInfo = SWTableViewCell;
-		};
-		C880BE092E53F1A7F11CA85934279263 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9270AB93AEB5182E06BA150E956497F0;
-			remoteInfo = SwiftyJSON;
-		};
-		C8D7F093F66B757D56D0FB21B7A6CADD /* PBXContainerItemProxy */ = {
+		038FA1BF75E70FE8ED2400184578A52B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED3AFC0E9905CA362D94DA496A23E2DD;
 			remoteInfo = M13Checkbox;
 		};
+		27B9DE62EECF291D528A721E97B872CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D654F4AF9D9D9A8EDA9ADED940869C79;
+			remoteInfo = SimpleButton;
+		};
+		48FF38CB5AC396B23D3F45B161B136E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41CA3C80B957865F2E9D74F163A4F68C;
+			remoteInfo = SWTableViewCell;
+		};
+		4C6109B657F748B6A8790D9AE4A1B900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		7F62C36B4B749C685110FF49778C3A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7307E819571E138390134DF7822A909;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003156086DB73381C040F597CD1D53E4 /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		009AC4B823B6B34ADA8CB99A7A10F8B5 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
-		00DD3DE86318CA3C2FDECFADE6154103 /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
-		0409424A58B31EC04D978012A773A9B8 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
-		054D31080E583C565485E632CBBB99AD /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		062D49EF4971F0808A5D3DAEE95FDA75 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		0A917D8F23D618DE4F594343DF859C53 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		0C1708D4B4080D4495175C0DA93EF663 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		0E6C25BBD82AB19F0E34FD49A0719EE1 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		01564263518ADCD60C5531EC5CCB922D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		0440CB6EC1F6090830C7A43F23A80B8B /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		104AAD60C051E350F249B58FEA77AAD8 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
-		119025D5C45E1B4752838905EB380231 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
-		134D956FA17568D02001B68C31A5012A /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		14D0987EB3AE2D003BF34C3CAAF1BAC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		158C794E55FDC2D5E8EFA082C717D262 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
 		1C740824B0B9075307C9DF68C1E57912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D741BC9B52D66810FA483D5383B1DFE /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
-		1E61DA3728476DA3E1C0A73D9579EF5B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
 		1EA709BC957E41EB87E027E202A8A221 /* Pods-TodoAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
 		21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppTests-umbrella.h"; sourceTree = "<group>"; };
-		23E9C89753D639328E5AC6B419C736DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CE8833C64863B0959700EAD9C4C136 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
+		23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		263DBCA6F9957A96FF1FC9A271539FB6 /* Pods-TodoAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		29C9DB9A81FC2B49E452042E98B9934B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		325AE779AF7BF50B932DAB136EC15673 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
-		326374F6689049591880F1EF8C2B1C39 /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
+		29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		30953EBEF3C1741DB673EFE450292FF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppTests-dummy.m"; sourceTree = "<group>"; };
+		34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
+		34E630DB1F829E3EF0957D1838B6917D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		370F86F27AD751EFE1601CA0BF351B48 /* Pods-TodoAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		37A8775CC802C0138E5A173AD08AF0D5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		402DD7ADF78C0770C46343142695884F /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
-		44D866861580C4A1C207EADB939CADFE /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
-		4A0FF6D2E93964A1AF7774710FD2FED5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		4B808B123AFAA56F5B5B27282C1EFAAF /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
 		4E085BCDEB70BDC1A9E1ACE205E81DEE /* Pods-TodoAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4FD905A128FF467219A2AD1970F8DBDD /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
-		4FEF05FC8B5542FF529EF2405B059B61 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4ECA32DF3A512EFA9E62F3942CE05B43 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		51053F2E0D59764CCB5D1D91480A8A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		534FD4971CDB91369DE4A090AC96A6D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53FC427EA14DBFA5EA705103493EAEB7 /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
-		55929E0C374D0BCF299738BF8DC72D1D /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
-		5C86EC4F3CDF1828C67BCB7180F0B008 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		5D5C312E611BFCE658A4A9DAD7CF823F /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		543BE017B262CC58EE314F71E085A629 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5819AEE58DFC9AF40AF9821FC4CB7A97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		63EA7CD1F9BB5FA71164DB4F064C25D4 /* Pods-TodoAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppTests.modulemap"; sourceTree = "<group>"; };
-		647D8F36B53E7013287387124150929F /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
+		65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
 		666C25041F7BAD0F552208675E9A6D73 /* Pods-TodoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-resources.sh"; sourceTree = "<group>"; };
-		6815964A98E566ABA17BA2D2BAED9401 /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FA307EE25705EEBF0910F6A353A1CC /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		6D7D3AFF91592D211E67EDA2E151C567 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		69D16D6E3F71DC1F48E6238501D12AD1 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
+		7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
+		756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		77CEE74960A486C9748E128AD20AD433 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		7B54DCC961CDD24FD3443EBEA257EEDE /* Pods-TodoAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		7CC4AFD6B173D66CAF3107E7454C6D9B /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
 		7D4F8B393AABD7256F84F7447912D3CC /* Pods-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		7D92C0B01823DCD47E91D2A74A55D388 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
-		7E9427B84829ADFC3B1DB93DE2249B4C /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
-		7FBFAC5BA074711D068FCA204B9E50CD /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		7FE1DC6BDB7CDE4E4129ED269251F101 /* Pods-TodoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		81F99D372BDB4D1F9149A5D776B19B71 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		822C6DD97479966F75314D50CA56430F /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
-		8467502482BF0CEE6A77D339DEE6B509 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
-		863ED4B31F26049E18F225D1D74A0307 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
-		86AA183116AF3DED4289DE9162C14894 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
+		881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
 		89824B362142947420D830BF55559DF5 /* Pods-TodoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-frameworks.sh"; sourceTree = "<group>"; };
 		8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
-		8D3F9724EAF207301611981406BCC638 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		8DDFBA059E1EF16DFCB2D3E0E89876BB /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
-		91BCD8FD03BEA5EA17020AA47351177C /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		924334F5051C24E833B74E53203A20DD /* Pods-TodoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoApp.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98C87155AC32DBEEA5CAC5BF27C0CE3E /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
-		99934493664AC9474B4A20CDBF7458A6 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		9BAFB7B599D09D328A4104DC8290F8FC /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
-		9C39DFE926B681A6083C0B0D736AD20F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		9A28D52CBD2FD86AE3ECA2F27DAC62B8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		9B021A9C8DC459D22B3A0EB62F35EA81 /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		9D6F0D55132E95A41E722CB2D49C22AE /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppUITests-dummy.m"; sourceTree = "<group>"; };
 		A13DFA3C1732F442F1110855CF1A88C4 /* Pods-TodoAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoApp-umbrella.h"; sourceTree = "<group>"; };
-		A8FC05E75C59E005FB82E1B1E8E08C30 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		ACFAD07BF861B16F1E6518C827612A97 /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
-		B06C0BE824F3EDE36F64A248842B18B1 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
-		B281670019AA545218076BBF91DF7EF0 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B217E685F7A03B7FF736A2A5618063D0 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
 		B2A135D44D861E91A72E788AB4B71FE7 /* Pods-TodoAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-resources.sh"; sourceTree = "<group>"; };
-		B2DFD32AF6160514C8C458174D80CD6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3FE727B067BE54049051ED9F0F8450F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		B4913428E45BC022180F1537F57499AA /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B6A999371C0CED54AF7B621C35F2AA2F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		B7D3CCC67DF12BDED6F4CBBEF25105D2 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		B70CC75C828FE18C1053FA75D963D025 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
 		C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoApp-dummy.m"; sourceTree = "<group>"; };
-		C274076A175B5E54109945A5CF669801 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		C36D62A52136AEB1F94F8B0A8ABD4C60 /* Pods-TodoAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-resources.sh"; sourceTree = "<group>"; };
-		C972843B0A4541765CF40E37076133F7 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
-		CCBB008B7A02D388A3E318ACCE19A128 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		CE160C559D6F8CACC919E92149BB91E1 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
-		CE4AB71192D206D8E90FAD86FC3BFE4B /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CEB26EDCD95DD7EA5361EA8AE7ED8ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
+		D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
 		D356CF32796093931DBF2E4C20749A00 /* Pods-TodoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3A39F9A913C8192870FAF95BBE1042C /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
-		D59860526EDB98EC6CD566DFD2D0DE1A /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D62D3B09C3CA8CB5AD0594628FB2C201 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D6CA801130DE6D8800718C9D97802496 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		D7C82DEF686CC1A0F53913AB75338BE7 /* Pods-TodoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D89EDB1D3BBAC0CF2ECF07DA0A0A90DF /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
-		D9A9B05D11F620C523D6E7F81EBACE63 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		E12626E4E0CCEB7D4DB3805880872B56 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
+		E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A0E106137F00F32D452301FA594A09 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C38B13F09BD46F0A9D6BFADB09FC48 /* Pods-TodoAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppUITests.modulemap"; sourceTree = "<group>"; };
-		E5C9FAEC93BCFE0B235A9AA6035F81A0 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
-		E77F01A52F4B99127A79036D12417026 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		E84A20E04F6CF828E0911924956571F9 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
+		EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		F0E989ACA6E39AB87D2210FF948CD33B /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleButton.modulemap; sourceTree = "<group>"; };
 		F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5B3A83E6809370A2903499EE26CA417 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5E4373B0D70E3ECD1E9CBA26C58D1A1 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
-		FFAF6DA0B08AA888985CF52F565525C1 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
+		F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +265,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		780712437BA86216ACFDA1E4A8A030A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D2F53EA98D14D049222BA5432AE0B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AB09DEB7D0BC1CA21C2122D3AC790A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D085F1407DC19DA8EB881D2A869BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A30E0FCF6514529D9ECE6FA43AEC4A4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,27 +297,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F11CB4F91673EB48727C070169E0946F /* Frameworks */ = {
+		D164E721E4A505C58C6C8679CFA2BC24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB574EBC1A751F5683CC4D4426D16516 /* Foundation.framework in Frameworks */,
+				73FC9379E48C803F717BAA3158E3FD15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1A64343D1C861F86B7DC202A0CD1785 /* Frameworks */ = {
+		F2A26FD2A468A033596D9D863F1FC09F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96113A07943D44A1792467BB5A96A029 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC00154EBCBFCF8C9D9568CEA926BC85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				283D7656D9AE88651C8B64C5C8526E56 /* Foundation.framework in Frameworks */,
+				A8B4A2D07D19BCA2FCD231250DED5B20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +326,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		0A70F78B7EAA0FD92D5159E902A1E13B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30953EBEF3C1741DB673EFE450292FF1 /* Info.plist */,
+				4ECA32DF3A512EFA9E62F3942CE05B43 /* SwiftyJSON.modulemap */,
+				9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */,
+				A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */,
+				9D6F0D55132E95A41E722CB2D49C22AE /* SwiftyJSON-prefix.pch */,
+				4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15C719375EC97CBC32549700D847048C /* SimpleButton */ = {
+			isa = PBXGroup;
+			children = (
+				86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */,
+				6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */,
+				19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */,
+				B840114D47094B9BD37BBE72A846FF56 /* Support Files */,
+			);
+			path = SimpleButton;
 			sourceTree = "<group>";
 		};
 		18DBC6D7CAF03427C768BBC33FF386AE /* Pods-TodoApp */ = {
@@ -321,95 +377,65 @@
 			path = "Target Support Files/Pods-TodoApp";
 			sourceTree = "<group>";
 		};
-		26F64100B6596AC0BBFD68B85CE1AA04 /* Support Files */ = {
+		3685937B14A021FAE102285AD96F491E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F5B3A83E6809370A2903499EE26CA417 /* Info.plist */,
-				8D3F9724EAF207301611981406BCC638 /* SwiftyJSON.modulemap */,
-				E12626E4E0CCEB7D4DB3805880872B56 /* SwiftyJSON.xcconfig */,
-				99934493664AC9474B4A20CDBF7458A6 /* SwiftyJSON-dummy.m */,
-				4FEF05FC8B5542FF529EF2405B059B61 /* SwiftyJSON-prefix.pch */,
-				7FBFAC5BA074711D068FCA204B9E50CD /* SwiftyJSON-umbrella.h */,
+				ED392A8184FCB91416E371F6C6106FBE /* Alamofire */,
+				8956C20436252D16D7FB02445B2C8698 /* M13Checkbox */,
+				15C719375EC97CBC32549700D847048C /* SimpleButton */,
+				EEBC16054143D6528141DF75C092DD19 /* SwiftyJSON */,
+				54D22AFF1E692D366AA86CC70676D0BB /* SWTableViewCell */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3AE9894818CC6E27BE13BD0FE830B32A /* Products */ = {
+		3B5992B609C64A58CE733A1288BF3C2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5A0E106137F00F32D452301FA594A09 /* Alamofire.framework */,
-				D59860526EDB98EC6CD566DFD2D0DE1A /* M13Checkbox.framework */,
-				054D31080E583C565485E632CBBB99AD /* Pods_TodoApp.framework */,
-				6815964A98E566ABA17BA2D2BAED9401 /* Pods_TodoAppTests.framework */,
-				003156086DB73381C040F597CD1D53E4 /* Pods_TodoAppUITests.framework */,
-				9C39DFE926B681A6083C0B0D736AD20F /* SwiftyJSON.framework */,
-				CE4AB71192D206D8E90FAD86FC3BFE4B /* SWTableViewCell.framework */,
+				4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */,
+				E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */,
+				756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */,
+				44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */,
+				B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */,
+				5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */,
+				5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */,
+				23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4222A66FC9EBF2457FE829C0973EC08F /* Support Files */ = {
+		4C5EE55B2033A920B646D585737D25A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				534FD4971CDB91369DE4A090AC96A6D2 /* Info.plist */,
-				98C87155AC32DBEEA5CAC5BF27C0CE3E /* SWTableViewCell.modulemap */,
-				B06C0BE824F3EDE36F64A248842B18B1 /* SWTableViewCell.xcconfig */,
-				55929E0C374D0BCF299738BF8DC72D1D /* SWTableViewCell-dummy.m */,
-				ACFAD07BF861B16F1E6518C827612A97 /* SWTableViewCell-prefix.pch */,
-				8DDFBA059E1EF16DFCB2D3E0E89876BB /* SWTableViewCell-umbrella.h */,
+				9A28D52CBD2FD86AE3ECA2F27DAC62B8 /* Alamofire.modulemap */,
+				0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */,
+				CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */,
+				E84A20E04F6CF828E0911924956571F9 /* Alamofire-prefix.pch */,
+				0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */,
+				B70CC75C828FE18C1053FA75D963D025 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SWTableViewCell";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		5E3FADC51097E071C03C024097F5FABC /* Alamofire */ = {
+		54D22AFF1E692D366AA86CC70676D0BB /* SWTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				CCBB008B7A02D388A3E318ACCE19A128 /* Alamofire.swift */,
-				158C794E55FDC2D5E8EFA082C717D262 /* Download.swift */,
-				81F99D372BDB4D1F9149A5D776B19B71 /* Error.swift */,
-				37A8775CC802C0138E5A173AD08AF0D5 /* Manager.swift */,
-				0C1708D4B4080D4495175C0DA93EF663 /* MultipartFormData.swift */,
-				062D49EF4971F0808A5D3DAEE95FDA75 /* NetworkReachabilityManager.swift */,
-				29C9DB9A81FC2B49E452042E98B9934B /* Notifications.swift */,
-				4B808B123AFAA56F5B5B27282C1EFAAF /* ParameterEncoding.swift */,
-				D9A9B05D11F620C523D6E7F81EBACE63 /* Request.swift */,
-				B4913428E45BC022180F1537F57499AA /* Response.swift */,
-				D62D3B09C3CA8CB5AD0594628FB2C201 /* ResponseSerialization.swift */,
-				86AA183116AF3DED4289DE9162C14894 /* Result.swift */,
-				4A0FF6D2E93964A1AF7774710FD2FED5 /* ServerTrustPolicy.swift */,
-				E77F01A52F4B99127A79036D12417026 /* Stream.swift */,
-				68FA307EE25705EEBF0910F6A353A1CC /* Timeline.swift */,
-				91BCD8FD03BEA5EA17020AA47351177C /* Upload.swift */,
-				6D7D3AFF91592D211E67EDA2E151C567 /* Validation.swift */,
-				A1483740620581733CCA8EC6E76B1F87 /* Support Files */,
+				E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */,
+				539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */,
+				BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */,
+				8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */,
+				29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */,
+				EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */,
+				F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */,
+				CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */,
+				212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */,
+				5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */,
+				D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */,
+				9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */,
+				78B3841F47D7B8DC44449B1C70717EA2 /* Support Files */,
 			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		6041D2B578099488399C296A1DB6EDD9 /* M13Checkbox */ = {
-			isa = PBXGroup;
-			children = (
-				D89EDB1D3BBAC0CF2ECF07DA0A0A90DF /* M13Checkbox.swift */,
-				325AE779AF7BF50B932DAB136EC15673 /* M13Checkbox+IB.swift */,
-				8467502482BF0CEE6A77D339DEE6B509 /* M13CheckboxAnimationPresets.swift */,
-				00DD3DE86318CA3C2FDECFADE6154103 /* M13CheckboxBounceManager.swift */,
-				9BAFB7B599D09D328A4104DC8290F8FC /* M13CheckboxDotManager.swift */,
-				FFAF6DA0B08AA888985CF52F565525C1 /* M13CheckboxDotPathPresets.swift */,
-				7D92C0B01823DCD47E91D2A74A55D388 /* M13CheckboxExpandManager.swift */,
-				E5C9FAEC93BCFE0B235A9AA6035F81A0 /* M13CheckboxFadeManager.swift */,
-				53FC427EA14DBFA5EA705103493EAEB7 /* M13CheckboxFillManager.swift */,
-				7E9427B84829ADFC3B1DB93DE2249B4C /* M13CheckboxFlatManager.swift */,
-				647D8F36B53E7013287387124150929F /* M13CheckboxGestureRecognizer.swift */,
-				5D5C312E611BFCE658A4A9DAD7CF823F /* M13CheckboxManager.swift */,
-				7CC4AFD6B173D66CAF3107E7454C6D9B /* M13CheckboxPathPresets.swift */,
-				C274076A175B5E54109945A5CF669801 /* M13CheckboxSpiralManager.swift */,
-				326374F6689049591880F1EF8C2B1C39 /* M13CheckboxSpiralPathPresets.swift */,
-				822C6DD97479966F75314D50CA56430F /* M13CheckboxStrokeManager.swift */,
-				BFD597B107CF33BC3ABA38784689E07D /* Support Files */,
-			);
-			path = M13Checkbox;
+			path = SWTableViewCell;
 			sourceTree = "<group>";
 		};
 		69049980A3C5198EC4F854DAA5E2C09D /* Pods-TodoAppTests */ = {
@@ -430,15 +456,18 @@
 			path = "Target Support Files/Pods-TodoAppTests";
 			sourceTree = "<group>";
 		};
-		7AA674D72F92160520FC921E1C698AD8 /* Pods */ = {
+		78B3841F47D7B8DC44449B1C70717EA2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E3FADC51097E071C03C024097F5FABC /* Alamofire */,
-				6041D2B578099488399C296A1DB6EDD9 /* M13Checkbox */,
-				FCA4B3C7CB979ACEB496F9908A3F4CF4 /* SwiftyJSON */,
-				DBC1B6CE064756C8FEE67AC2B7327A37 /* SWTableViewCell */,
+				01564263518ADCD60C5531EC5CCB922D /* Info.plist */,
+				9B021A9C8DC459D22B3A0EB62F35EA81 /* SWTableViewCell.modulemap */,
+				E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */,
+				FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */,
+				0440CB6EC1F6090830C7A43F23A80B8B /* SWTableViewCell-prefix.pch */,
+				9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -446,10 +475,34 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				7AA674D72F92160520FC921E1C698AD8 /* Pods */,
-				3AE9894818CC6E27BE13BD0FE830B32A /* Products */,
+				3685937B14A021FAE102285AD96F491E /* Pods */,
+				3B5992B609C64A58CE733A1288BF3C2A /* Products */,
 				9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8956C20436252D16D7FB02445B2C8698 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */,
+				F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */,
+				EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */,
+				881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */,
+				7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */,
+				E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */,
+				28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */,
+				C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */,
+				4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */,
+				BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */,
+				1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */,
+				01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */,
+				657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */,
+				65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */,
+				68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */,
+				DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */,
+				D37453C220FD52195D1FA363F82E4A76 /* Support Files */,
+			);
+			path = M13Checkbox;
 			sourceTree = "<group>";
 		};
 		9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */ = {
@@ -462,32 +515,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A1483740620581733CCA8EC6E76B1F87 /* Support Files */ = {
+		B840114D47094B9BD37BBE72A846FF56 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A917D8F23D618DE4F594343DF859C53 /* Alamofire.modulemap */,
-				1E61DA3728476DA3E1C0A73D9579EF5B /* Alamofire.xcconfig */,
-				A8FC05E75C59E005FB82E1B1E8E08C30 /* Alamofire-dummy.m */,
-				B6A999371C0CED54AF7B621C35F2AA2F /* Alamofire-prefix.pch */,
-				B3FE727B067BE54049051ED9F0F8450F /* Alamofire-umbrella.h */,
-				23E9C89753D639328E5AC6B419C736DA /* Info.plist */,
+				5819AEE58DFC9AF40AF9821FC4CB7A97 /* Info.plist */,
+				F0E989ACA6E39AB87D2210FF948CD33B /* SimpleButton.modulemap */,
+				CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */,
+				F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */,
+				22CE8833C64863B0959700EAD9C4C136 /* SimpleButton-prefix.pch */,
+				34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		BFD597B107CF33BC3ABA38784689E07D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2DFD32AF6160514C8C458174D80CD6B /* Info.plist */,
-				B7D3CCC67DF12BDED6F4CBBEF25105D2 /* M13Checkbox.modulemap */,
-				4FD905A128FF467219A2AD1970F8DBDD /* M13Checkbox.xcconfig */,
-				0E6C25BBD82AB19F0E34FD49A0719EE1 /* M13Checkbox-dummy.m */,
-				B281670019AA545218076BBF91DF7EF0 /* M13Checkbox-prefix.pch */,
-				104AAD60C051E350F249B58FEA77AAD8 /* M13Checkbox-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/M13Checkbox";
+			path = "../Target Support Files/SimpleButton";
 			sourceTree = "<group>";
 		};
 		CDFB9715EC892F580449003EAC9A4D26 /* Pods-TodoAppUITests */ = {
@@ -508,31 +547,50 @@
 			path = "Target Support Files/Pods-TodoAppUITests";
 			sourceTree = "<group>";
 		};
-		DBC1B6CE064756C8FEE67AC2B7327A37 /* SWTableViewCell */ = {
+		D37453C220FD52195D1FA363F82E4A76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D741BC9B52D66810FA483D5383B1DFE /* NSMutableArray+SWUtilityButtons.h */,
-				134D956FA17568D02001B68C31A5012A /* NSMutableArray+SWUtilityButtons.m */,
-				D3A39F9A913C8192870FAF95BBE1042C /* SWCellScrollView.h */,
-				119025D5C45E1B4752838905EB380231 /* SWCellScrollView.m */,
-				CE160C559D6F8CACC919E92149BB91E1 /* SWLongPressGestureRecognizer.h */,
-				44D866861580C4A1C207EADB939CADFE /* SWLongPressGestureRecognizer.m */,
-				009AC4B823B6B34ADA8CB99A7A10F8B5 /* SWTableViewCell.h */,
-				F5E4373B0D70E3ECD1E9CBA26C58D1A1 /* SWTableViewCell.m */,
-				0409424A58B31EC04D978012A773A9B8 /* SWUtilityButtonTapGestureRecognizer.h */,
-				863ED4B31F26049E18F225D1D74A0307 /* SWUtilityButtonTapGestureRecognizer.m */,
-				C972843B0A4541765CF40E37076133F7 /* SWUtilityButtonView.h */,
-				402DD7ADF78C0770C46343142695884F /* SWUtilityButtonView.m */,
-				4222A66FC9EBF2457FE829C0973EC08F /* Support Files */,
+				CEB26EDCD95DD7EA5361EA8AE7ED8ABF /* Info.plist */,
+				69D16D6E3F71DC1F48E6238501D12AD1 /* M13Checkbox.modulemap */,
+				593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */,
+				600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */,
+				B217E685F7A03B7FF736A2A5618063D0 /* M13Checkbox-prefix.pch */,
+				8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */,
 			);
-			path = SWTableViewCell;
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
 			sourceTree = "<group>";
 		};
-		FCA4B3C7CB979ACEB496F9908A3F4CF4 /* SwiftyJSON */ = {
+		ED392A8184FCB91416E371F6C6106FBE /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				5C86EC4F3CDF1828C67BCB7180F0B008 /* SwiftyJSON.swift */,
-				26F64100B6596AC0BBFD68B85CE1AA04 /* Support Files */,
+				264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */,
+				17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */,
+				34E630DB1F829E3EF0957D1838B6917D /* Error.swift */,
+				D6CA801130DE6D8800718C9D97802496 /* Manager.swift */,
+				C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */,
+				75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */,
+				23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */,
+				6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */,
+				320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */,
+				77CEE74960A486C9748E128AD20AD433 /* Response.swift */,
+				86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */,
+				543BE017B262CC58EE314F71E085A629 /* Result.swift */,
+				9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */,
+				4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */,
+				5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */,
+				65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */,
+				63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */,
+				4C5EE55B2033A920B646D585737D25A6 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EEBC16054143D6528141DF75C092DD19 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */,
+				0A70F78B7EAA0FD92D5159E902A1E13B /* Support Files */,
 			);
 			path = SwiftyJSON;
 			sourceTree = "<group>";
@@ -540,6 +598,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1D74647006E5230CB0CDA51BCC4AAB15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DE66D9A84652F2DFE2B263A0BDD63E /* Pods-TodoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		227E3CBCC55A04FCCD8C019832A11234 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,11 +614,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		625E59C9AF5CDE1BDDA7EDFF58DCEA03 /* Headers */ = {
+		560221E49366F0E0E4593456E14BC450 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC17B4AFAE3FE47C432C6A05B3A1E2F8 /* Pods-TodoApp-umbrella.h in Headers */,
+				7E1E738884BEB0E3D33041B96E236DDD /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				2EA0DCC95A8294FB36FA2CF9B6D60DE6 /* SWCellScrollView.h in Headers */,
+				EE225AC747F1180CA8642C9728C62AEB /* SWLongPressGestureRecognizer.h in Headers */,
+				1C31C782879603F79A73CDBF8A98A6C6 /* SWTableViewCell-umbrella.h in Headers */,
+				B86760BE576C0CE035634A4C6457E4C0 /* SWTableViewCell.h in Headers */,
+				25791C2A3CB8F703766AE29251CD07AB /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				F55A91084BEAFF288FBDC3D66924C826 /* SWUtilityButtonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,28 +633,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF641D0EAF0519409DCB37D812AC5D7 /* Pods-TodoAppUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77F22057C11208D69DBEB3A1391EBAD2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD33C99924ED3AB8429B1C763F5013F6 /* NSMutableArray+SWUtilityButtons.h in Headers */,
-				4FA656E06EAB5500944FF951C9F184C9 /* SWCellScrollView.h in Headers */,
-				7F17A38FF443136ABD4D30B5A86960F0 /* SWLongPressGestureRecognizer.h in Headers */,
-				65F58AD5F53F489549D2CD0A326381F7 /* SWTableViewCell-umbrella.h in Headers */,
-				2D784C84AEE6D18C4F5F5D59CCEE36D4 /* SWTableViewCell.h in Headers */,
-				5AF2BE93609C35643FD1C94892578F9B /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
-				BADAAD69A8B29329733B7837C01C1BA8 /* SWUtilityButtonView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		892581F6F2EA015F8AAE86BD1CC68335 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9E82AF91591DAD2E9C8FBC67ED17B57 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +649,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7FB947902C5044D16137A3E9336030 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686F799FEDC260E03C7EE9412A174334 /* SimpleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC88FA08C0544E13A7D1E4CA8C62F0BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0726E6FC9E61FE9F06C0A8372ADBAF /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,16 +685,16 @@
 			);
 			name = "Pods-TodoAppTests";
 			productName = "Pods-TodoAppTests";
-			productReference = 6815964A98E566ABA17BA2D2BAED9401 /* Pods_TodoAppTests.framework */;
+			productReference = 44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3966B71117555C09F22C83B73B730812 /* SWTableViewCell */ = {
+		41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03EA0A540F2D9DB40CAB84417501E9AB /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildConfigurationList = D3D7630637272D1FF264611BD3CB86E0 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
 			buildPhases = (
-				1061B84AF7E4E69B3187A977BD1CDE0E /* Sources */,
-				F11CB4F91673EB48727C070169E0946F /* Frameworks */,
-				77F22057C11208D69DBEB3A1391EBAD2 /* Headers */,
+				C33ABD70271A56565B6CF66D9FE1F21E /* Sources */,
+				780712437BA86216ACFDA1E4A8A030A7 /* Frameworks */,
+				560221E49366F0E0E4593456E14BC450 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -636,7 +702,7 @@
 			);
 			name = SWTableViewCell;
 			productName = SWTableViewCell;
-			productReference = CE4AB71192D206D8E90FAD86FC3BFE4B /* SWTableViewCell.framework */;
+			productReference = 23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
@@ -653,16 +719,33 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = E5A0E106137F00F32D452301FA594A09 /* Alamofire.framework */;
+			productReference = 4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9270AB93AEB5182E06BA150E956497F0 /* SwiftyJSON */ = {
+		D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60A2DD85365540099C9ED6BE058A73F3 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = E3CF5AA8665D5D12D0BC1A3C159F2175 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
 			buildPhases = (
-				CF8A2F19499533AE00C9BDF05EA8189D /* Sources */,
-				F1A64343D1C861F86B7DC202A0CD1785 /* Frameworks */,
-				892581F6F2EA015F8AAE86BD1CC68335 /* Headers */,
+				2EA5D1F907F4B863A8560055AD3C8615 /* Sources */,
+				D164E721E4A505C58C6C8679CFA2BC24 /* Frameworks */,
+				FB7FB947902C5044D16137A3E9336030 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleButton;
+			productName = SimpleButton;
+			productReference = 5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7307E819571E138390134DF7822A909 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1359371E734D52D6906DB4516391CD90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				DE53A5EB1F0B566242CAE490D6ADA39B /* Sources */,
+				F2A26FD2A468A033596D9D863F1FC09F /* Frameworks */,
+				FC88FA08C0544E13A7D1E4CA8C62F0BD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -670,28 +753,29 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 9C39DFE926B681A6083C0B0D736AD20F /* SwiftyJSON.framework */;
+			productReference = 5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C0FF51BDA7A03F3B845334FE899DE23F /* Pods-TodoApp */ = {
+		EA534C6DC0502230348889DE4F05EEE5 /* Pods-TodoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80DF5E6D86CA9ABBF65C87AF37FBF201 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */;
+			buildConfigurationList = 4917F170403EDC8CEFB69BF5E9F50A42 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */;
 			buildPhases = (
-				848AA6F9DAACAD0F1D3B18FA2FA15E0D /* Sources */,
-				FC00154EBCBFCF8C9D9568CEA926BC85 /* Frameworks */,
-				625E59C9AF5CDE1BDDA7EDFF58DCEA03 /* Headers */,
+				A4836B69EEDF4D2688FE0703D28BC9E1 /* Sources */,
+				84AB09DEB7D0BC1CA21C2122D3AC790A /* Frameworks */,
+				1D74647006E5230CB0CDA51BCC4AAB15 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				094BEFFDAEA4D532BEE88A1FF748854E /* PBXTargetDependency */,
-				FCC5C8677DD87974A114F42830358F3D /* PBXTargetDependency */,
-				C8C61AEF83124951508FC7B752D63899 /* PBXTargetDependency */,
-				C742D2CD417987C9CC0D9F687D79F61A /* PBXTargetDependency */,
+				BB29BAD44F6BD3610DEE8CD29032C43C /* PBXTargetDependency */,
+				F7AEF170312A71AA3DAA59A4CB98E6B4 /* PBXTargetDependency */,
+				8F78C06A5A968BD217CF732E0F32D98F /* PBXTargetDependency */,
+				596188A5C7F6103A97D0E03BE8ED3C23 /* PBXTargetDependency */,
+				2088A024FAA38B6517786BDC02EB8B55 /* PBXTargetDependency */,
 			);
 			name = "Pods-TodoApp";
 			productName = "Pods-TodoApp";
-			productReference = 054D31080E583C565485E632CBBB99AD /* Pods_TodoApp.framework */;
+			productReference = 756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */ = {
@@ -708,7 +792,7 @@
 			);
 			name = M13Checkbox;
 			productName = M13Checkbox;
-			productReference = D59860526EDB98EC6CD566DFD2D0DE1A /* M13Checkbox.framework */;
+			productReference = E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */ = {
@@ -725,7 +809,7 @@
 			);
 			name = "Pods-TodoAppUITests";
 			productName = "Pods-TodoAppUITests";
-			productReference = 003156086DB73381C040F597CD1D53E4 /* Pods_TodoAppUITests.framework */;
+			productReference = B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -745,17 +829,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3AE9894818CC6E27BE13BD0FE830B32A /* Products */;
+			productRefGroup = 3B5992B609C64A58CE733A1288BF3C2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
 				ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */,
-				C0FF51BDA7A03F3B845334FE899DE23F /* Pods-TodoApp */,
+				EA534C6DC0502230348889DE4F05EEE5 /* Pods-TodoApp */,
 				02BAEE0F72C64013C17D4D2C2FF48041 /* Pods-TodoAppTests */,
 				F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */,
-				9270AB93AEB5182E06BA150E956497F0 /* SwiftyJSON */,
-				3966B71117555C09F22C83B73B730812 /* SWTableViewCell */,
+				D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */,
+				D7307E819571E138390134DF7822A909 /* SwiftyJSON */,
+				41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */,
 			);
 		};
 /* End PBXProject section */
@@ -769,17 +854,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1061B84AF7E4E69B3187A977BD1CDE0E /* Sources */ = {
+		2EA5D1F907F4B863A8560055AD3C8615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DDEDA80357F305491B92128AD82EC1 /* NSMutableArray+SWUtilityButtons.m in Sources */,
-				3F65F5198A73D7FBDC53E7A12AAB7511 /* SWCellScrollView.m in Sources */,
-				1F678445C402C3F251ED59DEF428182F /* SWLongPressGestureRecognizer.m in Sources */,
-				5510200037C832193E759E16088DFD11 /* SWTableViewCell-dummy.m in Sources */,
-				413E8CB57F3553EAC2EF4EF71356FCE4 /* SWTableViewCell.m in Sources */,
-				EA4C51618054D3A9553C53F160668EDE /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
-				FCBCCCB256ADF14AD7756B6A066FAB75 /* SWUtilityButtonView.m in Sources */,
+				027FD7C0AEEF35C82E0DE8584F46BA66 /* SimpleButton-dummy.m in Sources */,
+				20EBAF02BA86134705F3DCEEC3A24A83 /* SimpleButton.swift in Sources */,
+				720F87FBF6AF1FEED62DDD8094EA9924 /* SimpleButtonControlState.swift in Sources */,
+				BAAFDB41B42921ECE9958236BEF0E5F7 /* SimpleButtonStateChangeValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,14 +886,6 @@
 				2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */,
 				928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */,
 				CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		848AA6F9DAACAD0F1D3B18FA2FA15E0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A27BFF7F864CC827914F86C5A93DF915 /* Pods-TodoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,41 +922,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF8A2F19499533AE00C9BDF05EA8189D /* Sources */ = {
+		A4836B69EEDF4D2688FE0703D28BC9E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA5D5EADF1BA3DB1FD2BFBCB55D0E8F /* SwiftyJSON-dummy.m in Sources */,
-				F1CE5876A01F156EACD2AB7B342E1058 /* SwiftyJSON.swift in Sources */,
+				6E51ED136A662BAA2FAA131DEE1FF3D3 /* Pods-TodoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABD70271A56565B6CF66D9FE1F21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843B2D871B319078886511335DA3222 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				FF05489D168D7054D7CC9B38086DAEBC /* SWCellScrollView.m in Sources */,
+				683C42EC5C9F4AE0CA7ED0E7E01B90AF /* SWLongPressGestureRecognizer.m in Sources */,
+				70F1230EC475EDA2318558090274905F /* SWTableViewCell-dummy.m in Sources */,
+				739E6FF20FE93BA864E4C501CCD641A8 /* SWTableViewCell.m in Sources */,
+				5DCAC3918F96CB6DAC23315F8E1A5F2F /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				F84B5086072C499BE4E6AE40A6A967E4 /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE53A5EB1F0B566242CAE490D6ADA39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA128FE76034CFB24171D64C0D3F2B7 /* SwiftyJSON-dummy.m in Sources */,
+				C0186059ABD58DB139E204DE84B0AC9F /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		094BEFFDAEA4D532BEE88A1FF748854E /* PBXTargetDependency */ = {
+		2088A024FAA38B6517786BDC02EB8B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D7307E819571E138390134DF7822A909 /* SwiftyJSON */;
+			targetProxy = 7F62C36B4B749C685110FF49778C3A79 /* PBXContainerItemProxy */;
+		};
+		596188A5C7F6103A97D0E03BE8ED3C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleButton;
+			target = D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */;
+			targetProxy = 27B9DE62EECF291D528A721E97B872CE /* PBXContainerItemProxy */;
+		};
+		8F78C06A5A968BD217CF732E0F32D98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = 41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */;
+			targetProxy = 48FF38CB5AC396B23D3F45B161B136E4 /* PBXContainerItemProxy */;
+		};
+		BB29BAD44F6BD3610DEE8CD29032C43C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = 04ACDBD6E2BC1CADAD6F760487DA6CC8 /* PBXContainerItemProxy */;
+			targetProxy = 4C6109B657F748B6A8790D9AE4A1B900 /* PBXContainerItemProxy */;
 		};
-		C742D2CD417987C9CC0D9F687D79F61A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = 9270AB93AEB5182E06BA150E956497F0 /* SwiftyJSON */;
-			targetProxy = C880BE092E53F1A7F11CA85934279263 /* PBXContainerItemProxy */;
-		};
-		C8C61AEF83124951508FC7B752D63899 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SWTableViewCell;
-			target = 3966B71117555C09F22C83B73B730812 /* SWTableViewCell */;
-			targetProxy = 122FCB944D2A754374A0A585D88745DA /* PBXContainerItemProxy */;
-		};
-		FCC5C8677DD87974A114F42830358F3D /* PBXTargetDependency */ = {
+		F7AEF170312A71AA3DAA59A4CB98E6B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = M13Checkbox;
 			target = ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */;
-			targetProxy = C8D7F093F66B757D56D0FB21B7A6CADD /* PBXContainerItemProxy */;
+			targetProxy = 038FA1BF75E70FE8ED2400184578A52B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -929,35 +1031,6 @@
 			};
 			name = Debug;
 		};
-		0AEDCD079FC7185277FB0A3C7EC3D971 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06C0BE824F3EDE36F64A248842B18B1 /* SWTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		19CE7AFC597C6477B2EA4B2A16762A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */;
@@ -991,42 +1064,9 @@
 			};
 			name = Debug;
 		};
-		230D40B4A016AFC14D807BACDF8CEBC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TodoApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E61DA3728476DA3E1C0A73D9579EF5B /* Alamofire.xcconfig */;
+			baseConfigurationReference = 0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1055,7 +1095,7 @@
 		};
 		42270CB2870FEB0F213C065A90D294DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FD905A128FF467219A2AD1970F8DBDD /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1085,7 +1125,7 @@
 		};
 		4DFAB005B5AC0EB277D88C2059A31654 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FD905A128FF467219A2AD1970F8DBDD /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1111,6 +1151,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4DFD5E09A072F9936BF48FA5F3B36D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5E8149F5049A8EAC8CE7A0C8F829C658 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1147,7 +1216,7 @@
 		};
 		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E61DA3728476DA3E1C0A73D9579EF5B /* Alamofire.xcconfig */;
+			baseConfigurationReference = 0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1175,9 +1244,9 @@
 			};
 			name = Debug;
 		};
-		7DF46C21FD23964B9A29E8A0A22B9A92 /* Debug */ = {
+		792C7E7B98BDE4AE582C98CCB85F3EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06C0BE824F3EDE36F64A248842B18B1 /* SWTableViewCell.xcconfig */;
+			baseConfigurationReference = 9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1188,47 +1257,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C2FDFFDF9DB197FD6794F39EEDFC84B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TodoApp;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1237,6 +1273,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9E843E4A59207E2C789EBC22A127D883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1276,9 +1341,9 @@
 			};
 			name = Release;
 		};
-		DD93713BB530E4C755546F8F5A6FC3D2 /* Release */ = {
+		D9EF74BA5C65D7E3D4DDC8FE0E3550E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12626E4E0CCEB7D4DB3805880872B56 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1289,14 +1354,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
+				PRODUCT_NAME = SimpleButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1338,9 +1403,42 @@
 			};
 			name = Debug;
 		};
-		ECE9EF6DD965F9791D2D0A9CBD80EA87 /* Debug */ = {
+		E13F5816122D3F87C9A31AE6ED9D5FCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12626E4E0CCEB7D4DB3805880872B56 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E235998695A90F07E106D6219742A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1351,14 +1449,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1401,14 +1503,73 @@
 			};
 			name = Release;
 		};
+		FC54A89BA4C82953AF63AFA33E1D886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD38189772C42DD4058D38759A581AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03EA0A540F2D9DB40CAB84417501E9AB /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+		1359371E734D52D6906DB4516391CD90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DF46C21FD23964B9A29E8A0A22B9A92 /* Debug */,
-				0AEDCD079FC7185277FB0A3C7EC3D971 /* Release */,
+				792C7E7B98BDE4AE582C98CCB85F3EAB /* Debug */,
+				9E843E4A59207E2C789EBC22A127D883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1431,20 +1592,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60A2DD85365540099C9ED6BE058A73F3 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		4917F170403EDC8CEFB69BF5E9F50A42 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECE9EF6DD965F9791D2D0A9CBD80EA87 /* Debug */,
-				DD93713BB530E4C755546F8F5A6FC3D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80DF5E6D86CA9ABBF65C87AF37FBF201 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2FDFFDF9DB197FD6794F39EEDFC84B0 /* Debug */,
-				230D40B4A016AFC14D807BACDF8CEBC4 /* Release */,
+				E235998695A90F07E106D6219742A824 /* Debug */,
+				E13F5816122D3F87C9A31AE6ED9D5FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1467,11 +1619,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D3D7630637272D1FF264611BD3CB86E0 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFD5E09A072F9936BF48FA5F3B36D96 /* Debug */,
+				FC54A89BA4C82953AF63AFA33E1D886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC3ABF49602E683BF9BB6C98FA599B8E /* Build configuration list for PBXNativeTarget "Pods-TodoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF1D06BD0DED5BF2ED937D2290369B39 /* Debug */,
 				F17402B0BDB194EF506F5817B80596C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CF5AA8665D5D12D0BC1A3C159F2175 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD38189772C42DD4058D38759A581AA9 /* Debug */,
+				D9EF74BA5C65D7E3D4DDC8FE0E3550E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
