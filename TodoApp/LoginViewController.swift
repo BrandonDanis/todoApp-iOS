@@ -12,7 +12,7 @@ import SwiftyJSON
 import CoreGraphics
 import SkyFloatingLabelTextField
 
-class LoginViewController : UIViewController
+class LoginViewController : UIViewController, UITextFieldDelegate
 {
     
     @IBOutlet var usernameTextBox: SkyFloatingLabelTextField!
@@ -37,6 +37,10 @@ class LoginViewController : UIViewController
         self.view.insertSubview(bg, atIndex: 0)
         
         
+        // setting this view controller as textField delegate
+        usernameTextBox.delegate = self
+        passwordTextBox.delegate = self
+        
         usernameTextBox.placeholder = "Username"
         usernameTextBox.title = "Username"
         usernameTextBox.backgroundColor = UIColor.clearColor()
@@ -53,7 +57,7 @@ class LoginViewController : UIViewController
         passwordTextBox.tintColor = accentColor
         
         //Looks for single or multiple taps.
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
     }
@@ -63,18 +67,27 @@ class LoginViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
     
+    //dismiss keyboard
     func dismissKeyboard() {
         self.view.endEditing(true)
     }
     
+    //function gets called whenever the 'next' key is pressed on keyboard
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        if(textField == usernameTextBox){
+            passwordTextBox.becomeFirstResponder()
+        }else if(textField == passwordTextBox){
+            loginAttempt(self)
+        }
+        return true
+    }
     
     @IBAction func loginAttempt(sender: AnyObject) {
         print("Login button pressed.")
         
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
-        
-        
         
         self.api.attemptLogin(user, password: pssd, completion: { (response: JSON) in
             

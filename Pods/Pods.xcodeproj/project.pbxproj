@@ -7,243 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027FD7C0AEEF35C82E0DE8584F46BA66 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */; };
-		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E630DB1F829E3EF0957D1838B6917D /* Error.swift */; };
-		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */; };
+		01EFE78DC678B8048A5DEBD0CCBBB66D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA6C1B121981EDD50DAD7B5A45E71E /* SwiftyJSON.swift */; };
+		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A2F7586A92A3C8C6C10881AE41607 /* M13CheckboxGestureRecognizer.swift */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C9782D5ABB75053823842B2F64DBA1 /* Error.swift */; };
+		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3DC773CB3A0303AE791F93EC4F428 /* M13CheckboxFillManager.swift */; };
+		0C1BD865068078C729DFF05DE5BF6B74 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DAF26692624B467B2FDB6C4764E30F /* SwiftyJSON-dummy.m */; };
 		11B507E2A8EF84D25E1455B277091E6B /* Pods-TodoAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */; };
-		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */; };
+		15B1603BCB8086F9A72613CF17829380 /* Pods-TodoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065E4922EC3E1663E9913204086AC4CA /* Timeline.swift */; };
+		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC63450784C6EC7B8BCD41A83B822B /* M13Checkbox+IB.swift */; };
 		17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
-		1C31C782879603F79A73CDBF8A98A6C6 /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20EBAF02BA86134705F3DCEEC3A24A83 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */; };
-		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */; };
-		25791C2A3CB8F703766AE29251CD07AB /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */; };
-		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */; };
-		2EA0DCC95A8294FB36FA2CF9B6D60DE6 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */; };
-		32D2F53EA98D14D049222BA5432AE0B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA801130DE6D8800718C9D97802496 /* Manager.swift */; };
+		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D110188BA5DEC290C6D95368FD68AC /* M13Checkbox-dummy.m */; };
+		22ABA833F180A6179B4E67BB50919ADA /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADA151E57FE776C39F25730F18F09DE /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F00C1B71AE4691D82E90C9F9066356 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEE58DBC50A45F6685156942C52BD54 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A3DDCB3EAA8D638DF464C1A466D518 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B245C72682AC99FCBC7F50E550BB0F2C /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27390D0BD61D1EBBE698484AB873C9 /* Validation.swift */; };
+		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFD9775BFA58D8D756169C291AF8D3 /* M13CheckboxSpiralManager.swift */; };
+		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9687C3A675BE855811FB704A63319 /* M13CheckboxDotPathPresets.swift */; };
+		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60094CC5DBA3A202120F4370B8619A1C /* M13CheckboxManager.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC59A96DB57CBBF85F31F1C54C387A2C /* NetworkReachabilityManager.swift */; };
+		35EDAC650B0F26ED9244877DFA33B179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		381AD11EF96CF4D09718A989C96799FF /* Pods-TodoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA416C1CEE90BF356A5CDBD01ECE5C /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A134EF9866CC24B595EA01B8469C451 /* Manager.swift */; };
 		425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
-		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */; };
+		42B00F896A323E31E0CED63A2BAC724D /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB1DE9E3627A5D25C035B9BAB57E1DD /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD11815C1D67960882B0F4D093364F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458A9F5BD58DCA0500859954A3575D9 /* M13CheckboxPathPresets.swift */; };
+		505ECEF2C0384E0FF841F021C180329B /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A984336FF0255FF757FE6898D2808 /* UITextField+fixCaretPosition.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853639CDAB4220BD294E7F4D8CD2C9A /* Upload.swift */; };
 		5BFCB4082DD7F88162745D5BEDDAB63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */; };
-		5DCAC3918F96CB6DAC23315F8E1A5F2F /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE74960A486C9748E128AD20AD433 /* Response.swift */; };
-		683C42EC5C9F4AE0CA7ED0E7E01B90AF /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */; };
-		6843B2D871B319078886511335DA3222 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */; };
-		686F799FEDC260E03C7EE9412A174334 /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E51ED136A662BAA2FAA131DEE1FF3D3 /* Pods-TodoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */; };
-		70F1230EC475EDA2318558090274905F /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */; };
-		720F87FBF6AF1FEED62DDD8094EA9924 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */; };
-		739E6FF20FE93BA864E4C501CCD641A8 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */; };
-		73FC9379E48C803F717BAA3158E3FD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */; };
-		7E1E738884BEB0E3D33041B96E236DDD /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */; };
-		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */; };
-		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C3D321AC763D893F18F6B59AF311DA /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A07E35827B1B14F06FBE3D2716C48 /* Response.swift */; };
+		66B8948B6BDDD7704B7E6F236F204D3D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6626B63E24FB52B003851A85E8033983 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E73515A1F6FBC98BDAB48E8D2953FAA /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3981A8F93267E83E2426493F716C8 /* SWLongPressGestureRecognizer.m */; };
+		77BBBD85771E40FE0919F92551225D2B /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = C60FD331F2986AF80E618442E08E5D75 /* NSMutableArray+SWUtilityButtons.m */; };
+		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C960E08660CF0B08C0CE17A0F5E808 /* M13CheckboxAnimationPresets.swift */; };
+		7B1E2DF0A23BDDE9EB2CD647AAF1F2C9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072258657E2A3FBF82A0DEBE8FC5D53 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2BB04245694A705BCDC07FBC8A295 /* ServerTrustPolicy.swift */; };
+		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8898F2A26F6BBB1B3E459E9DD55F6D5 /* M13Checkbox.swift */; };
+		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8EC115B8066E7DC18FD463E9B1942D /* M13CheckboxExpandManager.swift */; };
+		86B49B1D1738A3254565D3051EAF83C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0EAF965E55137D3B979EDA4B05BD2 /* M13CheckboxBounceManager.swift */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B959F9D5B7F540DD2D78A8B6533B255 /* Alamofire.swift */; };
 		8F895BC700B0AC862177BF01FC678829 /* Pods-TodoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E0726E6FC9E61FE9F06C0A8372ADBAF /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8B4A2D07D19BCA2FCD231250DED5B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE017B262CC58EE314F71E085A629 /* Result.swift */; };
+		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E893182AD5FEA6CD9F606D74C5CFD /* M13CheckboxSpiralPathPresets.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFEB9AF3EAE6F32DAD23114170751D6 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2CB996505E430B6625CB38F93300AA /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6B71D0012887166DFC3ED6B09BE11 /* SWTableViewCell.m */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37030159CF357960AC3EEF64C18CE73 /* Result.swift */; };
 		AA9AC10759794E2B0998D579E73A11A3 /* Pods-TodoAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */; };
-		AEA128FE76034CFB24171D64C0D3F2B7 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */; };
-		B86760BE576C0CE035634A4C6457E4C0 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAAFDB41B42921ECE9958236BEF0E5F7 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */; };
-		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */; };
-		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0186059ABD58DB139E204DE84B0AC9F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */; };
-		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24CBD1406F3D575BA8ED9EBF263E50B /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD55E50B71DCF08F113F50F319F7D7 /* Stream.swift */; };
+		BA03E38D9BA96E6864136B84E578F018 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA358CBD0EA35DDC0ED16592F6E60CF /* SWUtilityButtonView.m */; };
+		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E5F1906F3411D2777E0C397107CA2 /* M13CheckboxFadeManager.swift */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAD48B58EB3D012AEF7E3298D94A88 /* Notifications.swift */; };
+		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBEF018C1E6ED2C19E48AF8D548D8F5 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE2BEFCE3FFE57602ADC2B5E6BA8C66 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5157C99EADCDB607A8CD6A2B01595346 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0DA7B77FCB34AB3D1CD0432302A2AAB /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E84DBA8D32E5016CD759B4C0D33E816A /* SWCellScrollView.m */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ECA4C45ED98F7F10CFEED182C592D /* ParameterEncoding.swift */; };
+		C203A8785523106ABE82986B66D78EEF /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED7A68B58B16DAC066F6F7991D60A8E /* SkyFloatingLabelTextField-dummy.m */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1B786700A1975326177CF3BA99104 /* MultipartFormData.swift */; };
+		C7B96C72F7AA20CB5A9C21B67E47DC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E64073FAB8051ACC599364ACB78317 /* M13CheckboxStrokeManager.swift */; };
+		D6D5F2A0454DD2A73BAB8D1FB5BD737B /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EF5A47377E30DC6CDBDC5388FD0268 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEF641D0EAF0519409DCB37D812AC5D7 /* Pods-TodoAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0638697F64BDFC11AFD87BCFB4287D5 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85A29D222C3FC1E220624BF67DFA93 /* SkyFloatingLabelTextField.swift */; };
 		E2BB41769703A0FD5A1AD540BCE47A93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
-		EE225AC747F1180CA8642C9728C62AEB /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */; };
-		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */; };
-		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */; };
-		F55A91084BEAFF288FBDC3D66924C826 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DE66D9A84652F2DFE2B263A0BDD63E /* Pods-TodoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84B5086072C499BE4E6AE40A6A967E4 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */; };
-		FF05489D168D7054D7CC9B38086DAEBC /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */; };
-		FF2D085F1407DC19DA8EB881D2A869BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		E6F2028042598A3866499199B044666B /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0F08DC2B6D59B5304338E3879EA953 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94F5C564FCCBE898362DDA583EB315E /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6642CA0C2DA004A0A30BD2C593C6D5C /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A7C2EED9E464545F8B539E52B508E /* Request.swift */; };
+		F2D205AE24B6F36C381DD3FC54837A9F /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E6F2A165561A826409BBC2A27C0E6E /* SWUtilityButtonTapGestureRecognizer.m */; };
+		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661488AF9808294510FE53183247825 /* M13CheckboxFlatManager.swift */; };
+		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CE1159B1AC78460FC32B3D2DF5809 /* M13CheckboxDotManager.swift */; };
+		FFBAECC014641B09A0B4BD6F1D1D0AAA /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F810603F2C248BD97CC4EDE8FF9E8D8 /* SWTableViewCell-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		038FA1BF75E70FE8ED2400184578A52B /* PBXContainerItemProxy */ = {
+		19199E2C1B8DC37999B594B10E157231 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED3AFC0E9905CA362D94DA496A23E2DD;
 			remoteInfo = M13Checkbox;
 		};
-		27B9DE62EECF291D528A721E97B872CE /* PBXContainerItemProxy */ = {
+		1FAAF7DEBD53659D93EC27636E9DE121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D654F4AF9D9D9A8EDA9ADED940869C79;
-			remoteInfo = SimpleButton;
+			remoteGlobalIDString = 2574330C314862F70F170E96ADE0E375;
+			remoteInfo = SkyFloatingLabelTextField;
 		};
-		48FF38CB5AC396B23D3F45B161B136E4 /* PBXContainerItemProxy */ = {
+		5929737933806E1049AD3CF2AA627E2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41CA3C80B957865F2E9D74F163A4F68C;
-			remoteInfo = SWTableViewCell;
+			remoteGlobalIDString = F2CA35526B1640D604F6DF6344C1CB54;
+			remoteInfo = SwiftyJSON;
 		};
-		4C6109B657F748B6A8790D9AE4A1B900 /* PBXContainerItemProxy */ = {
+		9396F0C0962F0BEA90B2AE0396F9F195 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
 			remoteInfo = Alamofire;
 		};
-		7F62C36B4B749C685110FF49778C3A79 /* PBXContainerItemProxy */ = {
+		E0748D08884D7F74261DFE06F84E1461 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7307E819571E138390134DF7822A909;
-			remoteInfo = SwiftyJSON;
+			remoteGlobalIDString = EF427B1C7143E9C2180A9DF136C5C0CD;
+			remoteInfo = SWTableViewCell;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01564263518ADCD60C5531EC5CCB922D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
-		0440CB6EC1F6090830C7A43F23A80B8B /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
-		0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		009A3DC50679AA4CED27062C43807CC3 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		065E4922EC3E1663E9913204086AC4CA /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		105A2F7586A92A3C8C6C10881AE41607 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
 		14D0987EB3AE2D003BF34C3CAAF1BAC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
+		14F3DC773CB3A0303AE791F93EC4F428 /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		15717B8573036C06DD41FD5D3A802504 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C10B54C598FF11BC9D5D7D35CC772E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A1DB14A4C2F405FAE0DBD5D5884851 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		19311416C906EA5E32D038CDFF69A25F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		1ADA151E57FE776C39F25730F18F09DE /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
 		1C740824B0B9075307C9DF68C1E57912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
 		1EA709BC957E41EB87E027E202A8A221 /* Pods-TodoAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		208A41D1ADF482019E95171157DD4DF9 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		210A07E35827B1B14F06FBE3D2716C48 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		21E62336DD55CC4CBA8457CA9318FF53 /* Pods-TodoAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppTests-umbrella.h"; sourceTree = "<group>"; };
-		22CE8833C64863B0959700EAD9C4C136 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
-		23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		263DBCA6F9957A96FF1FC9A271539FB6 /* Pods-TodoAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
-		29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
-		2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
-		30953EBEF3C1741DB673EFE450292FF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2B959F9D5B7F540DD2D78A8B6533B255 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		2BBEF018C1E6ED2C19E48AF8D548D8F5 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		2BCFD9775BFA58D8D756169C291AF8D3 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		2D85A29D222C3FC1E220624BF67DFA93 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		2F810603F2C248BD97CC4EDE8FF9E8D8 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		32A14045BB85ED4F835D57C551FA9AFE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		337D5DD0BFC08A17851CCE389890DA8F /* Pods-TodoAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppTests-dummy.m"; sourceTree = "<group>"; };
-		34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
-		34E630DB1F829E3EF0957D1838B6917D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		353CE1159B1AC78460FC32B3D2DF5809 /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
 		370F86F27AD751EFE1601CA0BF351B48 /* Pods-TodoAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		39EA43A0469A44AB609C0A6CCF784714 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		39FC63450784C6EC7B8BCD41A83B822B /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		3BEAD48B58EB3D012AEF7E3298D94A88 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		3F445DB9BE65B81C17FEFCCAC5549BC7 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		4E085BCDEB70BDC1A9E1ACE205E81DEE /* Pods-TodoAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4ECA32DF3A512EFA9E62F3942CE05B43 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		5072258657E2A3FBF82A0DEBE8FC5D53 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		51053F2E0D59764CCB5D1D91480A8A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
-		543BE017B262CC58EE314F71E085A629 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
-		5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5819AEE58DFC9AF40AF9821FC4CB7A97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
-		5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
-		63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5157C99EADCDB607A8CD6A2B01595346 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		51FD55E50B71DCF08F113F50F319F7D7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		523E893182AD5FEA6CD9F606D74C5CFD /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		567E8085F10225B64B6E01D1FF0852C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0F08DC2B6D59B5304338E3879EA953 /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		60094CC5DBA3A202120F4370B8619A1C /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		61A2BB04245694A705BCDC07FBC8A295 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		634700834FFC5589ADE129492D4F48E7 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
 		63EA7CD1F9BB5FA71164DB4F064C25D4 /* Pods-TodoAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppTests.modulemap"; sourceTree = "<group>"; };
-		65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
-		657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
-		65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		6626B63E24FB52B003851A85E8033983 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		666C25041F7BAD0F552208675E9A6D73 /* Pods-TodoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-resources.sh"; sourceTree = "<group>"; };
-		6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
-		69D16D6E3F71DC1F48E6238501D12AD1 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
-		6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
-		7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
-		756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		77CEE74960A486C9748E128AD20AD433 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		723B53A0FEF235065E19A06E41B622D2 /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73469605DC46E809FFDAF386BCAA80A5 /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74237659C089EDDBF9BDEAF8C7D9A44C /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DA416C1CEE90BF356A5CDBD01ECE5C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		7A134EF9866CC24B595EA01B8469C451 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		7B0A7C2EED9E464545F8B539E52B508E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		7B54DCC961CDD24FD3443EBEA257EEDE /* Pods-TodoAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B952F6B26E9086B7344379401577B86 /* Pods-TodoAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		7BA3102BF6E61546F9079CA97492BDAD /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		7C4ECA4C45ED98F7F10CFEED182C592D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		7D4F8B393AABD7256F84F7447912D3CC /* Pods-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7FE1DC6BDB7CDE4E4129ED269251F101 /* Pods-TodoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
-		86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
-		881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		8458A9F5BD58DCA0500859954A3575D9 /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
 		89824B362142947420D830BF55559DF5 /* Pods-TodoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoApp-frameworks.sh"; sourceTree = "<group>"; };
 		8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
-		8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
-		9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
-		9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		8AEA9C5D900FAE23F097DD21087A4C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE3981A8F93267E83E2426493F716C8 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		8DA6B71D0012887166DFC3ED6B09BE11 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		8E4C54ED74005A1CCABBA063BEDCC389 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BC5020BD006115EDEE97FA808F70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		924334F5051C24E833B74E53203A20DD /* Pods-TodoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoApp.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
-		9A28D52CBD2FD86AE3ECA2F27DAC62B8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		9B021A9C8DC459D22B3A0EB62F35EA81 /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
-		9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		9D6F0D55132E95A41E722CB2D49C22AE /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		94EF5A47377E30DC6CDBDC5388FD0268 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		95BA6C1B121981EDD50DAD7B5A45E71E /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		95E6F2A165561A826409BBC2A27C0E6E /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		9C0E5F1906F3411D2777E0C397107CA2 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		9C8EC115B8066E7DC18FD463E9B1942D /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
 		9E04855EDDE01D322CCE5D1AC8193606 /* Pods-TodoAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoAppUITests-dummy.m"; sourceTree = "<group>"; };
 		A13DFA3C1732F442F1110855CF1A88C4 /* Pods-TodoAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A5C3D321AC763D893F18F6B59AF311DA /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		A5F0EAF965E55137D3B979EDA4B05BD2 /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		A6C960E08660CF0B08C0CE17A0F5E808 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
 		A833B935BCB47F603C79C7B1B46EE01B /* Pods-TodoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoApp-umbrella.h"; sourceTree = "<group>"; };
-		B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B217E685F7A03B7FF736A2A5618063D0 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		A853639CDAB4220BD294E7F4D8CD2C9A /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		A8898F2A26F6BBB1B3E459E9DD55F6D5 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		A8D9687C3A675BE855811FB704A63319 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		ADFEB9AF3EAE6F32DAD23114170751D6 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B1D110188BA5DEC290C6D95368FD68AC /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		B1DAF26692624B467B2FDB6C4764E30F /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		B245C72682AC99FCBC7F50E550BB0F2C /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
 		B2A135D44D861E91A72E788AB4B71FE7 /* Pods-TodoAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppUITests-resources.sh"; sourceTree = "<group>"; };
+		B37030159CF357960AC3EEF64C18CE73 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B70CC75C828FE18C1053FA75D963D025 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
-		BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		B5346DA36A0B4F2FD1BE85E250DE537B /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		B661488AF9808294510FE53183247825 /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		B6642CA0C2DA004A0A30BD2C593C6D5C /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		BEFDA6AF8D841367A8FCA6C4A47961B5 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		C0735A8BB318E85D045E00108BFB79BC /* Pods-TodoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoApp-dummy.m"; sourceTree = "<group>"; };
-		C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		C36D62A52136AEB1F94F8B0A8ABD4C60 /* Pods-TodoAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodoAppTests-resources.sh"; sourceTree = "<group>"; };
-		C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
-		CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
-		CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		CEB26EDCD95DD7EA5361EA8AE7ED8ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
-		D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		C3C77F4EF63BF4E026E941E2E7CFEF2E /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		C60FD331F2986AF80E618442E08E5D75 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		CBFD761F7AD82C12F24A2845623947DB /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27390D0BD61D1EBBE698484AB873C9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D2E64073FAB8051ACC599364ACB78317 /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
 		D356CF32796093931DBF2E4C20749A00 /* Pods-TodoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6CA801130DE6D8800718C9D97802496 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		D70A984336FF0255FF757FE6898D2808 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		D7C82DEF686CC1A0F53913AB75338BE7 /* Pods-TodoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
-		E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
-		E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
-		E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84E094BD7C03815C4BC0806AB7C0500 /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		DCA358CBD0EA35DDC0ED16592F6E60CF /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		DCBE2E1AF84BEC89BD481EA497603F89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE21999B74997F83095A0629C17F98AC /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED7A68B58B16DAC066F6F7991D60A8E /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		E24CBD1406F3D575BA8ED9EBF263E50B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C38B13F09BD46F0A9D6BFADB09FC48 /* Pods-TodoAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TodoAppUITests.modulemap"; sourceTree = "<group>"; };
-		E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
-		E84A20E04F6CF828E0911924956571F9 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
-		EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
-		F0E989ACA6E39AB87D2210FF948CD33B /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleButton.modulemap; sourceTree = "<group>"; };
+		E6E1B786700A1975326177CF3BA99104 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		E84DBA8D32E5016CD759B4C0D33E816A /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		EDEE58DBC50A45F6685156942C52BD54 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		EE031573449123049B38227009F4A04D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB1DE9E3627A5D25C035B9BAB57E1DD /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		EF7F13C190195377462249DACF01E1FC /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
 		F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
-		F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
-		F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
-		FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		F4C9782D5ABB75053823842B2F64DBA1 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		F81AAD96B31AD806A9A4E85A2D0F38EF /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		FC59A96DB57CBBF85F31F1C54C387A2C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2BB41769703A0FD5A1AD540BCE47A93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF06127F36C319C69E7F74C61332CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EDAC650B0F26ED9244877DFA33B179 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,27 +273,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		780712437BA86216ACFDA1E4A8A030A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32D2F53EA98D14D049222BA5432AE0B0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84AB09DEB7D0BC1CA21C2122D3AC790A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF2D085F1407DC19DA8EB881D2A869BD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A30E0FCF6514529D9ECE6FA43AEC4A4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BFCB4082DD7F88162745D5BEDDAB63E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119000C360BA414DD1CF44AB3CBE4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B96C72F7AA20CB5A9C21B67E47DC4A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,19 +297,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D164E721E4A505C58C6C8679CFA2BC24 /* Frameworks */ = {
+		E47E741F1F04AA3E0D580056495A6A12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FC9379E48C803F717BAA3158E3FD15 /* Foundation.framework in Frameworks */,
+				86B49B1D1738A3254565D3051EAF83C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2A26FD2A468A033596D9D863F1FC09F /* Frameworks */ = {
+		F770E9B0FCAF11BA026BC505303E8447 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B4A2D07D19BCA2FCD231250DED5B20 /* Foundation.framework in Frameworks */,
+				4AD11815C1D67960882B0F4D093364F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,37 +326,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0A70F78B7EAA0FD92D5159E902A1E13B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				30953EBEF3C1741DB673EFE450292FF1 /* Info.plist */,
-				4ECA32DF3A512EFA9E62F3942CE05B43 /* SwiftyJSON.modulemap */,
-				9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */,
-				A7A1C15766CB96008520966238ED7080 /* SwiftyJSON-dummy.m */,
-				9D6F0D55132E95A41E722CB2D49C22AE /* SwiftyJSON-prefix.pch */,
-				4C0DD99C4ED0796AE7C5695EE9DDDFC2 /* SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15C719375EC97CBC32549700D847048C /* SimpleButton */ = {
-			isa = PBXGroup;
-			children = (
-				86F7BD585F70019EFAA45002C256A13B /* SimpleButton.swift */,
-				6A8B5183522ED0C982542D464DC47BB5 /* SimpleButtonControlState.swift */,
-				19B49A9414DF526F3C2C3D2707649230 /* SimpleButtonStateChangeValue.swift */,
-				B840114D47094B9BD37BBE72A846FF56 /* Support Files */,
-			);
-			path = SimpleButton;
 			sourceTree = "<group>";
 		};
 		18DBC6D7CAF03427C768BBC33FF386AE /* Pods-TodoApp */ = {
@@ -377,65 +352,29 @@
 			path = "Target Support Files/Pods-TodoApp";
 			sourceTree = "<group>";
 		};
-		3685937B14A021FAE102285AD96F491E /* Pods */ = {
+		4DE47B7C249E901CAE350D7A2C8DFA5C /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				ED392A8184FCB91416E371F6C6106FBE /* Alamofire */,
-				8956C20436252D16D7FB02445B2C8698 /* M13Checkbox */,
-				15C719375EC97CBC32549700D847048C /* SimpleButton */,
-				EEBC16054143D6528141DF75C092DD19 /* SwiftyJSON */,
-				54D22AFF1E692D366AA86CC70676D0BB /* SWTableViewCell */,
+				2B959F9D5B7F540DD2D78A8B6533B255 /* Alamofire.swift */,
+				A5C3D321AC763D893F18F6B59AF311DA /* Download.swift */,
+				F4C9782D5ABB75053823842B2F64DBA1 /* Error.swift */,
+				7A134EF9866CC24B595EA01B8469C451 /* Manager.swift */,
+				E6E1B786700A1975326177CF3BA99104 /* MultipartFormData.swift */,
+				FC59A96DB57CBBF85F31F1C54C387A2C /* NetworkReachabilityManager.swift */,
+				3BEAD48B58EB3D012AEF7E3298D94A88 /* Notifications.swift */,
+				7C4ECA4C45ED98F7F10CFEED182C592D /* ParameterEncoding.swift */,
+				7B0A7C2EED9E464545F8B539E52B508E /* Request.swift */,
+				210A07E35827B1B14F06FBE3D2716C48 /* Response.swift */,
+				77DA416C1CEE90BF356A5CDBD01ECE5C /* ResponseSerialization.swift */,
+				B37030159CF357960AC3EEF64C18CE73 /* Result.swift */,
+				61A2BB04245694A705BCDC07FBC8A295 /* ServerTrustPolicy.swift */,
+				51FD55E50B71DCF08F113F50F319F7D7 /* Stream.swift */,
+				065E4922EC3E1663E9913204086AC4CA /* Timeline.swift */,
+				A853639CDAB4220BD294E7F4D8CD2C9A /* Upload.swift */,
+				CE27390D0BD61D1EBBE698484AB873C9 /* Validation.swift */,
+				6E1EE0C47B66896F765077C305B386EB /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3B5992B609C64A58CE733A1288BF3C2A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */,
-				E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */,
-				756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */,
-				44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */,
-				B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */,
-				5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */,
-				5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */,
-				23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C5EE55B2033A920B646D585737D25A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A28D52CBD2FD86AE3ECA2F27DAC62B8 /* Alamofire.modulemap */,
-				0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */,
-				CB55E773C64B2527E4C6D0BD20E8D186 /* Alamofire-dummy.m */,
-				E84A20E04F6CF828E0911924956571F9 /* Alamofire-prefix.pch */,
-				0C98ED91F426341D7A3A3D3E378F3BC3 /* Alamofire-umbrella.h */,
-				B70CC75C828FE18C1053FA75D963D025 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		54D22AFF1E692D366AA86CC70676D0BB /* SWTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				E730A868E8628BEA259ADA19A086F210 /* NSMutableArray+SWUtilityButtons.h */,
-				539CBFC9F01E70070D9C2E99FF0D8E40 /* NSMutableArray+SWUtilityButtons.m */,
-				BB882F0DB6756D8708A7014700228D2F /* SWCellScrollView.h */,
-				8A6DFA2A7AAAAB112EF39D818093BBB9 /* SWCellScrollView.m */,
-				29A9F1CBA545392A5FE41495CFEB52DA /* SWLongPressGestureRecognizer.h */,
-				EBEFE513BAC43A10881CD4FB3E2830B1 /* SWLongPressGestureRecognizer.m */,
-				F9FC489428EE64C4BD3986C30AF75468 /* SWTableViewCell.h */,
-				CA2F90504A0486057C1266684EA9A57D /* SWTableViewCell.m */,
-				212426036C4E1BB7CA6C790C437BF7CB /* SWUtilityButtonTapGestureRecognizer.h */,
-				5512641F691D46F912DF3876EB0903B5 /* SWUtilityButtonTapGestureRecognizer.m */,
-				D04058018899CE59DB47079C084A359D /* SWUtilityButtonView.h */,
-				9110E7D278B6A44031BE0834C2938CB4 /* SWUtilityButtonView.m */,
-				78B3841F47D7B8DC44449B1C70717EA2 /* Support Files */,
-			);
-			path = SWTableViewCell;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		69049980A3C5198EC4F854DAA5E2C09D /* Pods-TodoAppTests */ = {
@@ -456,18 +395,18 @@
 			path = "Target Support Files/Pods-TodoAppTests";
 			sourceTree = "<group>";
 		};
-		78B3841F47D7B8DC44449B1C70717EA2 /* Support Files */ = {
+		6E1EE0C47B66896F765077C305B386EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				01564263518ADCD60C5531EC5CCB922D /* Info.plist */,
-				9B021A9C8DC459D22B3A0EB62F35EA81 /* SWTableViewCell.modulemap */,
-				E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */,
-				FE70B02FC4DB4417B3C1676D406F3768 /* SWTableViewCell-dummy.m */,
-				0440CB6EC1F6090830C7A43F23A80B8B /* SWTableViewCell-prefix.pch */,
-				9694C55517236FDC780C1BEE1365684A /* SWTableViewCell-umbrella.h */,
+				39EA43A0469A44AB609C0A6CCF784714 /* Alamofire.modulemap */,
+				19311416C906EA5E32D038CDFF69A25F /* Alamofire.xcconfig */,
+				E24CBD1406F3D575BA8ED9EBF263E50B /* Alamofire-dummy.m */,
+				32A14045BB85ED4F835D57C551FA9AFE /* Alamofire-prefix.pch */,
+				ADFEB9AF3EAE6F32DAD23114170751D6 /* Alamofire-umbrella.h */,
+				DCBE2E1AF84BEC89BD481EA497603F89 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SWTableViewCell";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -475,34 +414,44 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				3685937B14A021FAE102285AD96F491E /* Pods */,
-				3B5992B609C64A58CE733A1288BF3C2A /* Products */,
+				A7683472304F1CF1F69BC31007AAB20C /* Pods */,
+				B82E2361AE05B079F7BD43CA74A01CD5 /* Products */,
 				9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8956C20436252D16D7FB02445B2C8698 /* M13Checkbox */ = {
+		7EDF52DF40A6EB87648DD94D215F1DB7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A771437B457674716EF0569AD1159D6 /* M13Checkbox.swift */,
-				F62C571B32DD35AE1A140A6F4E9C69FA /* M13Checkbox+IB.swift */,
-				EABFCC9C420F2E160D27DE300EC32C48 /* M13CheckboxAnimationPresets.swift */,
-				881CD670BAF71559DC920437D1B3963D /* M13CheckboxBounceManager.swift */,
-				7523A7C728C090879A807C4C020C29E6 /* M13CheckboxDotManager.swift */,
-				E007957AC6CADE8922AA555D92094DD3 /* M13CheckboxDotPathPresets.swift */,
-				28C8246DF59E977D42F22543ED62A1D1 /* M13CheckboxExpandManager.swift */,
-				C6C811F80248732CF3A87FDF7A740F23 /* M13CheckboxFadeManager.swift */,
-				4D21116CE7450876D2050B3EAC18DABE /* M13CheckboxFillManager.swift */,
-				BE4AD6CBC14664E6E6B4F54444431CB5 /* M13CheckboxFlatManager.swift */,
-				1CBB92A2F30851D6B35224A8A1F08CC3 /* M13CheckboxGestureRecognizer.swift */,
-				01E5D7CFAA48665942BE6C3A2771C0BB /* M13CheckboxManager.swift */,
-				657FB58168ABCF24F18EC10EFC41D081 /* M13CheckboxPathPresets.swift */,
-				65542F78E255401A9DD2BB962CB3EE87 /* M13CheckboxSpiralManager.swift */,
-				68D46751C24C07B01D11910978FCA57E /* M13CheckboxSpiralPathPresets.swift */,
-				DDCD487F56EF99240A6BDE92820A388A /* M13CheckboxStrokeManager.swift */,
-				D37453C220FD52195D1FA363F82E4A76 /* Support Files */,
+				8AEA9C5D900FAE23F097DD21087A4C6A /* Info.plist */,
+				17A1DB14A4C2F405FAE0DBD5D5884851 /* SkyFloatingLabelTextField.modulemap */,
+				EF7F13C190195377462249DACF01E1FC /* SkyFloatingLabelTextField.xcconfig */,
+				DED7A68B58B16DAC066F6F7991D60A8E /* SkyFloatingLabelTextField-dummy.m */,
+				BEFDA6AF8D841367A8FCA6C4A47961B5 /* SkyFloatingLabelTextField-prefix.pch */,
+				6626B63E24FB52B003851A85E8033983 /* SkyFloatingLabelTextField-umbrella.h */,
 			);
-			path = M13Checkbox;
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		8E624EEFA8C3A81431B67FFD7C478642 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA151E57FE776C39F25730F18F09DE /* NSMutableArray+SWUtilityButtons.h */,
+				C60FD331F2986AF80E618442E08E5D75 /* NSMutableArray+SWUtilityButtons.m */,
+				94EF5A47377E30DC6CDBDC5388FD0268 /* SWCellScrollView.h */,
+				E84DBA8D32E5016CD759B4C0D33E816A /* SWCellScrollView.m */,
+				B6642CA0C2DA004A0A30BD2C593C6D5C /* SWLongPressGestureRecognizer.h */,
+				8BE3981A8F93267E83E2426493F716C8 /* SWLongPressGestureRecognizer.m */,
+				B245C72682AC99FCBC7F50E550BB0F2C /* SWTableViewCell.h */,
+				8DA6B71D0012887166DFC3ED6B09BE11 /* SWTableViewCell.m */,
+				5157C99EADCDB607A8CD6A2B01595346 /* SWUtilityButtonTapGestureRecognizer.h */,
+				95E6F2A165561A826409BBC2A27C0E6E /* SWUtilityButtonTapGestureRecognizer.m */,
+				EDEE58DBC50A45F6685156942C52BD54 /* SWUtilityButtonView.h */,
+				DCA358CBD0EA35DDC0ED16592F6E60CF /* SWUtilityButtonView.m */,
+				A57A72AF317BB1289EFA94628C056495 /* Support Files */,
+			);
+			path = SWTableViewCell;
 			sourceTree = "<group>";
 		};
 		9ADE2007E750CB300CCA67FB28022DC7 /* Targets Support Files */ = {
@@ -515,18 +464,59 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B840114D47094B9BD37BBE72A846FF56 /* Support Files */ = {
+		A57A72AF317BB1289EFA94628C056495 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5819AEE58DFC9AF40AF9821FC4CB7A97 /* Info.plist */,
-				F0E989ACA6E39AB87D2210FF948CD33B /* SimpleButton.modulemap */,
-				CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */,
-				F48D5BAAE27C333B395F5F3AEA5B03BB /* SimpleButton-dummy.m */,
-				22CE8833C64863B0959700EAD9C4C136 /* SimpleButton-prefix.pch */,
-				34C17FAE8F739C154CC0C1F661188446 /* SimpleButton-umbrella.h */,
+				9200BC5020BD006115EDEE97FA808F70 /* Info.plist */,
+				F81AAD96B31AD806A9A4E85A2D0F38EF /* SWTableViewCell.modulemap */,
+				C3C77F4EF63BF4E026E941E2E7CFEF2E /* SWTableViewCell.xcconfig */,
+				2F810603F2C248BD97CC4EDE8FF9E8D8 /* SWTableViewCell-dummy.m */,
+				D84E094BD7C03815C4BC0806AB7C0500 /* SWTableViewCell-prefix.pch */,
+				5D0F08DC2B6D59B5304338E3879EA953 /* SWTableViewCell-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SimpleButton";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		A7683472304F1CF1F69BC31007AAB20C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE47B7C249E901CAE350D7A2C8DFA5C /* Alamofire */,
+				FC509B69D841E25E0D7164F9B098666C /* M13Checkbox */,
+				DDC652FDA7CDE39133A7DB378F4B5579 /* SkyFloatingLabelTextField */,
+				FACBB2F3A91ECA3A261C55CE7F94C939 /* SwiftyJSON */,
+				8E624EEFA8C3A81431B67FFD7C478642 /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B82E2361AE05B079F7BD43CA74A01CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4C54ED74005A1CCABBA063BEDCC389 /* Alamofire.framework */,
+				EE031573449123049B38227009F4A04D /* M13Checkbox.framework */,
+				723B53A0FEF235065E19A06E41B622D2 /* Pods_TodoApp.framework */,
+				73469605DC46E809FFDAF386BCAA80A5 /* Pods_TodoAppTests.framework */,
+				DE21999B74997F83095A0629C17F98AC /* Pods_TodoAppUITests.framework */,
+				74237659C089EDDBF9BDEAF8C7D9A44C /* SkyFloatingLabelTextField.framework */,
+				CBFD761F7AD82C12F24A2845623947DB /* SwiftyJSON.framework */,
+				15717B8573036C06DD41FD5D3A802504 /* SWTableViewCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD47999692E0FD8C57724BAE63D6D263 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				567E8085F10225B64B6E01D1FF0852C1 /* Info.plist */,
+				3F445DB9BE65B81C17FEFCCAC5549BC7 /* SwiftyJSON.modulemap */,
+				7BA3102BF6E61546F9079CA97492BDAD /* SwiftyJSON.xcconfig */,
+				B1DAF26692624B467B2FDB6C4764E30F /* SwiftyJSON-dummy.m */,
+				009A3DC50679AA4CED27062C43807CC3 /* SwiftyJSON-prefix.pch */,
+				EEB1DE9E3627A5D25C035B9BAB57E1DD /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		CDFB9715EC892F580449003EAC9A4D26 /* Pods-TodoAppUITests */ = {
@@ -547,62 +537,78 @@
 			path = "Target Support Files/Pods-TodoAppUITests";
 			sourceTree = "<group>";
 		};
-		D37453C220FD52195D1FA363F82E4A76 /* Support Files */ = {
+		DDC652FDA7CDE39133A7DB378F4B5579 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				CEB26EDCD95DD7EA5361EA8AE7ED8ABF /* Info.plist */,
-				69D16D6E3F71DC1F48E6238501D12AD1 /* M13Checkbox.modulemap */,
-				593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */,
-				600BDA82AF7046F155637C8C87A4689D /* M13Checkbox-dummy.m */,
-				B217E685F7A03B7FF736A2A5618063D0 /* M13Checkbox-prefix.pch */,
-				8019739A384F5346077FF3C8E29FB431 /* M13Checkbox-umbrella.h */,
+				2D85A29D222C3FC1E220624BF67DFA93 /* SkyFloatingLabelTextField.swift */,
+				5072258657E2A3FBF82A0DEBE8FC5D53 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				D70A984336FF0255FF757FE6898D2808 /* UITextField+fixCaretPosition.swift */,
+				7EDF52DF40A6EB87648DD94D215F1DB7 /* Support Files */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		E5D05E84BD1B4A8345F1F5153998E220 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C10B54C598FF11BC9D5D7D35CC772E /* Info.plist */,
+				634700834FFC5589ADE129492D4F48E7 /* M13Checkbox.modulemap */,
+				208A41D1ADF482019E95171157DD4DF9 /* M13Checkbox.xcconfig */,
+				B1D110188BA5DEC290C6D95368FD68AC /* M13Checkbox-dummy.m */,
+				B5346DA36A0B4F2FD1BE85E250DE537B /* M13Checkbox-prefix.pch */,
+				2BBEF018C1E6ED2C19E48AF8D548D8F5 /* M13Checkbox-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/M13Checkbox";
 			sourceTree = "<group>";
 		};
-		ED392A8184FCB91416E371F6C6106FBE /* Alamofire */ = {
+		FACBB2F3A91ECA3A261C55CE7F94C939 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				264325264CE1D5E30A2D7F3B02ACC85E /* Alamofire.swift */,
-				17BF2104779CAF3B52AAE06A1F94ABDB /* Download.swift */,
-				34E630DB1F829E3EF0957D1838B6917D /* Error.swift */,
-				D6CA801130DE6D8800718C9D97802496 /* Manager.swift */,
-				C0A530ACF569D1AEE0874B3EFAECA6F9 /* MultipartFormData.swift */,
-				75BF53DB2D0C3FA89FB4432A2B084D21 /* NetworkReachabilityManager.swift */,
-				23ABF1B6BB2B1FE066692D37F1031EB1 /* Notifications.swift */,
-				6684D98C0864B971F5CFC97D3F1C17C8 /* ParameterEncoding.swift */,
-				320CA7F195DA28E67F40E238BDFD80A0 /* Request.swift */,
-				77CEE74960A486C9748E128AD20AD433 /* Response.swift */,
-				86C5144F68543530276474009FA198ED /* ResponseSerialization.swift */,
-				543BE017B262CC58EE314F71E085A629 /* Result.swift */,
-				9BAEE35EAC4B340EAAA0A8262248B556 /* ServerTrustPolicy.swift */,
-				4A8D4F7AD054470C3BB2F57F99EE884E /* Stream.swift */,
-				5F2B0EFB67C4DA2FEBB0B15A70C21577 /* Timeline.swift */,
-				65D806BD027E5BEC0A2AC49F3A62F26A /* Upload.swift */,
-				63B5F6225ECA09FE34DEA27526409D8D /* Validation.swift */,
-				4C5EE55B2033A920B646D585737D25A6 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		EEBC16054143D6528141DF75C092DD19 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				375FCB68D3500458582C0111CAEFF2C5 /* SwiftyJSON.swift */,
-				0A70F78B7EAA0FD92D5159E902A1E13B /* Support Files */,
+				95BA6C1B121981EDD50DAD7B5A45E71E /* SwiftyJSON.swift */,
+				BD47999692E0FD8C57724BAE63D6D263 /* Support Files */,
 			);
 			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		FC509B69D841E25E0D7164F9B098666C /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				A8898F2A26F6BBB1B3E459E9DD55F6D5 /* M13Checkbox.swift */,
+				39FC63450784C6EC7B8BCD41A83B822B /* M13Checkbox+IB.swift */,
+				A6C960E08660CF0B08C0CE17A0F5E808 /* M13CheckboxAnimationPresets.swift */,
+				A5F0EAF965E55137D3B979EDA4B05BD2 /* M13CheckboxBounceManager.swift */,
+				353CE1159B1AC78460FC32B3D2DF5809 /* M13CheckboxDotManager.swift */,
+				A8D9687C3A675BE855811FB704A63319 /* M13CheckboxDotPathPresets.swift */,
+				9C8EC115B8066E7DC18FD463E9B1942D /* M13CheckboxExpandManager.swift */,
+				9C0E5F1906F3411D2777E0C397107CA2 /* M13CheckboxFadeManager.swift */,
+				14F3DC773CB3A0303AE791F93EC4F428 /* M13CheckboxFillManager.swift */,
+				B661488AF9808294510FE53183247825 /* M13CheckboxFlatManager.swift */,
+				105A2F7586A92A3C8C6C10881AE41607 /* M13CheckboxGestureRecognizer.swift */,
+				60094CC5DBA3A202120F4370B8619A1C /* M13CheckboxManager.swift */,
+				8458A9F5BD58DCA0500859954A3575D9 /* M13CheckboxPathPresets.swift */,
+				2BCFD9775BFA58D8D756169C291AF8D3 /* M13CheckboxSpiralManager.swift */,
+				523E893182AD5FEA6CD9F606D74C5CFD /* M13CheckboxSpiralPathPresets.swift */,
+				D2E64073FAB8051ACC599364ACB78317 /* M13CheckboxStrokeManager.swift */,
+				E5D05E84BD1B4A8345F1F5153998E220 /* Support Files */,
+			);
+			path = M13Checkbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D74647006E5230CB0CDA51BCC4AAB15 /* Headers */ = {
+		1CB8723D889787FB8AFB93F986961D03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DE66D9A84652F2DFE2B263A0BDD63E /* Pods-TodoApp-umbrella.h in Headers */,
+				22ABA833F180A6179B4E67BB50919ADA /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				D6D5F2A0454DD2A73BAB8D1FB5BD737B /* SWCellScrollView.h in Headers */,
+				E94F5C564FCCBE898362DDA583EB315E /* SWLongPressGestureRecognizer.h in Headers */,
+				E6F2028042598A3866499199B044666B /* SWTableViewCell-umbrella.h in Headers */,
+				29A3DDCB3EAA8D638DF464C1A466D518 /* SWTableViewCell.h in Headers */,
+				BFE2BEFCE3FFE57602ADC2B5E6BA8C66 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				28F00C1B71AE4691D82E90C9F9066356 /* SWUtilityButtonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,17 +620,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		560221E49366F0E0E4593456E14BC450 /* Headers */ = {
+		34EFF70EB7A33AE3B6D597D74B286738 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1E738884BEB0E3D33041B96E236DDD /* NSMutableArray+SWUtilityButtons.h in Headers */,
-				2EA0DCC95A8294FB36FA2CF9B6D60DE6 /* SWCellScrollView.h in Headers */,
-				EE225AC747F1180CA8642C9728C62AEB /* SWLongPressGestureRecognizer.h in Headers */,
-				1C31C782879603F79A73CDBF8A98A6C6 /* SWTableViewCell-umbrella.h in Headers */,
-				B86760BE576C0CE035634A4C6457E4C0 /* SWTableViewCell.h in Headers */,
-				25791C2A3CB8F703766AE29251CD07AB /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
-				F55A91084BEAFF288FBDC3D66924C826 /* SWUtilityButtonView.h in Headers */,
+				15B1603BCB8086F9A72613CF17829380 /* Pods-TodoApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,27 +644,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E832F7F382A042BC185505BA6A8165F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B8948B6BDDD7704B7E6F236F204D3D /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AD0FDAB8681946F500DBBDE8D29F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B00F896A323E31E0CED63A2BAC724D /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB7FB947902C5044D16137A3E9336030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				686F799FEDC260E03C7EE9412A174334 /* SimpleButton-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC88FA08C0544E13A7D1E4CA8C62F0BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E0726E6FC9E61FE9F06C0A8372ADBAF /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,24 +685,24 @@
 			);
 			name = "Pods-TodoAppTests";
 			productName = "Pods-TodoAppTests";
-			productReference = 44797D0D903F1B4E48778FC93B53A77F /* Pods_TodoAppTests.framework */;
+			productReference = 73469605DC46E809FFDAF386BCAA80A5 /* Pods_TodoAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */ = {
+		2574330C314862F70F170E96ADE0E375 /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D7630637272D1FF264611BD3CB86E0 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildConfigurationList = 41623BEDC40907C226AA687F02D8686F /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				C33ABD70271A56565B6CF66D9FE1F21E /* Sources */,
-				780712437BA86216ACFDA1E4A8A030A7 /* Frameworks */,
-				560221E49366F0E0E4593456E14BC450 /* Headers */,
+				BFF0DA600713F1B64973193C28A32A6F /* Sources */,
+				B119000C360BA414DD1CF44AB3CBE4DF /* Frameworks */,
+				E832F7F382A042BC185505BA6A8165F5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SWTableViewCell;
-			productName = SWTableViewCell;
-			productReference = 23F9C127DAB27BC080D829430B9D70C1 /* SWTableViewCell.framework */;
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 74237659C089EDDBF9BDEAF8C7D9A44C /* SkyFloatingLabelTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
@@ -719,63 +719,29 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 4B98D3AFEAF1C3E18ED818D3A3AFFBAA /* Alamofire.framework */;
+			productReference = 8E4C54ED74005A1CCABBA063BEDCC389 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */ = {
+		B3096EA38038B8ACE27CD58E7D040D24 /* Pods-TodoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3CF5AA8665D5D12D0BC1A3C159F2175 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
+			buildConfigurationList = 6D6BAA6ECA1538E0AED1130F9AB504B5 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */;
 			buildPhases = (
-				2EA5D1F907F4B863A8560055AD3C8615 /* Sources */,
-				D164E721E4A505C58C6C8679CFA2BC24 /* Frameworks */,
-				FB7FB947902C5044D16137A3E9336030 /* Headers */,
+				926B10A2D1318F4D1BA0A1888EE6B813 /* Sources */,
+				2BF06127F36C319C69E7F74C61332CFC /* Frameworks */,
+				34EFF70EB7A33AE3B6D597D74B286738 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SimpleButton;
-			productName = SimpleButton;
-			productReference = 5B5898016F5098174B7B2368907200E1 /* SimpleButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D7307E819571E138390134DF7822A909 /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1359371E734D52D6906DB4516391CD90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				DE53A5EB1F0B566242CAE490D6ADA39B /* Sources */,
-				F2A26FD2A468A033596D9D863F1FC09F /* Frameworks */,
-				FC88FA08C0544E13A7D1E4CA8C62F0BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = 5777E870C4CE603826E12D0F9EB70BE7 /* SwiftyJSON.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EA534C6DC0502230348889DE4F05EEE5 /* Pods-TodoApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4917F170403EDC8CEFB69BF5E9F50A42 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */;
-			buildPhases = (
-				A4836B69EEDF4D2688FE0703D28BC9E1 /* Sources */,
-				84AB09DEB7D0BC1CA21C2122D3AC790A /* Frameworks */,
-				1D74647006E5230CB0CDA51BCC4AAB15 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB29BAD44F6BD3610DEE8CD29032C43C /* PBXTargetDependency */,
-				F7AEF170312A71AA3DAA59A4CB98E6B4 /* PBXTargetDependency */,
-				8F78C06A5A968BD217CF732E0F32D98F /* PBXTargetDependency */,
-				596188A5C7F6103A97D0E03BE8ED3C23 /* PBXTargetDependency */,
-				2088A024FAA38B6517786BDC02EB8B55 /* PBXTargetDependency */,
+				D8556544152489951C5ED378BF38EC44 /* PBXTargetDependency */,
+				DC18F58C56FA48FD9A43156C529AB2E8 /* PBXTargetDependency */,
+				DF3BA68194562CCC20FB8A2FA3B03140 /* PBXTargetDependency */,
+				D94F58F3D9B2D16E4AE6BA8634586A52 /* PBXTargetDependency */,
+				EA8908BFA86EF17D27B4A4A916EDC0FB /* PBXTargetDependency */,
 			);
 			name = "Pods-TodoApp";
 			productName = "Pods-TodoApp";
-			productReference = 756574F274EEDE51F347630EADE01D11 /* Pods_TodoApp.framework */;
+			productReference = 723B53A0FEF235065E19A06E41B622D2 /* Pods_TodoApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */ = {
@@ -792,7 +758,41 @@
 			);
 			name = M13Checkbox;
 			productName = M13Checkbox;
-			productReference = E3935A9B992ECC9BF8D673C008843BC2 /* M13Checkbox.framework */;
+			productReference = EE031573449123049B38227009F4A04D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF427B1C7143E9C2180A9DF136C5C0CD /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9E44A9EDCA8BF5B05ACC96491E2FD /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				BFBE7E5495009918B892F6DF99E9E09F /* Sources */,
+				E47E741F1F04AA3E0D580056495A6A12 /* Frameworks */,
+				1CB8723D889787FB8AFB93F986961D03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = 15717B8573036C06DD41FD5D3A802504 /* SWTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2CA35526B1640D604F6DF6344C1CB54 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101D73B8B60BE5B967DA3A5B726EF460 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				1265ECD5D284F0A73D5F423074096CA9 /* Sources */,
+				F770E9B0FCAF11BA026BC505303E8447 /* Frameworks */,
+				EC4AD0FDAB8681946F500DBBDE8D29F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = CBFD761F7AD82C12F24A2845623947DB /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */ = {
@@ -809,7 +809,7 @@
 			);
 			name = "Pods-TodoAppUITests";
 			productName = "Pods-TodoAppUITests";
-			productReference = B0735FCB0C7D3C3555A9B1B3F5A81B03 /* Pods_TodoAppUITests.framework */;
+			productReference = DE21999B74997F83095A0629C17F98AC /* Pods_TodoAppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -829,18 +829,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B5992B609C64A58CE733A1288BF3C2A /* Products */;
+			productRefGroup = B82E2361AE05B079F7BD43CA74A01CD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
 				ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */,
-				EA534C6DC0502230348889DE4F05EEE5 /* Pods-TodoApp */,
+				B3096EA38038B8ACE27CD58E7D040D24 /* Pods-TodoApp */,
 				02BAEE0F72C64013C17D4D2C2FF48041 /* Pods-TodoAppTests */,
 				F4306FEFEF4512F8E75AC7BD6007F865 /* Pods-TodoAppUITests */,
-				D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */,
-				D7307E819571E138390134DF7822A909 /* SwiftyJSON */,
-				41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */,
+				2574330C314862F70F170E96ADE0E375 /* SkyFloatingLabelTextField */,
+				F2CA35526B1640D604F6DF6344C1CB54 /* SwiftyJSON */,
+				EF427B1C7143E9C2180A9DF136C5C0CD /* SWTableViewCell */,
 			);
 		};
 /* End PBXProject section */
@@ -854,14 +854,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EA5D1F907F4B863A8560055AD3C8615 /* Sources */ = {
+		1265ECD5D284F0A73D5F423074096CA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027FD7C0AEEF35C82E0DE8584F46BA66 /* SimpleButton-dummy.m in Sources */,
-				20EBAF02BA86134705F3DCEEC3A24A83 /* SimpleButton.swift in Sources */,
-				720F87FBF6AF1FEED62DDD8094EA9924 /* SimpleButtonControlState.swift in Sources */,
-				BAAFDB41B42921ECE9958236BEF0E5F7 /* SimpleButtonStateChangeValue.swift in Sources */,
+				0C1BD865068078C729DFF05DE5BF6B74 /* SwiftyJSON-dummy.m in Sources */,
+				01EFE78DC678B8048A5DEBD0CCBBB66D /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,6 +895,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		926B10A2D1318F4D1BA0A1888EE6B813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AD11EF96CF4D09718A989C96799FF /* Pods-TodoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -922,69 +928,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4836B69EEDF4D2688FE0703D28BC9E1 /* Sources */ = {
+		BFBE7E5495009918B892F6DF99E9E09F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E51ED136A662BAA2FAA131DEE1FF3D3 /* Pods-TodoApp-dummy.m in Sources */,
+				77BBBD85771E40FE0919F92551225D2B /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				C0DA7B77FCB34AB3D1CD0432302A2AAB /* SWCellScrollView.m in Sources */,
+				6E73515A1F6FBC98BDAB48E8D2953FAA /* SWLongPressGestureRecognizer.m in Sources */,
+				FFBAECC014641B09A0B4BD6F1D1D0AAA /* SWTableViewCell-dummy.m in Sources */,
+				9B2CB996505E430B6625CB38F93300AA /* SWTableViewCell.m in Sources */,
+				F2D205AE24B6F36C381DD3FC54837A9F /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				BA03E38D9BA96E6864136B84E578F018 /* SWUtilityButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C33ABD70271A56565B6CF66D9FE1F21E /* Sources */ = {
+		BFF0DA600713F1B64973193C28A32A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6843B2D871B319078886511335DA3222 /* NSMutableArray+SWUtilityButtons.m in Sources */,
-				FF05489D168D7054D7CC9B38086DAEBC /* SWCellScrollView.m in Sources */,
-				683C42EC5C9F4AE0CA7ED0E7E01B90AF /* SWLongPressGestureRecognizer.m in Sources */,
-				70F1230EC475EDA2318558090274905F /* SWTableViewCell-dummy.m in Sources */,
-				739E6FF20FE93BA864E4C501CCD641A8 /* SWTableViewCell.m in Sources */,
-				5DCAC3918F96CB6DAC23315F8E1A5F2F /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
-				F84B5086072C499BE4E6AE40A6A967E4 /* SWUtilityButtonView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE53A5EB1F0B566242CAE490D6ADA39B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEA128FE76034CFB24171D64C0D3F2B7 /* SwiftyJSON-dummy.m in Sources */,
-				C0186059ABD58DB139E204DE84B0AC9F /* SwiftyJSON.swift in Sources */,
+				C203A8785523106ABE82986B66D78EEF /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				E0638697F64BDFC11AFD87BCFB4287D5 /* SkyFloatingLabelTextField.swift in Sources */,
+				7B1E2DF0A23BDDE9EB2CD647AAF1F2C9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				505ECEF2C0384E0FF841F021C180329B /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2088A024FAA38B6517786BDC02EB8B55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D7307E819571E138390134DF7822A909 /* SwiftyJSON */;
-			targetProxy = 7F62C36B4B749C685110FF49778C3A79 /* PBXContainerItemProxy */;
-		};
-		596188A5C7F6103A97D0E03BE8ED3C23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleButton;
-			target = D654F4AF9D9D9A8EDA9ADED940869C79 /* SimpleButton */;
-			targetProxy = 27B9DE62EECF291D528A721E97B872CE /* PBXContainerItemProxy */;
-		};
-		8F78C06A5A968BD217CF732E0F32D98F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SWTableViewCell;
-			target = 41CA3C80B957865F2E9D74F163A4F68C /* SWTableViewCell */;
-			targetProxy = 48FF38CB5AC396B23D3F45B161B136E4 /* PBXContainerItemProxy */;
-		};
-		BB29BAD44F6BD3610DEE8CD29032C43C /* PBXTargetDependency */ = {
+		D8556544152489951C5ED378BF38EC44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = 4C6109B657F748B6A8790D9AE4A1B900 /* PBXContainerItemProxy */;
+			targetProxy = 9396F0C0962F0BEA90B2AE0396F9F195 /* PBXContainerItemProxy */;
 		};
-		F7AEF170312A71AA3DAA59A4CB98E6B4 /* PBXTargetDependency */ = {
+		D94F58F3D9B2D16E4AE6BA8634586A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 2574330C314862F70F170E96ADE0E375 /* SkyFloatingLabelTextField */;
+			targetProxy = 1FAAF7DEBD53659D93EC27636E9DE121 /* PBXContainerItemProxy */;
+		};
+		DC18F58C56FA48FD9A43156C529AB2E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = M13Checkbox;
 			target = ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */;
-			targetProxy = 038FA1BF75E70FE8ED2400184578A52B /* PBXContainerItemProxy */;
+			targetProxy = 19199E2C1B8DC37999B594B10E157231 /* PBXContainerItemProxy */;
+		};
+		DF3BA68194562CCC20FB8A2FA3B03140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = EF427B1C7143E9C2180A9DF136C5C0CD /* SWTableViewCell */;
+			targetProxy = E0748D08884D7F74261DFE06F84E1461 /* PBXContainerItemProxy */;
+		};
+		EA8908BFA86EF17D27B4A4A916EDC0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = F2CA35526B1640D604F6DF6344C1CB54 /* SwiftyJSON */;
+			targetProxy = 5929737933806E1049AD3CF2AA627E2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1031,6 +1031,35 @@
 			};
 			name = Debug;
 		};
+		127D4A641418D7148F0FB79580018C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7F13C190195377462249DACF01E1FC /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		19CE7AFC597C6477B2EA4B2A16762A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E56B5F01D4EEAD42F30AF4CA2C28E372 /* Pods-TodoAppUITests.debug.xcconfig */;
@@ -1064,9 +1093,43 @@
 			};
 			name = Debug;
 		};
+		30786782AADC06715961AF00E19A3396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */;
+			baseConfigurationReference = 19311416C906EA5E32D038CDFF69A25F /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1095,7 +1158,7 @@
 		};
 		42270CB2870FEB0F213C065A90D294DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 208A41D1ADF482019E95171157DD4DF9 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1125,7 +1188,7 @@
 		};
 		4DFAB005B5AC0EB277D88C2059A31654 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593D4A90382A85F4BCC8AF4E13E07533 /* M13Checkbox.xcconfig */;
+			baseConfigurationReference = 208A41D1ADF482019E95171157DD4DF9 /* M13Checkbox.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1151,35 +1214,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4DFD5E09A072F9936BF48FA5F3B36D96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5E8149F5049A8EAC8CE7A0C8F829C658 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1214,9 +1248,67 @@
 			};
 			name = Release;
 		};
+		6E6B5522A481296F25EE05207D793B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C77F4EF63BF4E026E941E2E7CFEF2E /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74534A89F0EC8AC185174B325D2528F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C77F4EF63BF4E026E941E2E7CFEF2E /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F43136E9AA0104EAC6CBF8E9D83B21D /* Alamofire.xcconfig */;
+			baseConfigurationReference = 19311416C906EA5E32D038CDFF69A25F /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1244,9 +1336,72 @@
 			};
 			name = Debug;
 		};
-		792C7E7B98BDE4AE582C98CCB85F3EAB /* Debug */ = {
+		8AAFDB15644FF010536C7C3EA9D51C44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AEE3254DBC12940A881EE306A49C189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7F13C190195377462249DACF01E1FC /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1ED5D9ED2DC1A3655690B8A1A6D289F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA3102BF6E61546F9079CA97492BDAD /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1274,9 +1429,9 @@
 			};
 			name = Debug;
 		};
-		9E843E4A59207E2C789EBC22A127D883 /* Release */ = {
+		C0FA99A6C87CACAE35C1F544643F6ED3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9215823239B27278732137D2D8C65442 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 7BA3102BF6E61546F9079CA97492BDAD /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1341,35 +1496,6 @@
 			};
 			name = Release;
 		};
-		D9EF74BA5C65D7E3D4DDC8FE0E3550E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SimpleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DF1D06BD0DED5BF2ED937D2290369B39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F40C48F79DBCD5BE6DC42316C112FE7D /* Pods-TodoAppTests.debug.xcconfig */;
@@ -1397,73 +1523,6 @@
 				PRODUCT_NAME = Pods_TodoAppTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E13F5816122D3F87C9A31AE6ED9D5FCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A431A8E5624B37986DFA243D7CCEA4B /* Pods-TodoApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TodoApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E235998695A90F07E106D6219742A824 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8E07C00394CEA40612B0CD14D69D4E /* Pods-TodoApp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TodoApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TodoApp/Pods-TodoApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TodoApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1503,73 +1562,14 @@
 			};
 			name = Release;
 		};
-		FC54A89BA4C82953AF63AFA33E1D886C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F409A8309D56EF91A5E5571992F9E4 /* SWTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FD38189772C42DD4058D38759A581AA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA91A591270851A54ACDED618477132 /* SimpleButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1359371E734D52D6906DB4516391CD90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		101D73B8B60BE5B967DA3A5B726EF460 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				792C7E7B98BDE4AE582C98CCB85F3EAB /* Debug */,
-				9E843E4A59207E2C789EBC22A127D883 /* Release */,
+				A1ED5D9ED2DC1A3655690B8A1A6D289F /* Debug */,
+				C0FA99A6C87CACAE35C1F544643F6ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1592,11 +1592,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4917F170403EDC8CEFB69BF5E9F50A42 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */ = {
+		41623BEDC40907C226AA687F02D8686F /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E235998695A90F07E106D6219742A824 /* Debug */,
-				E13F5816122D3F87C9A31AE6ED9D5FCE /* Release */,
+				9AEE3254DBC12940A881EE306A49C189 /* Debug */,
+				127D4A641418D7148F0FB79580018C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6BAA6ECA1538E0AED1130F9AB504B5 /* Build configuration list for PBXNativeTarget "Pods-TodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30786782AADC06715961AF00E19A3396 /* Debug */,
+				8AAFDB15644FF010536C7C3EA9D51C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC9E44A9EDCA8BF5B05ACC96491E2FD /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74534A89F0EC8AC185174B325D2528F9 /* Debug */,
+				6E6B5522A481296F25EE05207D793B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1619,29 +1637,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D7630637272D1FF264611BD3CB86E0 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DFD5E09A072F9936BF48FA5F3B36D96 /* Debug */,
-				FC54A89BA4C82953AF63AFA33E1D886C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DC3ABF49602E683BF9BB6C98FA599B8E /* Build configuration list for PBXNativeTarget "Pods-TodoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF1D06BD0DED5BF2ED937D2290369B39 /* Debug */,
 				F17402B0BDB194EF506F5817B80596C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3CF5AA8665D5D12D0BC1A3C159F2175 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD38189772C42DD4058D38759A581AA9 /* Debug */,
-				D9EF74BA5C65D7E3D4DDC8FE0E3550E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
