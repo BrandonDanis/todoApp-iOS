@@ -21,10 +21,17 @@ class LoginViewController : UIViewController, UITextFieldDelegate
     
     @IBOutlet weak var errorMessage: UILabel!
     
+    @IBOutlet var loginButton: UIButton!
+    
+    @IBOutlet var registerButton: UIButton!
+    
+    
+    
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
     
+    let accentColor = UIColor(red:0.31, green:0.46, blue:0.46, alpha:1.00)
     
-    let accentColor = UIColor(red:0.01, green:0.10, blue:0.16, alpha:1.0)
+    let darkerAccent = UIColor(red:0.01, green:0.14, blue:0.20, alpha:1.00)
     
     
     override func viewDidLoad() {
@@ -41,22 +48,38 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         usernameTextBox.delegate = self
         passwordTextBox.delegate = self
         
+        // setting username textField attributes
         usernameTextBox.placeholder = "Username"
         usernameTextBox.title = "Username"
         usernameTextBox.backgroundColor = UIColor.clearColor()
         usernameTextBox.selectedLineColor = accentColor
         usernameTextBox.selectedTitleColor = accentColor
         usernameTextBox.tintColor = accentColor
+        usernameTextBox.lineColor = accentColor
+        usernameTextBox.titleColor = accentColor
         
-        
+        // setting password textField attributes
         passwordTextBox.placeholder = "Password"
         passwordTextBox.title = "Password"
         passwordTextBox.backgroundColor = UIColor.clearColor()
         passwordTextBox.selectedLineColor = accentColor
         passwordTextBox.selectedTitleColor = accentColor
         passwordTextBox.tintColor = accentColor
+        passwordTextBox.lineColor = accentColor
+        passwordTextBox.titleColor = accentColor
         
-        //Looks for single or multiple taps.
+        // setting error label attributes
+        errorMessage.textColor = accentColor
+        
+        // setting login button attributes
+        loginButton.setTitleColor(accentColor, forState: UIControlState.Normal)
+        loginButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        
+        // setting register button attributes
+        registerButton.setTitleColor(accentColor, forState: UIControlState.Normal)
+        registerButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        
+        // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
@@ -67,12 +90,12 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         // Dispose of any resources that can be recreated.
     }
     
-    //dismiss keyboard
+    // dismiss keyboard
     func dismissKeyboard() {
         self.view.endEditing(true)
     }
     
-    //function gets called whenever the 'next' key is pressed on keyboard
+    // function gets called whenever the 'next' key is pressed on keyboard
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         if(textField == usernameTextBox){
@@ -83,11 +106,28 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         return true
     }
     
+    //whenever the a textfield is being edited
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        if let skyFloatingLabelTextField = textField as? SkyFloatingLabelTextField {
+            skyFloatingLabelTextField.errorMessage = ""
+        }
+        return true
+    }
+    
     @IBAction func loginAttempt(sender: AnyObject) {
-        print("Login button pressed.")
         
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
+        
+        if(user == ""){
+            usernameTextBox.errorMessage = "Missing Username"
+            return
+        }
+        
+        if(pssd == ""){
+            passwordTextBox.errorMessage = "Missing Password"
+            return
+        }
         
         self.api.attemptLogin(user, password: pssd, completion: { (response: JSON) in
             
