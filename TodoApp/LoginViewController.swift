@@ -25,6 +25,7 @@ class LoginViewController : UIViewController, UITextFieldDelegate
     
     @IBOutlet var registerButton: UIButton!
     
+    @IBOutlet var titleLabel: UILabel!
     
     
     var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
@@ -69,7 +70,7 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         passwordTextBox.titleColor = accentColor
         
         // setting error label attributes
-        errorMessage.textColor = accentColor
+        errorMessage.textColor = darkerAccent
         
         // setting login button attributes
         loginButton.setTitleColor(accentColor, forState: UIControlState.Normal)
@@ -78,6 +79,9 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         // setting register button attributes
         registerButton.setTitleColor(accentColor, forState: UIControlState.Normal)
         registerButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        
+        // setting title label attributes
+        titleLabel.font = UIFont.systemFontOfSize(45)
         
         // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
@@ -120,11 +124,13 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         let pssd = self.passwordTextBox.text!
         
         if(user == ""){
+            usernameTextBox.errorColor = UIColor.redColor()
             usernameTextBox.errorMessage = "Missing Username"
             return
         }
         
         if(pssd == ""){
+            passwordTextBox.errorColor = UIColor.redColor()
             passwordTextBox.errorMessage = "Missing Password"
             return
         }
