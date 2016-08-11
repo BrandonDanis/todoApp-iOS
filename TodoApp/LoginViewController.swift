@@ -44,6 +44,9 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         
+        // setting up title label
+        titleLabel.font = UIFont(name: "FontAwesome", size: 110)
+        titleLabel.text = "\u{f046}"
         
         // setting this view controller as textField delegate
         usernameTextBox.delegate = self
@@ -52,30 +55,37 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         // setting username textField attributes
         usernameTextBox.placeholder = "Username"
         usernameTextBox.title = "Username"
+        usernameTextBox.textColor = UIColor.whiteColor()
+        usernameTextBox.placeholderColor = UIColor.whiteColor()
         usernameTextBox.backgroundColor = UIColor.clearColor()
-        usernameTextBox.selectedLineColor = accentColor
-        usernameTextBox.selectedTitleColor = accentColor
-        usernameTextBox.tintColor = accentColor
-        usernameTextBox.lineColor = accentColor
-        usernameTextBox.titleColor = accentColor
+        usernameTextBox.selectedLineColor = UIColor.whiteColor()
+        usernameTextBox.selectedTitleColor = UIColor.whiteColor()
+        usernameTextBox.tintColor = UIColor.whiteColor()
+        usernameTextBox.lineColor = UIColor.whiteColor()
+        usernameTextBox.titleColor = UIColor.whiteColor()
         usernameTextBox.iconFont = UIFont(name: "FontAwesome", size: 13)
         usernameTextBox.iconText = "\u{f007}"
-        
+        usernameTextBox.iconColor = UIColor.whiteColor()
+        usernameTextBox.selectedIconColor = UIColor.whiteColor()
         
         // setting password textField attributes
         passwordTextBox.placeholder = "Password"
         passwordTextBox.title = "Password"
+        passwordTextBox.textColor = UIColor.whiteColor()
+        usernameTextBox.placeholderColor = UIColor.whiteColor()
         passwordTextBox.backgroundColor = UIColor.clearColor()
-        passwordTextBox.selectedLineColor = accentColor
-        passwordTextBox.selectedTitleColor = accentColor
-        passwordTextBox.tintColor = accentColor
-        passwordTextBox.lineColor = accentColor
-        passwordTextBox.titleColor = accentColor
+        passwordTextBox.selectedLineColor = UIColor.whiteColor()
+        passwordTextBox.selectedTitleColor = UIColor.whiteColor()
+        passwordTextBox.tintColor = UIColor.whiteColor()
+        passwordTextBox.lineColor = UIColor.whiteColor()
+        passwordTextBox.titleColor = UIColor.whiteColor()
         passwordTextBox.iconFont = UIFont(name: "FontAwesome", size: 13)
         passwordTextBox.iconText = "\u{f023}"
+        passwordTextBox.iconColor = UIColor.whiteColor()
+        passwordTextBox.selectedIconColor = UIColor.whiteColor()
         
         // setting error label attributes
-        errorMessage.textColor = darkerAccent
+        errorMessage.textColor = UIColor.whiteColor()
         
         // setting login button attributes
         loginButton.setTitleColor(accentColor, forState: UIControlState.Normal)
@@ -84,9 +94,6 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         // setting register button attributes
         registerButton.setTitleColor(accentColor, forState: UIControlState.Normal)
         registerButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
-        
-        // setting title label attributes
-        titleLabel.font = UIFont.systemFontOfSize(45)
         
         // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
