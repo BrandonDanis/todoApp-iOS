@@ -15,9 +15,9 @@ import SkyFloatingLabelTextField
 class LoginViewController : UIViewController, UITextFieldDelegate
 {
     
-    @IBOutlet var usernameTextBox: SkyFloatingLabelTextField!
+    @IBOutlet var usernameTextBox: SkyFloatingLabelTextFieldWithIcon!
     
-    @IBOutlet var passwordTextBox: SkyFloatingLabelTextField!
+    @IBOutlet var passwordTextBox: SkyFloatingLabelTextFieldWithIcon!
     
     @IBOutlet weak var errorMessage: UILabel!
     
@@ -58,6 +58,9 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         usernameTextBox.tintColor = accentColor
         usernameTextBox.lineColor = accentColor
         usernameTextBox.titleColor = accentColor
+        usernameTextBox.iconFont = UIFont(name: "FontAwesome", size: 13)
+        usernameTextBox.iconText = "\u{f007}"
+        
         
         // setting password textField attributes
         passwordTextBox.placeholder = "Password"
@@ -68,6 +71,8 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         passwordTextBox.tintColor = accentColor
         passwordTextBox.lineColor = accentColor
         passwordTextBox.titleColor = accentColor
+        passwordTextBox.iconFont = UIFont(name: "FontAwesome", size: 13)
+        passwordTextBox.iconText = "\u{f023}"
         
         // setting error label attributes
         errorMessage.textColor = darkerAccent
