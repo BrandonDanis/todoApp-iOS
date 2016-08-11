@@ -98,12 +98,18 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         errorMessage.textColor = UIColor.whiteColor()
         
         // setting register button attributes
-        registerButton.setTitleColor(accentColor, forState: UIControlState.Normal)
-        registerButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        registerButton.backgroundColor = UIColor.clearColor()
+        registerButton.layer.borderWidth = 2.0
+        registerButton.layer.borderColor = UIColor.whiteColor().CGColor
         
         // setting login button attributes
-        backButton.setTitleColor(accentColor, forState: UIControlState.Normal)
-        backButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        backButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        backButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        backButton.backgroundColor = UIColor.clearColor()
+        backButton.layer.borderWidth = 2.0
+        backButton.layer.borderColor = UIColor.whiteColor().CGColor
         
         // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
