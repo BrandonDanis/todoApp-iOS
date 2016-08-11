@@ -72,7 +72,7 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         passwordTextBox.placeholder = "Password"
         passwordTextBox.title = "Password"
         passwordTextBox.textColor = UIColor.whiteColor()
-        usernameTextBox.placeholderColor = UIColor.whiteColor()
+        passwordTextBox.placeholderColor = UIColor.whiteColor()
         passwordTextBox.backgroundColor = UIColor.clearColor()
         passwordTextBox.selectedLineColor = UIColor.whiteColor()
         passwordTextBox.selectedTitleColor = UIColor.whiteColor()
@@ -88,12 +88,21 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         errorMessage.textColor = UIColor.whiteColor()
         
         // setting login button attributes
-        loginButton.setTitleColor(accentColor, forState: UIControlState.Normal)
-        loginButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        loginButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        loginButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        loginButton.backgroundColor = UIColor.clearColor()
+        loginButton.layer.borderWidth = 2.0
+        loginButton.layer.borderColor = UIColor.whiteColor().CGColor
+        
         
         // setting register button attributes
-        registerButton.setTitleColor(accentColor, forState: UIControlState.Normal)
-        registerButton.setTitleColor(darkerAccent, forState: UIControlState.Highlighted)
+        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        registerButton.backgroundColor = UIColor.clearColor()
+        registerButton.layer.borderWidth = 2.0
+        registerButton.layer.borderColor = UIColor.whiteColor().CGColor
+        
+
         
         // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
