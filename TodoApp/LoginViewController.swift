@@ -175,12 +175,11 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         
     }
     
-    @IBAction func registerAttempt(sender: AnyObject) {
-        
-        print("Register button pressed.")
-        
-        performSegueWithIdentifier("registerSegue", sender: self)
-        
+    
+    @IBAction func registerButtonClicked(sender: AnyObject) {
+        print("Register button clicked")
+        let parentViewController = self.parentViewController as? StartupViewController
+        parentViewController?.switchToRegister()
     }
     
     func displayError(msg: String){
@@ -194,14 +193,10 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         })
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if(segue.identifier == "registerSegue"){
-            print("Preparing to segue to register view...")
-        }
-    }
-    
     func cancelToLoginView(segue: UIStoryboardSegue) {
         print("Cancelled to login view from register view")
+        usernameTextBox.errorMessage = ""
+        passwordTextBox.errorMessage = ""
     }
     
 }

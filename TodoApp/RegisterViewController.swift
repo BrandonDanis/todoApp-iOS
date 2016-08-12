@@ -180,6 +180,12 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         
     }
     
+    
+    @IBAction func backButtonClicked(sender: AnyObject) {
+        let parentViewController = self.parentViewController as? StartupViewController
+        parentViewController?.switchToLogin()
+    }
+    
     func displayError(msg: String){
         self.errorMessage.text = msg
         UIView.animateWithDuration(1.0, animations: {

@@ -25,6 +25,7 @@
 		CA33174B1D1599650064F80B /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33174A1D1599650064F80B /* TodoAppTests.swift */; };
 		CA3317561D1599650064F80B /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3317551D1599650064F80B /* TodoAppUITests.swift */; };
 		CAF1A30D1D5BFBA900252C12 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAF1A30B1D5BF96C00252C12 /* FontAwesome.otf */; };
+		CAF1A30F1D5D428E00252C12 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF1A30E1D5D428E00252C12 /* StartupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		CA3317551D1599650064F80B /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		CA3317571D1599650064F80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAF1A30B1D5BF96C00252C12 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		CAF1A30E1D5D428E00252C12 /* StartupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
 		CBF02242A41C0CA20DC2D0E7 /* Pods_TodoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50F2E5B7F23AE4C22044325 /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoApp/Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 				CA3317391D1599650064F80B /* Main.storyboard */,
 				CA32B2E11D173D1A00FCD9DA /* RegisterViewController.swift */,
 				CA2E438B1D15FA0F00799770 /* LoginViewController.swift */,
+				CAF1A30E1D5D428E00252C12 /* StartupViewController.swift */,
 				CA33173C1D1599650064F80B /* Assets.xcassets */,
 				CA33173E1D1599650064F80B /* LaunchScreen.storyboard */,
 				CA3317411D1599650064F80B /* Info.plist */,
@@ -464,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF1A30F1D5D428E00252C12 /* StartupViewController.swift in Sources */,
 				CA32B2E01D171EBC00FCD9DA /* TodoAPI.swift in Sources */,
 				CA2E438C1D15FA0F00799770 /* LoginViewController.swift in Sources */,
 				CA32B2E21D173D1A00FCD9DA /* RegisterViewController.swift in Sources */,
