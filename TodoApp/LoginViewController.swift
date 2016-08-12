@@ -46,7 +46,8 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         
         // setting up title label
         titleLabel.font = UIFont(name: "FontAwesome", size: 110)
-        titleLabel.text = "\u{f046}"
+        titleLabel.textColor = UIColor(red:0.70, green:0.70, blue:0.70, alpha:0.85)
+        titleLabel.text = "\u{f00c}"
         
         // setting this view controller as textField delegate
         usernameTextBox.delegate = self
@@ -141,6 +142,8 @@ class LoginViewController : UIViewController, UITextFieldDelegate
     
     @IBAction func loginAttempt(sender: AnyObject) {
         
+        dismissKeyboard()
+        
         let user = self.usernameTextBox.text!
         let pssd = self.passwordTextBox.text!
         
@@ -175,9 +178,15 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         
     }
     
+    // called everytime view is back in view
+    func displayingView(){
+        usernameTextBox.errorMessage = ""
+        passwordTextBox.errorMessage = ""
+        usernameTextBox.text = ""
+        passwordTextBox.text = ""
+    }
     
     @IBAction func registerButtonClicked(sender: AnyObject) {
-        print("Register button clicked")
         let parentViewController = self.parentViewController as? StartupViewController
         parentViewController?.switchToRegister()
     }
@@ -191,12 +200,6 @@ class LoginViewController : UIViewController, UITextFieldDelegate
                 self.errorMessage.alpha = 0.0
                 }, completion: nil)
         })
-    }
-    
-    func cancelToLoginView(segue: UIStoryboardSegue) {
-        print("Cancelled to login view from register view")
-        usernameTextBox.errorMessage = ""
-        passwordTextBox.errorMessage = ""
     }
     
 }

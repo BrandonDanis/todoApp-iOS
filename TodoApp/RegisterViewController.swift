@@ -41,6 +41,11 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         let bg = UIImageView(image: UIImage(named: "login-bg"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
+        
+        // setting up title label
+        titleLabel.font = UIFont(name: "FontAwesome", size: 110)
+        titleLabel.textColor = UIColor(red:0.70, green:0.70, blue:0.70, alpha:0.85)
+        titleLabel.text = "\u{f00c}"
 
         // setting this view controller as textField delegate
         usernameTextbox.delegate = self
@@ -150,6 +155,8 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
     
     @IBAction func attemptingToRegister(sender: AnyObject) {
         
+        dismissKeyboard()
+        
         if(self.usernameTextbox.text == ""){
             usernameTextbox.errorMessage = "Missing Username"
             return
@@ -180,6 +187,12 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         
     }
     
+    // called everytime view is back in view
+    func displayingView(){
+        usernameTextbox.errorMessage = ""
+        passwordTextbox.errorMessage = ""
+        confirmPasswordTextbox.errorMessage = ""
+    }
     
     @IBAction func backButtonClicked(sender: AnyObject) {
         let parentViewController = self.parentViewController as? StartupViewController

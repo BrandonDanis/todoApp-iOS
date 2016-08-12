@@ -19,19 +19,17 @@ class StartupViewController: UIViewController
     
     override func viewDidLoad() {
         
-        
         self.registerContent.alpha = 0
-        
         self.registerContent.userInteractionEnabled = false
         
         self.loginContent.alpha = 1
         self.registerContent.userInteractionEnabled = true
         
-        
     }
     
     func switchToRegister() {
-        print("Switching from login to register")
+        let registerViewController = self.childViewControllers[0] as? RegisterViewController
+        registerViewController?.displayingView()
         UIView.animateWithDuration(0.5, animations: {
             self.loginContent.alpha = 0
             self.loginContent.userInteractionEnabled = false
@@ -42,7 +40,8 @@ class StartupViewController: UIViewController
     }
     
     func switchToLogin() {
-        print("Switching from register to login")
+        let loginViewController = self.childViewControllers[1] as? LoginViewController
+        loginViewController?.displayingView()
         UIView.animateWithDuration(0.5, animations: {
             self.loginContent.alpha = 1
             self.loginContent.userInteractionEnabled = true
