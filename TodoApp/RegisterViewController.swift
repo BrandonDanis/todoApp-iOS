@@ -38,7 +38,7 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         super.viewDidLoad()
         print("Register screen loaded")
         
-        let bg = UIImageView(image: UIImage(named: "login-bg"))
+        let bg = UIImageView(image: UIImage(named: "register-bg"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         

@@ -168,7 +168,7 @@ class LoginViewController : UIViewController, UITextFieldDelegate
             if(response["status"] == 200) {
                 self.displayError("Login successful!")
                 let storyboard = UIStoryboard(name: "TodoList", bundle: nil)
-                let vc = storyboard.instantiateViewControllerWithIdentifier("TodoTableNavigation") as UIViewController
+                let vc = storyboard.instantiateInitialViewController()! as UIViewController
                 self.presentViewController(vc, animated: true, completion: nil)
             }else{
                 self.displayError(String(response["reason"]))
