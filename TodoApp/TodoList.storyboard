@@ -98,7 +98,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="z8k-d4-uve">
                         <barButtonItem key="leftBarButtonItem" image="down-arrow" id="zXK-eo-9Ms">
-                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -137,22 +137,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hns-Bj-9lH">
-                                <rect key="frame" x="0.0" y="295" width="414" height="441"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-69-brg">
-                                <rect key="frame" x="20" y="38" width="374" height="133"/>
+                                <rect key="frame" x="20" y="51" width="374" height="133"/>
                                 <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="130"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiS-4M-9Bc">
+                                <rect key="frame" x="20" y="343" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMD-w4-z7V">
+                                <rect key="frame" x="214" y="536" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFj-dl-G5q">
+                                <rect key="frame" x="20" y="536" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Tz-NA-xfR">
+                                <rect key="frame" x="214" y="343" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="newRedminderBox" destination="1Tz-NA-xfR" id="rfu-3X-Nqf"/>
+                        <outlet property="newTodoBox" destination="OiS-4M-9Bc" id="RSG-kc-kUO"/>
+                        <outlet property="reminderBox" destination="wMD-w4-z7V" id="fyH-GD-xWB"/>
                         <outlet property="tempUserIcon" destination="Ofd-69-brg" id="ENd-HM-Ocw"/>
+                        <outlet property="todoBox" destination="DFj-dl-G5q" id="otE-Cl-Jc4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw2-fE-CmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
