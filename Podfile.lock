@@ -4,6 +4,7 @@ PODS:
   - SkyFloatingLabelTextField (1.2.1)
   - SwiftyJSON (2.3.0)
   - SWTableViewCell (0.3.7)
+  - UITextView+Placeholder (1.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - SkyFloatingLabelTextField (~> 1.2.1)
   - SwiftyJSON (= 2.3.0)
   - SWTableViewCell (~> 0.3.7)
+  - UITextView+Placeholder
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
@@ -18,7 +20,8 @@ SPEC CHECKSUMS:
   SkyFloatingLabelTextField: 3f6610aded18e778df5cfab3b9e12a11b3e014e9
   SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
 
-PODFILE CHECKSUM: 91c7766bbaab724c40cc723f62588ec08bc48bc1
+PODFILE CHECKSUM: 77b6864e3be2cde8a80ef8b7d98cd9a2739c95f7
 
 COCOAPODS: 1.0.1

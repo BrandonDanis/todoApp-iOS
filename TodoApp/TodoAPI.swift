@@ -13,13 +13,12 @@ import Alamofire
 class TodoAPI
 {
     
-    var apiURL: String!
+    var apiURL = "https://brandon-todo.herokuapp.com"
     var username: String!
     var password: String!
     
-    init(url: String)
+    init()
     {
-        self.apiURL = url
         self.username = nil
         self.password = nil
     }

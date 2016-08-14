@@ -28,7 +28,7 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
     
     @IBOutlet var errorMessage: UILabel!
     
-    let api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
+    let api: TodoAPI = TodoAPI()
     
     let accentColor = UIColor(red:0.31, green:0.46, blue:0.46, alpha:1.00)
     

@@ -13,7 +13,7 @@ import SwiftyJSON
 class TodoTableViewController: UITableViewController, SWTableViewCellDelegate {
     
     @IBOutlet var tableview: UITableView!
-    var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
+    var api: TodoAPI = TodoAPI()
     var data: [Todo] = []
     
     override func viewDidLoad() {

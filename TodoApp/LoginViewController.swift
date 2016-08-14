@@ -28,7 +28,7 @@ class LoginViewController : UIViewController, UITextFieldDelegate
     @IBOutlet var titleLabel: UILabel!
     
     
-    var api: TodoAPI = TodoAPI(url: "https://brandon-todo.herokuapp.com")
+    var api: TodoAPI = TodoAPI()
     
     let accentColor = UIColor(red:0.31, green:0.46, blue:0.46, alpha:1.00)
     
