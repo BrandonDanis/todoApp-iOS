@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MainViewController: UIViewController
+class MainViewController: UIViewController, UIPopoverPresentationControllerDelegate
 {
     
     @IBOutlet var tempUserIcon : UILabel!
@@ -51,10 +51,27 @@ class MainViewController: UIViewController
 
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier == "newTodoSegue")
-        {
+        if (segue.identifier == "newTodoSegue") {
+            
+            if let controller = segue.destinationViewController as? NewTodoViewController {
+                //controller.popoverPresentationController!.delegate = self
+                controller.preferredContentSize = CGSize(width: 320, height: 186)
+            }
             print("About to show 'new todo' view")
+            
+        }else if(segue.identifier == "newTodoPopup") {
+            
+            let popupController = segue.destinationViewController
+            popupController.modalPresentationStyle = UIModalPresentationStyle.Popover
+            popupController.popoverPresentationController!.delegate = self
+            popupController.view.frame.origin.x = 0
+            popupController.view.frame.origin.y = 0
+            
         }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.None
     }
     
     func newTodoViewCancelled(){
