@@ -47,4 +47,21 @@ class MainViewController: UIViewController
         super.didReceiveMemoryWarning()
         //uh oh
     }
+    
+
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "newTodoSegue")
+        {
+            print("About to show 'new todo' view")
+        }
+    }
+    
+    func newTodoViewCancelled(){
+        print("why you cancel view?")
+    }
+    
 }
+
+
+

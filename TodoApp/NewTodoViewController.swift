@@ -22,4 +22,9 @@ class NewTodoViewController : UIViewController {
         backButton.setTitleTextAttributes([NSFontAttributeName: fontAwesome!], forState: UIControlState.Normal)
         backButton.title = "\u{f078}"
     }
+    
+    @IBAction func backButtonClicked(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 }

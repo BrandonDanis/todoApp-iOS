@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T9A-1Y-mkO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T9A-1Y-mkO">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -78,7 +78,6 @@
                         <outlet property="registerButton" destination="gHh-9P-v2O" id="Axb-sm-EaM"/>
                         <outlet property="titleLabel" destination="iW6-Zo-l4d" id="y7U-RI-bGb"/>
                         <outlet property="usernameTextBox" destination="tuv-jR-X1e" id="vZW-N1-VIz"/>
-                        <segue destination="9LN-1q-rAh" kind="show" identifier="LoggedIn" id="RNz-uv-8qa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -164,14 +163,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1S-8F-YIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="334" y="1465"/>
-        </scene>
-        <!--TodoTableViewController-->
-        <scene sceneID="yGi-ih-Rvq">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TodoList" referencedIdentifier="TodoTableViewController" id="9LN-1q-rAh" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OJ1-RP-rf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="933.5" y="951"/>
         </scene>
         <!--Startup View Controller-->
         <scene sceneID="MZ7-eG-IGk">
