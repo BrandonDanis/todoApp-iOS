@@ -102,9 +102,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5nb-Tn-xrd" kind="popoverPresentation" identifier="newTodoPopup" popoverAnchorView="wPa-FZ-HGt" id="lqA-2v-kp6">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" id="E4N-d2-faT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3J-Ga-iba">
@@ -142,7 +140,7 @@
         <!--New Todo Popup View-->
         <scene sceneID="0I5-Qc-AdB">
             <objects>
-                <viewController id="5nb-Tn-xrd" customClass="NewTodoPopupView" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overCurrentContext" id="5nb-Tn-xrd" customClass="NewTodoPopupView" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Cm-oi-aCQ"/>
                         <viewControllerLayoutGuide type="bottom" id="ayj-mJ-1nv"/>
@@ -182,9 +180,8 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <value key="contentSizeForViewInPopover" type="size" width="400" height="400"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="popupView" destination="bhO-qA-veZ" id="4hU-js-reu"/>

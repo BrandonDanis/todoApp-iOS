@@ -48,14 +48,15 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         //uh oh
     }
     
-
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "newTodoSegue") {
             
             print("About to show 'new todo' view")
             
         }else if(segue.identifier == "newTodoPopup") {
+            
+            let popupController = segue.destinationViewController
+            popupController.modalPresentationStyle = .OverCurrentContext
             
         }
     }

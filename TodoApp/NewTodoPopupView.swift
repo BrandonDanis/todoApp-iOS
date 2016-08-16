@@ -21,7 +21,7 @@ class NewTodoPopupView: UIViewController {
         self.view.backgroundColor = UIColor.clearColor()
         
         popupView.layer.cornerRadius = 10
-        popupView.layer.borderWidth = 0.25
+        self.view.opaque = false
         
     }
     
