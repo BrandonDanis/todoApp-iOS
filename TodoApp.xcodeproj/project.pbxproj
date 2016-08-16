@@ -24,6 +24,7 @@
 		CA3317401D1599650064F80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA33173E1D1599650064F80B /* LaunchScreen.storyboard */; };
 		CA33174B1D1599650064F80B /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33174A1D1599650064F80B /* TodoAppTests.swift */; };
 		CA3317561D1599650064F80B /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3317551D1599650064F80B /* TodoAppUITests.swift */; };
+		CA4EC5941D62A36B00F68572 /* NewTodoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EC5931D62A36B00F68572 /* NewTodoPopupView.swift */; };
 		CAF1A30D1D5BFBA900252C12 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAF1A30B1D5BF96C00252C12 /* FontAwesome.otf */; };
 		CAF1A30F1D5D428E00252C12 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF1A30E1D5D428E00252C12 /* StartupViewController.swift */; };
 		CAF1A3111D5D687500252C12 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF1A3101D5D687500252C12 /* MainViewController.swift */; };
@@ -74,6 +75,7 @@
 		CA3317511D1599650064F80B /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3317551D1599650064F80B /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		CA3317571D1599650064F80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4EC5931D62A36B00F68572 /* NewTodoPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTodoPopupView.swift; sourceTree = "<group>"; };
 		CAF1A30B1D5BF96C00252C12 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		CAF1A30E1D5D428E00252C12 /* StartupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
 		CAF1A3101D5D687500252C12 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				CA32B2DF1D171EBC00FCD9DA /* TodoAPI.swift */,
 				CAF1A3101D5D687500252C12 /* MainViewController.swift */,
 				B80FABE81D60FE62002D2C4F /* NewTodoViewController.swift */,
+				CA4EC5931D62A36B00F68572 /* NewTodoPopupView.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				CA32B2E21D173D1A00FCD9DA /* RegisterViewController.swift in Sources */,
 				B8683BA71D162BF300001269 /* TodoTableViewController.swift in Sources */,
 				CA3317361D1599640064F80B /* AppDelegate.swift in Sources */,
+				CA4EC5941D62A36B00F68572 /* NewTodoPopupView.swift in Sources */,
 				B8683BAB1D16F0FC00001269 /* TodoTableViewCell.swift in Sources */,
 				B8683BA91D16E80000001269 /* TodoModel.swift in Sources */,
 				CAF1A3111D5D687500252C12 /* MainViewController.swift in Sources */,
