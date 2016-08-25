@@ -15,6 +15,8 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
     
     @IBOutlet var logoutButton : UIButton!
     
+    @IBOutlet var dropdownButton : UIButton!
+    
     @IBOutlet var newReminderBtn: UIButton!
     
     var blurView : UIVisualEffectView!
@@ -31,7 +33,7 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         
         // adding dim above bg since it's too bright
         let dim = UIView(frame: self.view.frame)
-        dim.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+        dim.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
         self.view.insertSubview(dim, aboveSubview: bg)
         
         // setting up view
@@ -45,6 +47,14 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         logoutButton.titleLabel?.font = UIFont(name: "FontAwesome", size: 30)
         logoutButton.titleLabel?.textColor = UIColor.whiteColor()
         logoutButton.setTitle("\u{f011}", forState: UIControlState.Normal)
+        
+        dropdownButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        dropdownButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        dropdownButton.titleLabel?.font = UIFont(name: "FontAwesome", size: 30)
+        dropdownButton.titleLabel?.textColor = UIColor.whiteColor()
+        dropdownButton.setTitle("\u{f0c9}", forState: UIControlState.Normal)
+        dropdownButton.backgroundColor = UIColor.clearColor()
+        
         
     }
     

@@ -39,12 +39,17 @@
                                     <action selector="logout:" destination="F2N-K2-QMF" eventType="touchUpInside" id="RUk-Q4-XLZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMA-PJ-yli">
+                                <rect key="frame" x="20" y="8" width="40" height="40"/>
+                                <state key="normal" title="-"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="dropdownButton" destination="KMA-PJ-yli" id="HQ1-bx-xWA"/>
                         <outlet property="logoutButton" destination="kte-FQ-it2" id="SVo-up-TMX"/>
                         <outlet property="newReminderBtn" destination="wPa-FZ-HGt" id="OWt-nI-cIn"/>
                     </connections>
