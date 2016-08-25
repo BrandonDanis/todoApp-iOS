@@ -17,6 +17,8 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
     
     @IBOutlet var newReminderBtn: UIButton!
     
+    var blurView : UIVisualEffectView!
+    
     var api : TodoAPI = TodoAPI()
     
     override func viewDidLoad() {
