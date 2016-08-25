@@ -38,13 +38,19 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         super.viewDidLoad()
         print("Register screen loaded")
         
-        let bg = UIImageView(image: UIImage(named: "register-bg"))
+        // adding bg
+        let bg = UIImageView(image: UIImage(named: "login-bg2"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         
+        // adding dim above bg since it's too bright
+        let dim = UIView(frame: self.view.frame)
+        dim.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+        self.view.insertSubview(dim, aboveSubview: bg)
+        
         // setting up title label
         titleLabel.font = UIFont(name: "FontAwesome", size: 110)
-        titleLabel.textColor = UIColor(red:0.70, green:0.70, blue:0.70, alpha:0.85)
+        titleLabel.textColor = UIColor.whiteColor()
         titleLabel.text = "\u{f00c}"
 
         // setting this view controller as textField delegate
@@ -107,14 +113,13 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
         registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
         registerButton.backgroundColor = UIColor.clearColor()
         registerButton.layer.borderWidth = 2.0
+        registerButton.layer.cornerRadius = 20.0
         registerButton.layer.borderColor = UIColor.whiteColor().CGColor
         
         // setting login button attributes
-        backButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        backButton.setTitleColor(UIColor(red:0.23, green:0.60, blue:0.85, alpha:1.00), forState: UIControlState.Normal)
+        backButton.setTitleColor(UIColor(red:0.23, green:0.60, blue:0.85, alpha:1.00), forState: UIControlState.Highlighted)
         backButton.backgroundColor = UIColor.clearColor()
-        backButton.layer.borderWidth = 2.0
-        backButton.layer.borderColor = UIColor.whiteColor().CGColor
         
         // looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))

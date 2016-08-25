@@ -40,13 +40,19 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         
         print("Login screen loaded.")
         
-        let bg = UIImageView(image: UIImage(named: "login-bg"))
+        // adding bg
+        let bg = UIImageView(image: UIImage(named: "login-bg2"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         
+        // adding dim above bg since it's too bright
+        let dim = UIView(frame: self.view.frame)
+        dim.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+        self.view.insertSubview(dim, aboveSubview: bg)
+        
         // setting up title label
         titleLabel.font = UIFont(name: "FontAwesome", size: 110)
-        titleLabel.textColor = UIColor(red:0.70, green:0.70, blue:0.70, alpha:0.85)
+        titleLabel.textColor = UIColor.whiteColor()
         titleLabel.text = "\u{f00c}"
         
         // setting this view controller as textField delegate
@@ -93,15 +99,14 @@ class LoginViewController : UIViewController, UITextFieldDelegate
         loginButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
         loginButton.backgroundColor = UIColor.clearColor()
         loginButton.layer.borderWidth = 2.0
+        loginButton.layer.cornerRadius = 20.0
         loginButton.layer.borderColor = UIColor.whiteColor().CGColor
         
         
         // setting register button attributes
-        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        registerButton.setTitleColor(UIColor(red:0.23, green:0.60, blue:0.85, alpha:1.00), forState: UIControlState.Normal)
+        registerButton.setTitleColor(UIColor(red:0.23, green:0.60, blue:0.85, alpha:1.00), forState: UIControlState.Highlighted)
         registerButton.backgroundColor = UIColor.clearColor()
-        registerButton.layer.borderWidth = 2.0
-        registerButton.layer.borderColor = UIColor.whiteColor().CGColor
         
 
         
