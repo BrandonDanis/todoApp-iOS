@@ -29,7 +29,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" id="E4N-d2-faT"/>
+                                    <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" modalTransitionStyle="crossDissolve" id="E4N-d2-faT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kte-FQ-it2">
