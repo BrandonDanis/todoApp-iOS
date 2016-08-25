@@ -59,6 +59,10 @@ class TodoAPI
         
     }
     
+    func logout(completion: (responce: JSON) -> Void) {
+        get("/logout", qs: [:], completion: completion)
+    }
+    
     //////////////////////////
     //      TODO API        //
     //////////////////////////
@@ -66,8 +70,6 @@ class TodoAPI
     func getTodoList(completion: (response : JSON) -> Void) {
         get("/all-items", qs: [:], completion: completion)
     }
-    
-    
     
     /////////////////////////////
     //      HTTP METHODS       //
@@ -83,9 +85,12 @@ class TodoAPI
                 //print(response.data)     // server data
                 //print(response.result)   // result of response serialization
                 
-                let res: JSON = JSON(rawValue: response.result.value!)!
-                
-                completion(response: res)
+                if let responce = response.result.value{
+                    let res: JSON = JSON(rawValue: responce)!
+                    completion(response: res)
+                }else{
+                    completion(response: nil)
+                }
         }
     }
     
@@ -98,9 +103,13 @@ class TodoAPI
 //                print(response.data)     // server data
 //                print(response.result)   // result of response serialization
                 
-                let res: JSON = JSON(rawValue: response.result.value!)!
+                if let responce = response.result.value{
+                    let res: JSON = JSON(rawValue: responce)!
+                    completion(response: res)
+                }else{
+                    completion(response: nil)
+                }
                 
-                completion(response: res)
         }
     }
 }

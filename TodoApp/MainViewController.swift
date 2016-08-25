@@ -8,44 +8,51 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
 
 class MainViewController: UIViewController, UIPopoverPresentationControllerDelegate
 {
     
-    @IBOutlet var tempUserIcon : UILabel!
-    
-    @IBOutlet var newTodoBtn: UIButton!
-    
-    @IBOutlet var todoBtn: UIButton!
+    @IBOutlet var logoutButton : UIButton!
     
     @IBOutlet var newReminderBtn: UIButton!
     
-    @IBOutlet var reminderBtn: UIButton!
+    var api : TodoAPI = TodoAPI()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // setting bg
-        let bg = UIImageView(image: UIImage(named: "login-bg"))
+        let bg = UIImageView(image: UIImage(named: "register-bg"))
         bg.frame = self.view.frame
         self.view.insertSubview(bg, atIndex: 0)
         
+        // adding dim above bg since it's too bright
+        let dim = UIView(frame: self.view.frame)
+        dim.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+        self.view.insertSubview(dim, aboveSubview: bg)
+        
         // setting up view
-        newTodoBtn.layer.cornerRadius = 10
-        todoBtn.layer.cornerRadius = 10
-        newReminderBtn.layer.cornerRadius = 10
-        reminderBtn.layer.cornerRadius = 10
+        newReminderBtn.layer.cornerRadius = 20
         
         // setting tempUserIcon
-        tempUserIcon.font = UIFont(name: "FontAwesome", size: 110)
-        tempUserIcon.textColor = UIColor.whiteColor()
-        tempUserIcon.text = "\u{f21b}"
+        
+        logoutButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        logoutButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+        logoutButton.backgroundColor = UIColor.clearColor()
+        logoutButton.titleLabel?.font = UIFont(name: "FontAwesome", size: 30)
+        logoutButton.titleLabel?.textColor = UIColor.whiteColor()
+        logoutButton.setTitle("\u{f190}", forState: UIControlState.Normal)
         
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         //uh oh
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -59,6 +66,13 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
             popupController.modalPresentationStyle = .OverCurrentContext
             
         }
+    }
+    
+    @IBAction func logout(sender: AnyObject) {
+        api.logout({ (responce: JSON) in
+            print(responce)
+        })
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {

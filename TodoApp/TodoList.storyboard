@@ -4,53 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="FontAwesome.otf">
-            <string>FontAwesome</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
-        <!--New Todo View Controller-->
-        <scene sceneID="p6u-rR-8yu">
-            <objects>
-                <viewController id="zLh-1T-ULj" customClass="NewTodoViewController" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pS3-Ry-pr4"/>
-                        <viewControllerLayoutGuide type="bottom" id="oy3-w4-WGw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Kd5-oq-0gz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yer-p1-B0q">
-                                <rect key="frame" x="20" y="72" width="374" height="656"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QrC-LR-BBh">
-                                <rect key="frame" x="0.0" y="-5" width="414" height="44"/>
-                                <items>
-                                    <barButtonItem title="&lt;" id="CYH-5k-5Jn">
-                                        <connections>
-                                            <action selector="backButtonClicked:" destination="zLh-1T-ULj" id="2UQ-GP-5Nt"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <outlet property="backButton" destination="CYH-5k-5Jn" id="r7v-Hb-4aT"/>
-                        <outlet property="descriptionTextView" destination="yer-p1-B0q" id="rh2-Cl-RTR"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UA0-QE-lD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="958" y="1034"/>
-        </scene>
         <!--Main View Controller-->
         <scene sceneID="lmx-IC-sjl">
             <objects>
@@ -63,41 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-69-brg">
-                                <rect key="frame" x="20" y="51" width="374" height="133"/>
-                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="130"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brandon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agf-eN-VO7">
-                                <rect key="frame" x="20" y="218" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Danis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4J-iL-4Th">
-                                <rect key="frame" x="20" y="247" width="374" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLA-br-eFp">
-                                <rect key="frame" x="20" y="317" width="180" height="180"/>
-                                <color key="backgroundColor" red="0.92941176470588238" green="0.45098039215686275" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="New Todo">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="zLh-1T-ULj" kind="popoverPresentation" identifier="newTodoSegue" popoverAnchorView="OLA-br-eFp" id="jnS-PM-yZn">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQ8-Z0-bE5">
+                                <rect key="frame" x="0.0" y="244" width="414" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPa-FZ-HGt">
-                                <rect key="frame" x="214" y="317" width="180" height="180"/>
+                                <rect key="frame" x="102" y="224" width="211" height="49"/>
                                 <color key="backgroundColor" red="0.65098039215686276" green="0.76862745098039209" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="New Reminder">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -105,37 +32,26 @@
                                     <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" id="E4N-d2-faT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3J-Ga-iba">
-                                <rect key="frame" x="20" y="510" width="180" height="180"/>
-                                <color key="backgroundColor" red="0.16078431372549018" green="0.72941176470588232" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="View Todos">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFa-w2-S7j">
-                                <rect key="frame" x="214" y="510" width="180" height="180"/>
-                                <color key="backgroundColor" red="0.23137254901960785" green="0.59999999999999998" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="View Reminders">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kte-FQ-it2">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <state key="normal" title="&lt;-"/>
+                                <connections>
+                                    <action selector="logout:" destination="F2N-K2-QMF" eventType="touchUpInside" id="RUk-Q4-XLZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="logoutButton" destination="kte-FQ-it2" id="SVo-up-TMX"/>
                         <outlet property="newReminderBtn" destination="wPa-FZ-HGt" id="OWt-nI-cIn"/>
-                        <outlet property="newTodoBtn" destination="OLA-br-eFp" id="bGs-eQ-hJK"/>
-                        <outlet property="reminderBtn" destination="hFa-w2-S7j" id="rAI-ab-coe"/>
-                        <outlet property="tempUserIcon" destination="Ofd-69-brg" id="Dfb-vO-ehR"/>
-                        <outlet property="todoBtn" destination="A3J-Ga-iba" id="5hi-Hs-Ydc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw2-fE-CmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="355" y="1548"/>
+            <point key="canvasLocation" x="358" y="1572"/>
         </scene>
         <!--New Todo Popup View-->
         <scene sceneID="0I5-Qc-AdB">
