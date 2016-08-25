@@ -44,7 +44,7 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         logoutButton.backgroundColor = UIColor.clearColor()
         logoutButton.titleLabel?.font = UIFont(name: "FontAwesome", size: 30)
         logoutButton.titleLabel?.textColor = UIColor.whiteColor()
-        logoutButton.setTitle("\u{f190}", forState: UIControlState.Normal)
+        logoutButton.setTitle("\u{f011}", forState: UIControlState.Normal)
         
     }
     
