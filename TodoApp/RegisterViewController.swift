@@ -194,6 +194,9 @@ class RegisterViewController : UIViewController, UITextFieldDelegate
     
     // called everytime view is back in view
     func displayingView(){
+        usernameTextbox.text = ""
+        passwordTextbox.text = ""
+        confirmPasswordTextbox.text = ""
         usernameTextbox.errorMessage = ""
         passwordTextbox.errorMessage = ""
         confirmPasswordTextbox.errorMessage = ""

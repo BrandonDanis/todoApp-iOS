@@ -27,6 +27,17 @@ class StartupViewController: UIViewController
         
     }
     
+    // cleaning up view before showing.
+    override func viewWillAppear(animated: Bool) {
+        print("I can see you")
+        
+        let registerViewController = self.childViewControllers[0] as? RegisterViewController
+        registerViewController?.displayingView()
+        
+        let loginViewController = self.childViewControllers[1] as? LoginViewController
+        loginViewController?.displayingView()
+    }
+    
     func switchToRegister() {
         let registerViewController = self.childViewControllers[0] as? RegisterViewController
         registerViewController?.displayingView()
