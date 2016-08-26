@@ -29,7 +29,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" modalTransitionStyle="crossDissolve" id="E4N-d2-faT"/>
+                                    <segue destination="5nb-Tn-xrd" kind="presentation" identifier="newTodoPopup" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="E4N-d2-faT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kte-FQ-it2">
@@ -43,7 +43,7 @@
                                 <rect key="frame" x="20" y="8" width="40" height="40"/>
                                 <state key="normal" title="-"/>
                                 <connections>
-                                    <segue destination="gYe-bR-n3C" kind="modal" identifier="showingMenu" id="YrH-JX-Sn3"/>
+                                    <segue destination="gYe-bR-n3C" kind="presentation" identifier="" modalPresentationStyle="overFullScreen" id="YrH-JX-Sn3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -73,19 +73,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81u-XK-DHT">
-                                <rect key="frame" x="20" y="686" width="374" height="30"/>
-                                <state key="normal" title="Hide">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="dismissToViewController:" destination="gYe-bR-n3C" eventType="touchUpInside" id="avZ-LI-uRB"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2GO-m8-DUA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="736"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81u-XK-DHT">
+                                        <rect key="frame" x="0.0" y="698" width="240" height="30"/>
+                                        <state key="normal" title="Hide">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dismissToViewController:" destination="gYe-bR-n3C" eventType="touchUpInside" id="avZ-LI-uRB"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqo-nW-hVm">
+                                        <rect key="frame" x="8" y="8" width="224" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7O-af-3w9">
+                                        <rect key="frame" x="0.0" y="80" width="240" height="56"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Home">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHt-uQ-N1T">
+                                        <rect key="frame" x="0.0" y="208" width="240" height="56"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Notes">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJB-cI-eyy">
+                                        <rect key="frame" x="0.0" y="144" width="240" height="56"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Reminders">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="homeButton" destination="A7O-af-3w9" id="ycY-uj-spO"/>
+                        <outlet property="menuTitleLabel" destination="Mqo-nW-hVm" id="qHk-uH-YrU"/>
+                        <outlet property="notesButton" destination="pHt-uQ-N1T" id="tWO-O3-SVa"/>
+                        <outlet property="reminderButton" destination="EJB-cI-eyy" id="hZb-oX-VzV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnd-Wb-8OG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

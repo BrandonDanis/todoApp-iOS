@@ -23,8 +23,6 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
     
     var api : TodoAPI = TodoAPI()
     
-    var transitionManager : SideMenuTransitionManager!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -57,8 +55,6 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         dropdownButton.setTitle("\u{f0c9}", forState: UIControlState.Normal)
         dropdownButton.backgroundColor = UIColor.clearColor()
         
-        //preparing custom transition
-        transitionManager = SideMenuTransitionManager()
         
     }
     
@@ -75,16 +71,10 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
         if (segue.identifier == "showingMenu") {
             
             print("About to show side menu")
-        
-            let toView = segue.destinationViewController as? SideMenuViewController
-            
-            toView?.transitioningDelegate = self.transitionManager
-            
             
         }else if(segue.identifier == "newTodoPopup") {
             
-            let popupController = segue.destinationViewController
-            popupController.modalPresentationStyle = .OverCurrentContext
+            
             
         }
     }

@@ -8,53 +8,85 @@
 
 import UIKit
 
-class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate
-{
+class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
     
-    var presenting = true
-
+    private var presenting = false
+    
+    // MARK: UIViewControllerAnimatedTransitioning protocol methods
+    
     // animate a change from one viewcontroller to another
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
         
+        // get reference to our fromView, toView and the container view that we should perform the transition in
         let container = transitionContext.containerView()!
-        let fromView = transitionContext.viewForKey(UITransitionContextFromViewKey)!
-        let toView = transitionContext.viewForKey(UITransitionContextToViewKey)!
         
-        // set up from 2D transforms that we'll use in the animation
-        let offScreenRight = CGAffineTransformMakeTranslation(container.frame.width, 0)
-        let offScreenLeft = CGAffineTransformMakeTranslation(-container.frame.width, 0)
+        // create a tuple of our screens
+        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!, transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!)
         
-        // start the toView to the right of the screen
+        // assign references to our menu view controller and the 'bottom' view controller from the tuple
+        // remember that our menuViewController will alternate between the from and to view controller depending if we're presenting or dismissing
+        let menuViewController = !self.presenting ? screens.from as! SideMenuViewController : screens.to as! SideMenuViewController
+        let bottomViewController = !self.presenting ? screens.to as! MainViewController : screens.from as! MainViewController
         
-        if(presenting){
-            toView.transform = offScreenRight
-        }else{
-            toView.transform = offScreenLeft
+        let menuView = menuViewController.view
+        let bottomView = bottomViewController.view
+        
+        // prepare menu items to slide in
+        if (self.presenting){
+            self.offStageMenuController(menuViewController)
         }
         
-        
         // add the both views to our view controller
-        container.addSubview(toView)
-        container.addSubview(fromView)
+        container.addSubview(bottomView)
+        container.addSubview(menuView)
         
         let duration = self.transitionDuration(transitionContext)
         
-        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.8, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+        // perform the animation!
+        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: UIViewAnimationOptions.CurveEaseOut, animations: {
             
-            if(self.presenting){
-                fromView.transform = offScreenLeft
-            }else{
-                fromView.transform = offScreenRight
+            print(self.presenting)
+            
+            if (self.presenting){
+                self.onStageMenuController(menuViewController) // onstage items: slide in
+            }
+            else {
+                self.offStageMenuController(menuViewController) // offstage items: slide out
             }
             
-            toView.transform = CGAffineTransformIdentity
-            
-        }, completion: { finished in
+            }, completion: { finished in
                 
-            // tell our transitionContext object that we've finished animating
-            transitionContext.completeTransition(true)
+                // tell our transitionContext object that we've finished animating
+                transitionContext.completeTransition(true)
+                
+                // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
+                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
                 
         })
+        
+    }
+    
+    func offStage(amount: CGFloat) -> CGAffineTransform {
+        return CGAffineTransformMakeTranslation(amount, 0)
+    }
+    
+    func offStageMenuController(menuViewController: SideMenuViewController){
+        
+        menuViewController.view.alpha = 0
+        
+        // setup paramaters for 2D transitions for animations
+        let topRowOffset  :CGFloat = 300
+        let middleRowOffset :CGFloat = 150
+        let bottomRowOffset  :CGFloat = 50
+        
+        
+        
+    }
+    
+    func onStageMenuController(menuViewController: SideMenuViewController){
+        
+        // prepare menu to fade in
+        menuViewController.view.alpha = 1
         
     }
     
@@ -66,7 +98,7 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
     // MARK: UIViewControllerTransitioningDelegate protocol methods
     
     // return the animataor when presenting a viewcontroller
-    // remmeber that an animator (or animation controller) is any object that aheres to the UIViewControllerAnimatedTransitioning protocol
+    // rememeber that an animator (or animation controller) is any object that aheres to the UIViewControllerAnimatedTransitioning protocol
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         self.presenting = true
         return self

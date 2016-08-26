@@ -11,9 +11,21 @@ import UIKit
 
 class SideMenuViewController : UIViewController {
     
+    let transitionManager = SideMenuTransitionManager()
+    
+    @IBOutlet var menuTitleLabel: UILabel!
+    
+    @IBOutlet var homeButton: UIButton!
+    
+    @IBOutlet var reminderButton: UIButton!
+    
+    @IBOutlet var notesButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.transitioningDelegate = self.transitionManager
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,6 +35,5 @@ class SideMenuViewController : UIViewController {
     @IBAction func dismissToViewController(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
-
     
 }
