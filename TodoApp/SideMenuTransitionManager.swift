@@ -33,7 +33,7 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         
         // prepare menu items to slide in
         if (self.presenting){
-            self.offStageMenuController(menuViewController)
+            self.offStageMenuController(menuViewController, subviewController: bottomViewController)
         }
         
         // add the both views to our view controller
@@ -45,13 +45,11 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         // perform the animation!
         UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: UIViewAnimationOptions.CurveEaseOut, animations: {
             
-            print(self.presenting)
-            
             if (self.presenting){
-                self.onStageMenuController(menuViewController) // onstage items: slide in
+                self.onStageMenuController(menuViewController, subviewController: bottomViewController) // onstage items: slide in
             }
             else {
-                self.offStageMenuController(menuViewController) // offstage items: slide out
+                self.offStageMenuController(menuViewController, subviewController: bottomViewController) // offstage items: slide out
             }
             
             }, completion: { finished in
@@ -70,23 +68,22 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         return CGAffineTransformMakeTranslation(amount, 0)
     }
     
-    func offStageMenuController(menuViewController: SideMenuViewController){
+    func offStageMenuController(menuViewController: SideMenuViewController, subviewController: UIViewController){
         
         menuViewController.view.alpha = 0
         
-        // setup paramaters for 2D transitions for animations
-        let topRowOffset  :CGFloat = 300
-        let middleRowOffset :CGFloat = 150
-        let bottomRowOffset  :CGFloat = 50
-        
-        
+        subviewController.view.transform = CGAffineTransformMakeTranslation(0, 0)
         
     }
     
-    func onStageMenuController(menuViewController: SideMenuViewController){
+    func onStageMenuController(menuViewController: SideMenuViewController, subviewController: UIViewController){
         
         // prepare menu to fade in
         menuViewController.view.alpha = 1
+        
+        let sideBarWidth = menuViewController.bgView.frame.width
+        
+        subviewController.view.transform = CGAffineTransformMakeTranslation(sideBarWidth, 0)
         
     }
     
