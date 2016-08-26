@@ -42,6 +42,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMA-PJ-yli">
                                 <rect key="frame" x="20" y="8" width="40" height="40"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <segue destination="gYe-bR-n3C" kind="modal" identifier="showingMenu" id="YrH-JX-Sn3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,6 +60,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw2-fE-CmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="358" y="1572"/>
+        </scene>
+        <!--Side Menu View Controller-->
+        <scene sceneID="G02-cY-90t">
+            <objects>
+                <viewController id="gYe-bR-n3C" customClass="SideMenuViewController" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QNd-dJ-5ww"/>
+                        <viewControllerLayoutGuide type="bottom" id="21l-sD-pAO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ngV-nW-hmP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81u-XK-DHT">
+                                <rect key="frame" x="20" y="686" width="374" height="30"/>
+                                <state key="normal" title="Hide">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissToViewController:" destination="gYe-bR-n3C" eventType="touchUpInside" id="avZ-LI-uRB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qnd-Wb-8OG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="1365"/>
         </scene>
         <!--New Todo Popup View-->
         <scene sceneID="0I5-Qc-AdB">
@@ -118,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lyC-EN-obE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1030" y="1949"/>
+            <point key="canvasLocation" x="936" y="2191"/>
         </scene>
     </scenes>
 </document>
