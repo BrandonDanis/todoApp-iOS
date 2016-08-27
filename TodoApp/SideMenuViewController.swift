@@ -11,8 +11,6 @@ import UIKit
 
 class SideMenuViewController : UIViewController {
     
-    let transitionManager = SideMenuTransitionManager()
-    
     @IBOutlet var menuTitleLabel: UILabel!
     
     @IBOutlet var homeButton: UIButton!
@@ -44,10 +42,6 @@ class SideMenuViewController : UIViewController {
         
         notesButton.backgroundColor = UIColor.clearColor()
         notesButton.setTitleColor(green, forState: UIControlState.Normal)
-        
-        
-        
-        self.transitioningDelegate = self.transitionManager
         
     }
     

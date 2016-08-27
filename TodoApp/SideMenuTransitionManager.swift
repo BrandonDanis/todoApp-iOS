@@ -8,11 +8,72 @@
 
 import UIKit
 
-class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
+class SideMenuTransitionManager: UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
     private var presenting = false
     
-    // MARK: UIViewControllerAnimatedTransitioning protocol methods
+    private var interactive = false
+    
+    private var enterPanGesture : UIScreenEdgePanGestureRecognizer!
+    
+    var sourceViewController: UIViewController! {
+        didSet {
+            self.enterPanGesture = UIScreenEdgePanGestureRecognizer()
+            self.enterPanGesture.addTarget(self, action: "handleOnstagePan:")
+            self.enterPanGesture.edges = UIRectEdge.Left
+            self.sourceViewController.view.addGestureRecognizer(self.enterPanGesture)
+        }
+    }
+    
+    func handleOnstagePan(pan: UIPanGestureRecognizer){
+        
+        // how much distance have we panned in reference to the parent view?
+        let translation = pan.translationInView(pan.view!)
+        
+        // do some math to translate this to a percentage based value
+        let d =  translation.x / CGRectGetWidth(pan.view!.bounds)
+        
+        print(d)
+    
+        // now lets deal with different states that the gesture recognizer sends
+        switch (pan.state) {
+            
+        case UIGestureRecognizerState.Began:
+            // set our interactive flag to true
+            self.interactive = true
+            
+            // trigger the start of the transition
+            self.sourceViewController.performSegueWithIdentifier("presentMenu", sender: self)
+            break
+            
+        case UIGestureRecognizerState.Changed:
+            
+            // update progress of the transition
+            self.updateInteractiveTransition(d)
+            break
+            
+        default: // .Ended, .Cancelled, .Failed ...
+            
+            // return flag to false and finish the transition
+            self.interactive = false
+            
+            if(d > 0.2){
+                self.finishInteractiveTransition()
+            }else{
+                self.cancelInteractiveTransition()
+            }
+            
+        }
+    
+    }
+    
+    func interactionControllerForPresentation(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return self.interactive ? self : nil
+    }
+    
+    func interactionControllerForDismissal(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return self.interactive ? self : nil
+    }
     
     // animate a change from one viewcontroller to another
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
@@ -53,12 +114,20 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
             
         }, completion: { finished in
             
-            // tell our transitionContext object that we've finished animating
-            transitionContext.completeTransition(true)
-            
-            // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
-            UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
-            
+            if(transitionContext.transitionWasCancelled()){
+                
+                transitionContext.completeTransition(false)
+                // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
+                UIApplication.sharedApplication().keyWindow?.addSubview(screens.from.view)
+                
+            }
+            else {
+                
+                transitionContext.completeTransition(true)
+                // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
+                UIApplication.sharedApplication().keyWindow?.addSubview(screens.to.view)
+                
+            }
             
         })
         

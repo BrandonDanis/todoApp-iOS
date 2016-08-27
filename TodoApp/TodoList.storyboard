@@ -43,7 +43,7 @@
                                 <rect key="frame" x="20" y="8" width="40" height="40"/>
                                 <state key="normal" title="-"/>
                                 <connections>
-                                    <segue destination="gYe-bR-n3C" kind="presentation" identifier="" modalPresentationStyle="overFullScreen" id="YrH-JX-Sn3"/>
+                                    <segue destination="gYe-bR-n3C" kind="presentation" identifier="presentMenu" modalPresentationStyle="overFullScreen" id="YrH-JX-Sn3"/>
                                 </connections>
                             </button>
                         </subviews>
