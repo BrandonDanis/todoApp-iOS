@@ -37,13 +37,12 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         }
         
         // add the both views to our view controller
-        container.addSubview(bottomView)
         container.addSubview(menuView)
+        container.addSubview(bottomView)
         
         let duration = self.transitionDuration(transitionContext)
         
-        // perform the animation!
-        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+        UIView.animateWithDuration(duration, animations: {
             
             if (self.presenting){
                 self.onStageMenuController(menuViewController, subviewController: bottomViewController) // onstage items: slide in
@@ -52,14 +51,15 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
                 self.offStageMenuController(menuViewController, subviewController: bottomViewController) // offstage items: slide out
             }
             
-            }, completion: { finished in
-                
-                // tell our transitionContext object that we've finished animating
-                transitionContext.completeTransition(true)
-                
-                // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
-                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
-                
+        }, completion: { finished in
+            
+            // tell our transitionContext object that we've finished animating
+            transitionContext.completeTransition(true)
+            
+            // bug: we have to manually add our 'to view' back http://openradar.appspot.com/radar?id=5320103646199808
+            UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
+            
+            
         })
         
     }
@@ -70,16 +70,11 @@ class SideMenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
     
     func offStageMenuController(menuViewController: SideMenuViewController, subviewController: UIViewController){
         
-        menuViewController.view.alpha = 0
-        
         subviewController.view.transform = CGAffineTransformMakeTranslation(0, 0)
         
     }
     
     func onStageMenuController(menuViewController: SideMenuViewController, subviewController: UIViewController){
-        
-        // prepare menu to fade in
-        menuViewController.view.alpha = 1
         
         let sideBarWidth = menuViewController.bgView.frame.width
         
