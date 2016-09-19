@@ -76,8 +76,10 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
             
             print("About to show side menu")
             
-            let toView = segue.destinationViewController as? SideMenuViewController
-            toView?.transitioningDelegate = self.transitionManager
+            let toView = segue.destinationViewController as! SideMenuViewController
+            toView.transitioningDelegate = self.transitionManager
+            self.transitionManager.sideMenuViewController = toView
+            
             
         }else if(segue.identifier == "newTodoPopup") {
             
@@ -95,6 +97,12 @@ class MainViewController: UIViewController, UIPopoverPresentationControllerDeleg
     
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
+    }
+    
+    @IBAction func unwindToMainViewController (sender: UIStoryboardSegue){
+        // bug? exit segue doesn't dismiss so we do it manually...
+        // self.dismissViewControllerAnimated(true, completion: nil)
+        
     }
     
     func newTodoViewCancelled(){

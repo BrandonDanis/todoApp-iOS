@@ -82,7 +82,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="dismissToViewController:" destination="gYe-bR-n3C" eventType="touchUpInside" id="avZ-LI-uRB"/>
+                                            <segue destination="gZw-Wi-TPm" kind="unwind" identifier="dismissMenu" unwindAction="unwindToMainViewController:" id="O6K-X6-Fis"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqo-nW-hVm">
@@ -131,6 +131,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnd-Wb-8OG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gZw-Wi-TPm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="936" y="1365"/>
         </scene>

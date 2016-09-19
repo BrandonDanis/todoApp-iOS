@@ -49,8 +49,4 @@ class SideMenuViewController : UIViewController {
         print("uh oh")
     }
     
-    @IBAction func dismissToViewController(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
-    
 }

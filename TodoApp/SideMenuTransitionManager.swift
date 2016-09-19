@@ -25,6 +25,16 @@ class SideMenuTransitionManager: UIPercentDrivenInteractiveTransition, UIViewCon
         }
     }
     
+    private var exitPanGesture: UIPanGestureRecognizer!
+    
+    var sideMenuViewController: UIViewController! {
+        didSet {
+            self.exitPanGesture = UIPanGestureRecognizer()
+            self.exitPanGesture.addTarget(self, action:"handleOffstagePan:")
+            self.sideMenuViewController.view.addGestureRecognizer(self.exitPanGesture)
+        }
+    }
+    
     func handleOnstagePan(pan: UIPanGestureRecognizer){
         
         // how much distance have we panned in reference to the parent view?
@@ -57,7 +67,7 @@ class SideMenuTransitionManager: UIPercentDrivenInteractiveTransition, UIViewCon
             // return flag to false and finish the transition
             self.interactive = false
             
-            if(d > 0.2){
+            if(d > 0.4){
                 self.finishInteractiveTransition()
             }else{
                 self.cancelInteractiveTransition()
@@ -65,6 +75,35 @@ class SideMenuTransitionManager: UIPercentDrivenInteractiveTransition, UIViewCon
             
         }
     
+    }
+    
+    func handleOffstagePan(pan: UIPanGestureRecognizer){
+        
+        let translation = pan.translationInView(pan.view!)
+        let d =  translation.x / CGRectGetWidth(pan.view!.bounds) * -0.5
+        
+        print(d)
+        
+        switch (pan.state) {
+            
+        case UIGestureRecognizerState.Began:
+            self.interactive = true
+            self.sideMenuViewController.performSegueWithIdentifier("dismissMenu", sender: self)
+            break
+            
+        case UIGestureRecognizerState.Changed:
+            self.updateInteractiveTransition(d)
+            break
+            
+        default: // .Ended, .Cancelled, .Failed ...
+            self.interactive = false
+            if(d > 0.1){
+                self.finishInteractiveTransition()
+            }
+            else {
+                self.cancelInteractiveTransition()
+            }
+        }
     }
     
     func interactionControllerForPresentation(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
